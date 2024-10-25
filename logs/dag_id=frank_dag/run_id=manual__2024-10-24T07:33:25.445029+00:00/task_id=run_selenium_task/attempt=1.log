@@ -1,0 +1,512 @@
+[2024-10-24T07:33:30.408+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-24T07:33:30.421+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: frank_dag.run_selenium_task manual__2024-10-24T07:33:25.445029+00:00 [queued]>
+[2024-10-24T07:33:30.430+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: frank_dag.run_selenium_task manual__2024-10-24T07:33:25.445029+00:00 [queued]>
+[2024-10-24T07:33:30.430+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-24T07:33:30.448+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): run_selenium_task> on 2024-10-24 07:33:25.445029+00:00
+[2024-10-24T07:33:30.454+0000] {standard_task_runner.py:72} INFO - Started process 1714 to run task
+[2024-10-24T07:33:30.458+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'frank_dag', 'run_selenium_task', 'manual__2024-10-24T07:33:25.445029+00:00', '--job-id', '871', '--raw', '--subdir', 'DAGS_FOLDER/frank_dag.py', '--cfg-path', '/tmp/tmpqrfmsfbv']
+[2024-10-24T07:33:30.461+0000] {standard_task_runner.py:105} INFO - Job 871: Subtask run_selenium_task
+[2024-10-24T07:33:30.506+0000] {task_command.py:467} INFO - Running <TaskInstance: frank_dag.run_selenium_task manual__2024-10-24T07:33:25.445029+00:00 [running]> on host 60bbe790d101
+[2024-10-24T07:33:30.596+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='frank_dag' AIRFLOW_CTX_TASK_ID='run_selenium_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-24T07:33:25.445029+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-24T07:33:25.445029+00:00'
+[2024-10-24T07:33:30.598+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-24T07:33:31.621+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:33:31.622+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 麻雀彼此之間都在聊什麼？
+[2024-10-24T07:33:31.659+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:33:31.659+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 華為昇騰910B驚見高階晶片　台積電切斷供
+[2024-10-24T07:33:31.694+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:33:31.694+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 單身婦女可做人工受孕！ 政府擬提新法案
+[2024-10-24T07:33:31.730+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:33:31.730+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 美預測我國今年生育率全球墊底 陳時中：
+[2024-10-24T07:33:31.777+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:33:31.777+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 面試官問「2個月」加起來是啥？女博士秒
+[2024-10-24T07:33:31.820+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:33:31.820+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 快改掉！醫列「10大NG習慣」超傷攝護腺
+[2024-10-24T07:33:41.976+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:33:41.977+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 客運駕駛缺2215名找不到人 立委揭月薪9萬
+[2024-10-24T07:33:42.014+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:33:42.014+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 〓.〓 黑熊學院有在打必勝思想鋼印嗎？
+[2024-10-24T07:33:42.049+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:33:42.049+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 北檢的調查順位怎麼排的
+[2024-10-24T07:33:42.083+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:33:42.084+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 中國速食業的玩具好像很好玩
+[2024-10-24T07:33:42.122+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:33:42.122+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 奇怪 黃牛到底哪邊錯
+[2024-10-24T07:33:42.156+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:33:42.157+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] iPhone顏色怎麼越出越醜？？？
+[2024-10-24T07:33:42.196+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:33:42.196+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 恢復7天國定假日？ 最新網路投票結果一面
+[2024-10-24T07:33:42.235+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:33:42.236+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 林口三井outlet二期人好多喔，都不用上班
+[2024-10-24T07:33:42.277+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:33:42.277+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 郭哲榮投資長: 以後叫我美債王!
+[2024-10-24T07:33:42.312+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:33:42.312+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 一直要別人吃苦是一種精神障礙
+[2024-10-24T07:33:42.350+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:33:42.350+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為什麼要強迫人參加彩虹遊行
+[2024-10-24T07:33:42.386+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:33:42.386+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 10/30 10:30獵人撲克牌 幾點要去排
+[2024-10-24T07:33:42.420+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:33:42.421+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 面試最不想遇到什麼智障題目？
+[2024-10-24T07:33:42.453+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:33:42.454+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有沒有安德魯加菲爾德的八卦？
+[2024-10-24T07:33:42.492+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:33:42.492+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 肛交哪一種姿勢最爽？？？
+[2024-10-24T07:33:42.527+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:33:42.527+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 嗆警察來抓！周杰倫演唱會一張喊30萬 全
+[2024-10-24T07:33:42.564+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:33:42.564+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 獵人卡牌整套在友克鑫拍賣會能賣多少錢?
+[2024-10-24T07:33:42.597+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:33:42.597+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 面試官問「2個月」加起來是啥？女博士秒
+[2024-10-24T07:33:42.634+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:33:42.635+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 電扶梯「兩側都可站」北捷加強宣導推翻舊
+[2024-10-24T07:33:42.674+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:33:42.674+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 中鋼被迫承包40億度風電，5500億！？
+[2024-10-24T07:33:52.772+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:33:52.772+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 立委怎麼修黃牛條款?
+[2024-10-24T07:33:52.807+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:33:52.807+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 諸葛亮在台灣復活，會怎麼北伐中共？
+[2024-10-24T07:33:52.841+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:33:52.842+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 聯合國估計：俄羅斯全面入侵後 烏克蘭人口銳減
+[2024-10-24T07:33:52.876+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:33:52.877+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 新北溫仔圳起碼也要等20年吧
+[2024-10-24T07:33:52.912+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:33:52.913+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 什麼時候不願吃苦成為主流趨勢了?
+[2024-10-24T07:33:52.947+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:33:52.948+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 烏克蘭人的生活現況？
+[2024-10-24T07:33:52.981+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:33:52.982+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣哪個地方沒空汙
+[2024-10-24T07:33:53.017+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:33:53.018+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 諸葛亮在台灣復活，會怎麼北伐中共？
+[2024-10-24T07:33:53.053+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:33:53.054+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 大家看色色的東西會開無痕嗎？
+[2024-10-24T07:33:53.089+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:33:53.090+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 電扶梯「兩側都可站」北捷加強宣導推翻舊
+[2024-10-24T07:33:53.123+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:33:53.123+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 也太巨大了吧
+[2024-10-24T07:33:53.160+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:33:53.160+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣人戰敗了下場會是怎樣？
+[2024-10-24T07:33:53.199+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:33:53.199+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 美預測我國今年生育率全球墊底 陳時中：
+[2024-10-24T07:33:53.236+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:33:53.237+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 遭蔣友青辱罵婊子　嬌妻「義肢千金」背景
+[2024-10-24T07:33:53.273+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:33:53.273+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 社群網站抽獎文是不是智力測驗
+[2024-10-24T07:33:53.313+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:33:53.313+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 什麼時候不願吃苦成為主流趨勢了?
+[2024-10-24T07:33:53.351+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:33:53.351+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦]北檢與移民署是不是證明行政權太過囂張了?
+[2024-10-24T07:33:53.387+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:33:53.387+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 推動鹿港小吃宴！　「阿南師」要退休頂
+[2024-10-24T07:33:53.425+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:33:53.426+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 面試官問「2個月」加起來是啥？女博士秒
+[2024-10-24T07:33:53.463+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:33:53.463+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 風大雨大雙北學校可自行決定停課，明日?
+[2024-10-24T07:34:03.569+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:03.569+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 長壽劇《親戚不計較》盧彪被爆過世已1年
+[2024-10-24T07:34:03.605+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:03.606+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 美預測我國今年生育率全球墊底 陳時中：
+[2024-10-24T07:34:03.643+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:03.644+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [爆卦] 黑金帶一堆小弟跟周董開會的老大過世了
+[2024-10-24T07:34:03.678+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:03.678+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 我叫楊間是鬼懶覺嗎
+[2024-10-24T07:34:03.714+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:03.715+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 計程車這個工作會做白工怎辦
+[2024-10-24T07:34:03.761+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:03.761+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 船長 宝鍾瑪琳的魅力在哪裡？
+[2024-10-24T07:34:03.796+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:03.796+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 面試官問「倒背圓周率要多久」 他只花2秒
+[2024-10-24T07:34:03.836+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:03.836+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 和憨川直播嬉鬧被總統電？　吳崢：提醒專
+[2024-10-24T07:34:03.874+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:03.874+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 美國是怎麼做到經濟既死又活的疊加態？
+[2024-10-24T07:34:03.911+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:03.911+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 移民官權力真的很大嗎？
+[2024-10-24T07:34:03.947+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:03.947+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 檢舉周杰倫演唱會黃牛「比上班還好賺」
+[2024-10-24T07:34:03.982+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:03.982+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 藏傳佛教的舔舌是基本？
+[2024-10-24T07:34:04.026+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:04.026+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 查柯文哲政治獻金案 基隆市長謝國樑移北
+[2024-10-24T07:34:04.062+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:04.063+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 什麼時候不願吃苦成為主流趨勢了?
+[2024-10-24T07:34:04.098+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:04.098+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 討厭中國的人會看甄環傳嗎
+[2024-10-24T07:34:04.133+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:04.133+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 面試官文是記者自己編的廢文嗎？
+[2024-10-24T07:34:04.168+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:04.169+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 臺灣人沒有中國是不是會活不下去
+[2024-10-24T07:34:04.209+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:04.209+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 不然印度移工在台灣適合什麼工作？
+[2024-10-24T07:34:04.245+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:04.246+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 血液用一輩子，會很髒嗎？
+[2024-10-24T07:34:04.281+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:04.281+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 小李子為什麼不叫小橘子？
+[2024-10-24T07:34:14.402+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:14.402+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 國民黨威權時代財源靠販毒嗎?
+[2024-10-24T07:34:14.437+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:14.437+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 一個人出國不就整天都講不到話？？？
+[2024-10-24T07:34:14.476+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:14.477+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 獨》掉漆！違法驅逐西班牙10億詐欺犯 移
+[2024-10-24T07:34:14.513+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:14.514+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 有沒有重製版遊戲的八卦
+[2024-10-24T07:34:14.549+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:14.550+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 電扶梯「兩側都可站」北捷加強宣導推翻舊
+[2024-10-24T07:34:14.586+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:14.587+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 金城武還是單身嗎
+[2024-10-24T07:34:14.622+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:14.622+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 美預測我國今年生育率全球墊底 陳時中：
+[2024-10-24T07:34:14.658+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:14.658+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 駕照考過了 可以租irent上路了
+[2024-10-24T07:34:14.694+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:14.694+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 潭美攜手東北季風 苗縣大同高中運動場跑道PU皮被掀開
+[2024-10-24T07:34:14.727+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:14.728+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 推特可以設定推薦內容嗎?
+[2024-10-24T07:34:14.761+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:14.761+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣1千萬人跟3千萬人房價哪一個高？
+[2024-10-24T07:34:14.796+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:14.796+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 國民黨威權時代財源靠販毒嗎?
+[2024-10-24T07:34:14.831+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:14.832+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 台灣如果發生戰爭 人口會損失多少
+[2024-10-24T07:34:14.874+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:14.874+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 一個人出國不就整天都講不到話？？？
+[2024-10-24T07:34:14.908+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:14.909+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 金管會「亞洲資產管理中心」首選高雄
+[2024-10-24T07:34:14.945+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:14.946+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 如果黃牛都判死刑會發生什麼事
+[2024-10-24T07:34:14.979+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:14.980+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 客運駕駛缺2215名找不到人 立委揭月薪9萬
+[2024-10-24T07:34:15.017+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:15.017+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 什麼時候可以吃飲料杯？
+[2024-10-24T07:34:15.063+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:15.063+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 這次周末同志遊行的最大看點是什麼？
+[2024-10-24T07:34:25.165+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:25.166+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣人跟中國人誰比較奴?
+[2024-10-24T07:34:25.207+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:25.207+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為何女同通常比男同低調很多？
+[2024-10-24T07:34:25.243+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:25.243+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 搶不到周杰倫的票就算了　這個國家聽完天
+[2024-10-24T07:34:25.279+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:25.280+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 什麼時候不願吃苦成為主流趨勢了?
+[2024-10-24T07:34:25.312+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:25.313+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣要當克里米亞還是烏東？
+[2024-10-24T07:34:25.349+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:25.349+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 金磚國拉幫結派抗歐美！習近平拉攏印度、
+[2024-10-24T07:34:25.388+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:25.389+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 先結束熱戰 澤倫斯基喊烏俄互不打能源
+[2024-10-24T07:34:25.423+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:25.423+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 中鋼被迫承包40億度風電，5500億！？
+[2024-10-24T07:34:25.464+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:25.464+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 柯文哲「冷錢包」怎來的？陳智菡給說法
+[2024-10-24T07:34:25.499+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:25.500+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 萊豬福食吃幾斤了?
+[2024-10-24T07:34:25.533+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:25.534+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 中國敢打早就打了
+[2024-10-24T07:34:25.569+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:25.570+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 其實就是周董演唱會票價太便宜而已吧？
+[2024-10-24T07:34:25.604+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:25.604+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 問一下高雄淹水有什麼改善措施嗎？？
+[2024-10-24T07:34:25.637+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:25.637+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] MeowPTT比MoPTT好用?
+[2024-10-24T07:34:25.674+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:25.674+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 金管會「亞洲資產管理中心」首選高雄
+[2024-10-24T07:34:25.710+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:25.710+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 今年中秋節什麼時候阿？
+[2024-10-24T07:34:25.746+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:25.747+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 炒房跟黃牛差在哪??
+[2024-10-24T07:34:25.794+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:25.795+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 台灣2070年人口降至1497萬人 綠委：少子
+[2024-10-24T07:34:25.831+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:25.831+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦]北檢與移民署是不是證明行政權太過囂張了?
+[2024-10-24T07:34:35.940+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:35.941+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 秤重自助餐130給過嗎
+[2024-10-24T07:34:35.992+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:35.992+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 台灣2070年人口降至1497萬人 綠委：少子
+[2024-10-24T07:34:36.026+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:36.027+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 台灣2070年人口降至1497萬人 綠委：少子
+[2024-10-24T07:34:36.063+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:36.063+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 什麼時候不願吃苦成為主流趨勢了?
+[2024-10-24T07:34:36.098+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:36.098+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 如何一句話讓吉伊卡哇粉怒
+[2024-10-24T07:34:36.136+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:36.136+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 坐到正妹溫溫的椅子 很幸福吧
+[2024-10-24T07:34:36.174+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:36.174+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 電扶梯「兩側都可站」北捷加強宣導推翻舊
+[2024-10-24T07:34:36.211+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:36.212+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 明天北部放假機率有多高？
+[2024-10-24T07:34:36.247+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:36.247+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 同志遊行週六登場 賴清德號召全體黨公職
+[2024-10-24T07:34:36.287+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:36.287+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 歐議會將表決新挺台決議 拒中共強迫代表台
+[2024-10-24T07:34:36.322+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:36.322+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 如果聯合利劍B是這兩天舉行會診樣？
+[2024-10-24T07:34:36.357+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:36.357+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 兒到大陸工作...獸父侵犯他前女友！噁喊
+[2024-10-24T07:34:36.396+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:36.397+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 台灣如果發生戰爭 人口會損失多少
+[2024-10-24T07:34:36.434+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:36.434+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 明天台北會放颱風假嗎？
+[2024-10-24T07:34:36.468+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:36.468+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有錢會拿去看演唱會還是國旅？
+[2024-10-24T07:34:36.506+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:36.506+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 聯合國估計：俄羅斯全面入侵後 烏克蘭人口銳減
+[2024-10-24T07:34:36.543+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:36.543+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 驚！原來they可以指單數？
+[2024-10-24T07:34:36.579+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:36.579+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 如果正妹露北半球　你是店長會提告嗎？
+[2024-10-24T07:34:36.614+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:36.614+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 什麼時候不願吃苦成為主流趨勢了?
+[2024-10-24T07:34:36.653+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:36.653+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 什麼時候不願吃苦成為主流趨勢了?
+[2024-10-24T07:34:46.750+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:46.750+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 周董唱歌中說出不該說的話會怎樣？
+[2024-10-24T07:34:46.789+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:46.789+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 陳小霞是不是被低估的音樂教母？
+[2024-10-24T07:34:46.829+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:46.829+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 台灣2070年人口降至1497萬人 綠委：少子
+[2024-10-24T07:34:46.862+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:46.863+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 這週末同志大遊行穿什麼可以震驚全場？
+[2024-10-24T07:34:46.904+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:46.904+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 肥宅搭電扶梯哪一側比較適合
+[2024-10-24T07:34:46.940+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:46.940+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 中國檢舉平台有用嗎
+[2024-10-24T07:34:46.983+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:46.984+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 麥當勞跟Toyz聯名會推出什麼套餐？
+[2024-10-24T07:34:47.026+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:47.027+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 美國日本啟動4.5萬人聯合軍演 劍指中共
+[2024-10-24T07:34:47.070+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:47.070+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦]中國人當年會後悔支持共產黨嗎？
+[2024-10-24T07:34:47.104+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:47.104+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 澳門的生活過的怎樣 有自由嗎?
+[2024-10-24T07:34:47.140+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:47.140+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 電扶梯「兩側都可站」北捷加強宣導推翻舊
+[2024-10-24T07:34:47.179+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:47.179+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 綠側翼帶風向喊核電貴 粉專打臉：台4座
+[2024-10-24T07:34:47.215+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:47.215+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 蹲式馬桶好難用，每次都會噴到右腳
+[2024-10-24T07:34:47.249+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:47.249+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 老媽要去印度要怎麼制止
+[2024-10-24T07:34:47.291+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:47.292+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 查柯文哲政治獻金案 基隆市長謝國樑移北
+[2024-10-24T07:34:47.326+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:47.326+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣如果發生戰爭 人口會損失多少
+[2024-10-24T07:34:47.360+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:47.360+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 驚!昨天忠孝復興站有人在超長手扶梯尿尿?
+[2024-10-24T07:34:47.393+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:47.394+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 現在麥當勞都流行放獵人的主題曲耶！
+[2024-10-24T07:34:47.428+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:47.428+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 洪申翰批北市不列拾荒者名單　環保局長千
+[2024-10-24T07:34:57.536+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:57.537+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 兒到大陸工作...獸父侵犯他前女友！噁喊
+[2024-10-24T07:34:57.587+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:57.588+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 幹幹幹 獵人賣光= = 台麥踹共
+[2024-10-24T07:34:57.891+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:57.891+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 先結束熱戰 澤倫斯基喊烏俄互不打能源
+[2024-10-24T07:34:57.989+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:57.989+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 20歲職軍騎紅牌重機「過彎撞樹」亡！女
+[2024-10-24T07:34:58.421+0000] {logging_mixin.py:190} INFO - 抓取文章內容時發生錯誤: Exceeded 30 redirects.
+[2024-10-24T07:34:58.483+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:58.483+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有人發現台灣女生越來越胖嗎
+[2024-10-24T07:34:58.530+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:58.530+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] APT是什麼意思？
+[2024-10-24T07:34:58.576+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:58.577+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 中配很了不起是嗎？
+[2024-10-24T07:34:58.667+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:58.668+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 電扶梯「兩側都可站」北捷加強宣導推翻舊
+[2024-10-24T07:34:58.716+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:58.716+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 拉麵店規矩 可能被同桌的客人罵嗎？
+[2024-10-24T07:34:58.750+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:58.750+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦]中國人當年會後悔支持共產黨嗎？
+[2024-10-24T07:34:58.786+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-24T07:34:58.787+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣大概要多久才能鏟掉全部墓地
+[2024-10-24T07:34:58.831+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-24T07:34:58.832+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] yahoo的工程師會怎麼看pchome的工程師
+[2024-10-24T07:34:58.871+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-24T07:34:58.872+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 台南被遺忘的眷村 台版「小調景嶺」爆
+[2024-10-24T07:34:58.909+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:58.910+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 砂石車疑故意輾死小黑狗 駕駛稱撿早餐沒
+[2024-10-24T07:34:58.942+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:58.942+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 「絕版名錶」重覆擺3次？ 粉專曝打詐可疑照 警揭真相
+[2024-10-24T07:34:58.976+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-24T07:34:58.977+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 美國是怎麼做到經濟既死又活的疊加態？
+[2024-10-24T07:34:59.011+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:59.011+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 雞蛋料理吃到飽  大家買單嗎?
+[2024-10-24T07:34:59.047+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-24T07:34:59.047+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 林逸欣推動漫組曲紅到國際！　多國網友搶
+[2024-10-24T07:35:06.328+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2024-10-24T07:35:06.329+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-10-24T07:35:06.331+0000] {process_utils.py:132} INFO - Sending 15 to group 1714. PIDs of all processes in the group: [1714]
+[2024-10-24T07:35:06.331+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 1714
+[2024-10-24T07:35:06.331+0000] {taskinstance.py:3092} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-10-24T07:35:06.337+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/frank_dag.py", line 162, in frank_ptt
+    time.sleep(10)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3094, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-10-24T07:35:06.341+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=frank_dag, task_id=run_selenium_task, run_id=manual__2024-10-24T07:33:25.445029+00:00, execution_date=20241024T073325, start_date=20241024T073330, end_date=20241024T073506
+[2024-10-24T07:35:06.351+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-24T07:35:06.352+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 871 for task run_selenium_task ((sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('run_selenium_task', 'frank_dag', 'manual__2024-10-24T07:33:25.445029+00:00', -1, '2024-10-24 07:33:30.421924', '2024-10-24 07:35:06.340815', 95)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 1714)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/frank_dag.py", line 162, in frank_ptt
+    time.sleep(10)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3094, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 327, in _run_raw_task
+    ti.handle_failure(e, test_mode, context, session=session)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3427, in handle_failure
+    _handle_failure(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 139, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1243, in _handle_failure
+    TaskInstance.save_to_db(failure_context["ti"], session)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 139, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3399, in save_to_db
+    session.flush()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 3449, in flush
+    self._flush(objects)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 3588, in _flush
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 3549, in _flush
+    flush_context.execute()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py", line 1238, in _emit_insert_statements
+    result = connection._execute_20(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('run_selenium_task', 'frank_dag', 'manual__2024-10-24T07:33:25.445029+00:00', -1, '2024-10-24 07:33:30.421924', '2024-10-24 07:35:06.340815', 95)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2024-10-24T07:35:06.383+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=1714, status='terminated', exitcode=1, started='07:33:29') (1714) terminated with exit code 1

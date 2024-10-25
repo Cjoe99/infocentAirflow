@@ -1,0 +1,38 @@
+2024-10-22 04:55:10.772 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-22 04:55:11.452 [info] [Info  - 4:55:11 AM] (6606) Server root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 04:55:11.453 [info] [Info  - 4:55:11 AM] (6606) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-22 04:55:11.454 [info] [Info  - 4:55:11 AM] (6606) Starting service instance "jojoforjob"
+2024-10-22 04:55:11.600 [info] [Info  - 4:55:11 AM] (6606) Setting environmentName for service "jojoforjob": "3.8.10 (global)"
+2024-10-22 04:55:11.601 [info] [Info  - 4:55:11 AM] (6606) Setting pythonPath for service "jojoforjob": "/usr/bin/python3"
+2024-10-22 04:55:11.601 [info] [Info  - 4:55:11 AM] (6606) No include entries specified; assuming /home/jojoforjob
+2024-10-22 04:55:11.612 [info] [Info  - 4:55:11 AM] (6606) Auto-excluding **/node_modules
+2024-10-22 04:55:11.613 [info] [Info  - 4:55:11 AM] (6606) Auto-excluding **/__pycache__
+2024-10-22 04:55:11.613 [info] [Info  - 4:55:11 AM] (6606) Auto-excluding **/.*
+2024-10-22 04:55:11.668 [info] [Info  - 4:55:11 AM] (6606) Assuming Python version 3.8.10.final.0
+2024-10-22 04:55:12.046 [info] [Info  - 4:55:12 AM] (6606) Found 3 source files
+2024-10-22 04:55:16.377 [info] [Info  - 4:55:16 AM] (6606) Background analysis(1) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 04:55:16.393 [info] [Info  - 4:55:16 AM] (6606) Background analysis(1) started
+2024-10-22 04:55:16.945 [info] [Info  - 4:55:16 AM] (6606) Indexer background runner(2) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-22 04:55:16.947 [info] [Info  - 4:55:16 AM] (6606) Indexing(2) started
+2024-10-22 04:55:19.453 [info] [Info  - 4:55:19 AM] (6606) [BG(1)] Long operation: indexing: file:///home/jojoforjob/dags/1.py (2549ms)
+2024-10-22 04:55:20.893 [info] [Info  - 4:55:20 AM] (6606) [IDX(2)] Long operation: scan packages file:///home/jojoforjob (3163ms)
+2024-10-22 04:55:20.893 [info] [Info  - 4:55:20 AM] (6606) scanned(2) 76 files over 1 exec env
+2024-10-22 04:55:21.378 [info] [Info  - 4:55:21 AM] (6606) indexed(2) 76 files over 1 exec env
+2024-10-22 04:55:21.446 [info] [Info  - 4:55:21 AM] (6606) Indexing finished(2).
+2024-10-22 05:44:38.613 [info] [Info  - 5:44:38 AM] (6606) Found 4 source files
+2024-10-22 05:48:08.291 [info] [Info  - 5:48:08 AM] (6606) Found 3 source files
+2024-10-22 06:13:56.663 [info] [Info  - 6:13:56 AM] (6606) Found 4 source files
+2024-10-22 06:36:26.148 [info] [Info  - 6:36:26 AM] (6606) Starting service instance "<default>"
+2024-10-22 06:36:26.206 [info] [Info  - 6:36:26 AM] (6606) Setting environmentName for service "<default>": "3.8.10 (global)"
+2024-10-22 06:36:26.206 [info] [Info  - 6:36:26 AM] (6606) Setting pythonPath for service "<default>": "/usr/bin/python3"
+2024-10-22 06:36:26.206 [info] [Info  - 6:36:26 AM] (6606) No include entries specified; assuming /<default workspace root>
+2024-10-22 06:36:26.207 [info] [Info  - 6:36:26 AM] (6606) Auto-excluding **/node_modules
+2024-10-22 06:36:26.207 [info] [Info  - 6:36:26 AM] (6606) Auto-excluding **/__pycache__
+2024-10-22 06:36:26.208 [info] [Info  - 6:36:26 AM] (6606) Auto-excluding **/.*
+2024-10-22 06:36:26.261 [info] [Info  - 6:36:26 AM] (6606) Assuming Python version 3.8.10.final.0
+2024-10-22 06:36:26.382 [info] [Error - 6:36:26 AM] (6606) File or directory "/<default workspace root>" does not exist.
+2024-10-22 06:36:26.382 [info] [Info  - 6:36:26 AM] (6606) No source files found.
+2024-10-22 06:36:27.425 [info] [Info  - 6:36:27 AM] (6606) Background analysis(3) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 06:36:27.442 [info] [Info  - 6:36:27 AM] (6606) Background analysis(3) started
+2024-10-22 06:39:38.895 [info] [Info  - 6:39:38 AM] (6606) Found 5 source files
+2024-10-22 07:49:22.130 [info] [Info  - 7:49:22 AM] (6606) Found 6 source files

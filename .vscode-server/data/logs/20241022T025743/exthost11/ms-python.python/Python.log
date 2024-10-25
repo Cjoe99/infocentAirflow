@@ -1,0 +1,28 @@
+2024-10-22 05:10:30.078 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-22 05:10:30.079 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-22 05:10:30.079 [info] Experiment 'pythonTestAdapter' is active
+2024-10-22 05:10:30.079 [warning] Dir "/home/jojoforjob/.pixi/envs" is not watchable (directory does not exist)
+2024-10-22 05:10:30.579 [info] Default formatter is set to null for workspace /home/jojoforjob
+2024-10-22 05:10:31.676 [info] > pyenv which python
+2024-10-22 05:10:31.676 [info] cwd: .
+2024-10-22 05:10:31.711 [info] > pixi --version
+2024-10-22 05:10:31.729 [info] > python -c "import sys;print(sys.executable)"
+2024-10-22 05:10:31.744 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2024-10-22 05:10:31.844 [info] > pyenv which python
+2024-10-22 05:10:31.844 [info] cwd: .
+2024-10-22 05:10:32.636 [info] Starting Pylance language server.

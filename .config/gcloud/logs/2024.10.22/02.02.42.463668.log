@@ -1,0 +1,40 @@
+2024-10-22 02:02:42,494 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2024-10-22 02:02:42,497 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'firewall_rules']
+2024-10-22 02:02:42,507 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'firewall-rules', 'describe']
+2024-10-22 02:02:42,514 DEBUG    root            Running [gcloud.compute.firewall-rules.describe] with arguments: [--format: "json", NAME: "allow-airflow-8080"]
+2024-10-22 02:02:42,708 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-22 02:02:43,016 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/tir103-kafka/global/firewalls/allow-airflow-8080?alt=json HTTP/1.1" 200 None
+2024-10-22 02:02:43,021 DEBUG    root            Chosen display Format:default json
+2024-10-22 02:02:43,021 INFO     root            Display format: "default json"
+2024-10-22 02:02:43,039 INFO     ___FILE_ONLY___ {
+  "allowed": [
+    {
+      "IPProtocol": "tcp",
+      "ports": [
+        "8080"
+      ]
+    }
+  ],
+  "creationTimestamp": "2024-10-21T18:59:42.062-07:00",
+  "description": "",
+  "direction": "INGRESS",
+  "disabled": false,
+  "id": "5807566785477261793",
+  "kind": "compute#firewall",
+  "logConfig": {
+    "enable": false
+  },
+  "name": "allow-airflow-8080",
+  "network": "https://www.googleapis.com/compute/v1/projects/tir103-kafka/global/networks/default",
+  "priority": 1000,
+  "selfLink": "https://www.googleapis.com/compute/v1/projects/tir103-kafka/global/firewalls/allow-airflow-8080",
+  "sourceRanges": [
+    "0.0.0.0/0"
+  ],
+  "targetTags": [
+    "gce-airflow"
+  ]
+}
+2024-10-22 02:02:43,040 INFO     ___FILE_ONLY___ 
+
+2024-10-22 02:02:43,040 DEBUG    root            SDK update checks are disabled.

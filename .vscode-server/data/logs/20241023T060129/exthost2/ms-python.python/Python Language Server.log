@@ -1,0 +1,257 @@
+2024-10-23 06:01:42.313 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-23 06:01:43.017 [info] [Info  - 6:01:42 AM] (52318) Server root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-23 06:01:43.018 [info] [Info  - 6:01:43 AM] (52318) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-23 06:01:43.018 [info] [Info  - 6:01:43 AM] (52318) Starting service instance "jojoforjob"
+2024-10-23 06:01:43.173 [info] [Info  - 6:01:43 AM] (52318) Setting environmentName for service "jojoforjob": "3.11.2 (global)"
+2024-10-23 06:01:43.174 [info] [Info  - 6:01:43 AM] (52318) Setting pythonPath for service "jojoforjob": "/bin/python3"
+2024-10-23 06:01:43.175 [info] [Info  - 6:01:43 AM] (52318) No include entries specified; assuming /home/jojoforjob
+2024-10-23 06:01:43.176 [info] [Info  - 6:01:43 AM] (52318) Auto-excluding **/node_modules
+2024-10-23 06:01:43.176 [info] [Info  - 6:01:43 AM] (52318) Auto-excluding **/__pycache__
+2024-10-23 06:01:43.177 [info] [Info  - 6:01:43 AM] (52318) Auto-excluding **/.*
+2024-10-23 06:01:43.217 [info] [Info  - 6:01:43 AM] (52318) Assuming Python version 3.8.10.final.0
+2024-10-23 06:01:44.014 [info] [Info  - 6:01:44 AM] (52318) Found 8 source files
+2024-10-23 06:01:45.639 [info] [Info  - 6:01:45 AM] (52318) Background analysis(1) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-23 06:01:45.639 [info] [Info  - 6:01:45 AM] (52318) Background analysis(1) started
+2024-10-23 06:01:47.140 [info] [Info  - 6:01:47 AM] (52318) Indexer background runner(2) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-23 06:01:47.140 [info] [Info  - 6:01:47 AM] (52318) Indexing(2) started
+2024-10-23 06:01:49.013 [info] [Info  - 6:01:49 AM] (52318) [BG(1)] Long operation: SemanticTokens full at file:///home/jojoforjob/utils/ptt_up_to_kafka.py (3177ms)
+2024-10-23 06:01:49.029 [info] [Info  - 6:01:49 AM] (52318) scanned(2) 76 files over 1 exec env
+2024-10-23 06:01:50.043 [info] [Info  - 6:01:50 AM] (52318) indexed(2) 76 files over 1 exec env
+2024-10-23 06:01:50.168 [info] [Info  - 6:01:50 AM] (52318) Indexing finished(2).
+2024-10-23 06:02:09.323 [info] [Info  - 6:02:09 AM] (52318) Found 7 source files
+2024-10-23 06:02:45.118 [info] [Info  - 6:02:45 AM] (52318) Found 8 source files
+2024-10-23 06:13:26.417 [info] [Info  - 6:13:26 AM] (52318) Starting service instance "<default>"
+2024-10-23 06:13:26.475 [info] [Info  - 6:13:26 AM] (52318) Setting environmentName for service "<default>": "3.11.2 (global)"
+2024-10-23 06:13:26.475 [info] [Info  - 6:13:26 AM] (52318) Setting pythonPath for service "<default>": "/bin/python3"
+2024-10-23 06:13:26.475 [info] [Info  - 6:13:26 AM] (52318) No include entries specified; assuming /<default workspace root>
+2024-10-23 06:13:26.476 [info] [Info  - 6:13:26 AM] (52318) Auto-excluding **/node_modules
+2024-10-23 06:13:26.476 [info] [Info  - 6:13:26 AM] (52318) Auto-excluding **/__pycache__
+2024-10-23 06:13:26.477 [info] [Info  - 6:13:26 AM] (52318) Auto-excluding **/.*
+2024-10-23 06:13:26.536 [info] [Info  - 6:13:26 AM] (52318) Assuming Python version 3.8.10.final.0
+2024-10-23 06:13:26.689 [info] [Error - 6:13:26 AM] (52318) File or directory "/<default workspace root>" does not exist.
+2024-10-23 06:13:26.690 [info] [Info  - 6:13:26 AM] (52318) No source files found.
+2024-10-23 06:13:27.491 [info] [Info  - 6:13:27 AM] (52318) Background analysis(3) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-23 06:13:27.495 [info] [Info  - 6:13:27 AM] (52318) Background analysis(3) started
+2024-10-23 06:46:15.718 [info] [Info  - 6:46:15 AM] (52318) [BG(1)] Long operation: SemanticTokens full at file:///usr/lib/python3.8/datetime.py (2332ms)
+2024-10-23 07:21:20.901 [info] [Info  - 7:21:20 AM] (52318) [BG(1)] Long operation: analyzing: file:///home/jojoforjob/dags/dcard_dag.py (2388ms)
+2024-10-23 11:46:32.933 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.937 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.937 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.937 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.937 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.937 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.937 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.937 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.937 [info] [Error - 11:46:32 AM] Request textDocument/hover failed.
+2024-10-23 11:46:32.937 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async K3.provideHover (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:125214)
+2024-10-23 11:46:32.937 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.937 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.937 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.937 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.937 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.937 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.937 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.937 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.937 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.937 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.937 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.937 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.937 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.937 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/hover failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async K3.provideHover (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:125214)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/hover failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async K3.provideHover (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:125214)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-23 11:46:32.938 [info] [Error - 11:46:32 AM] Request textDocument/inlayHint failed.
+2024-10-23 11:46:32.938 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)

@@ -1,0 +1,61 @@
+2024-10-21 14:23:13,356 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2024-10-21 14:23:13,359 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'firewall_rules']
+2024-10-21 14:23:13,371 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'firewall-rules', 'list']
+2024-10-21 14:23:13,381 DEBUG    root            Running [gcloud.compute.firewall-rules.list] with arguments: [--filter: "name=allow-8080"]
+2024-10-21 14:23:13,607 INFO     root            client_filter=None server_filter='name eq ".*\\ballow\\-8080\\b.*"'
+2024-10-21 14:23:13,614 INFO     root            client_filter=None server_filter='name eq ".*\\ballow\\-8080\\b.*"'
+2024-10-21 14:23:13,615 DEBUG    root            Chosen display Format:    table(
+      name,
+      network.basename(),
+      direction,
+      priority,
+      allowed[].map().firewall_rule().list():label=ALLOW,
+      denied[].map().firewall_rule().list():label=DENY,
+      disabled
+    )
+2024-10-21 14:23:13,616 INFO     root            Display format: "    table(
+      name,
+      network.basename(),
+      direction,
+      priority,
+      allowed[].map().firewall_rule().list():label=ALLOW,
+      denied[].map().firewall_rule().list():label=DENY,
+      disabled
+    )"
+2024-10-21 14:23:13,619 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-21 14:23:13,919 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/tir103-kafka/global/firewalls?alt=json&filter=name+eq+%22.%2A%5Cballow%5C-8080%5Cb.%2A%22&maxResults=500 HTTP/1.1" 200 None
+2024-10-21 14:23:13,957 INFO     root            cache collection=compute.firewalls api_version=v1 params=['project', 'firewall']
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___ NAME
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___         
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___ NETWORK
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___   
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___ DIRECTION
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___   
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___ PRIORITY
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___   
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___ ALLOW
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___      
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___ DENY
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___   
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___ DISABLED
+2024-10-21 14:23:14,011 INFO     ___FILE_ONLY___ 
+
+2024-10-21 14:23:14,012 INFO     ___FILE_ONLY___ allow-8080
+2024-10-21 14:23:14,012 INFO     ___FILE_ONLY___   
+2024-10-21 14:23:14,012 INFO     ___FILE_ONLY___ default
+2024-10-21 14:23:14,012 INFO     ___FILE_ONLY___   
+2024-10-21 14:23:14,012 INFO     ___FILE_ONLY___ INGRESS
+2024-10-21 14:23:14,012 INFO     ___FILE_ONLY___     
+2024-10-21 14:23:14,012 INFO     ___FILE_ONLY___ 1000
+2024-10-21 14:23:14,012 INFO     ___FILE_ONLY___       
+2024-10-21 14:23:14,012 INFO     ___FILE_ONLY___ tcp:8080
+2024-10-21 14:23:14,012 INFO     ___FILE_ONLY___         
+2024-10-21 14:23:14,012 INFO     ___FILE_ONLY___ False
+2024-10-21 14:23:14,013 INFO     ___FILE_ONLY___ 
+
+2024-10-21 14:23:14,013 INFO     ___FILE_ONLY___ 
+To show all fields of the firewall, please show in JSON format: --format=json
+To show all fields in table format, please see the examples in --help.
+
+
+2024-10-21 14:23:14,013 DEBUG    root            SDK update checks are disabled.

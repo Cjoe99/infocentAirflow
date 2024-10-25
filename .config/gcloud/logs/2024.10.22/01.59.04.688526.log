@@ -1,0 +1,48 @@
+2024-10-22 01:59:04,719 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2024-10-22 01:59:04,722 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances']
+2024-10-22 01:59:04,735 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances', 'add_tags']
+2024-10-22 01:59:04,741 DEBUG    root            Running [gcloud.compute.instances.add-tags] with arguments: [--tags: "['gce-airflow']", --zone: "asia-east1-a", INSTANCE_NAME: "gce-airflow"]
+2024-10-22 01:59:04,990 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-22 01:59:05,086 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/tir103-kafka/zones/asia-east1-a/instances/gce-airflow?alt=json HTTP/1.1" 200 None
+2024-10-22 01:59:05,098 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-22 01:59:05,343 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /compute/v1/projects/tir103-kafka/zones/asia-east1-a/instances/gce-airflow/setTags?alt=json HTTP/1.1" 200 None
+2024-10-22 01:59:05,346 DEBUG    root            Operations to inspect: [(<Operation
+ id: 1122864888498796550
+ insertTime: '2024-10-21T18:59:05.303-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1729562345139-625071d32eb5d-ee52cc39-b84a1df0'
+ operationType: 'setTags'
+ progress: 0
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/tir103-kafka/zones/asia-east1-a/operations/operation-1729562345139-625071d32eb5d-ee52cc39-b84a1df0'
+ startTime: '2024-10-21T18:59:05.311-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 7932669857114089035
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/tir103-kafka/zones/asia-east1-a/instances/gce-airflow'
+ user: '1087720728285-compute@developer.gserviceaccount.com'
+ warnings: []
+ zone: 'https://www.googleapis.com/compute/v1/projects/tir103-kafka/zones/asia-east1-a'>, 3)]
+2024-10-22 01:59:05,348 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-22 01:59:07,859 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /compute/v1/projects/tir103-kafka/zones/asia-east1-a/operations/operation-1729562345139-625071d32eb5d-ee52cc39-b84a1df0/wait?alt=json HTTP/1.1" 200 None
+2024-10-22 01:59:07,861 DEBUG    root            Operations to inspect: [(<Operation
+ endTime: '2024-10-21T18:59:07.825-07:00'
+ id: 1122864888498796550
+ insertTime: '2024-10-21T18:59:05.303-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1729562345139-625071d32eb5d-ee52cc39-b84a1df0'
+ operationType: 'setTags'
+ progress: 100
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/tir103-kafka/zones/asia-east1-a/operations/operation-1729562345139-625071d32eb5d-ee52cc39-b84a1df0'
+ startTime: '2024-10-21T18:59:05.311-07:00'
+ status: StatusValueValuesEnum(DONE, 0)
+ targetId: 7932669857114089035
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/tir103-kafka/zones/asia-east1-a/instances/gce-airflow'
+ user: '1087720728285-compute@developer.gserviceaccount.com'
+ warnings: []
+ zone: 'https://www.googleapis.com/compute/v1/projects/tir103-kafka/zones/asia-east1-a'>, 3)]
+2024-10-22 01:59:07,862 INFO     ___FILE_ONLY___ Updated [https://www.googleapis.com/compute/v1/projects/tir103-kafka/zones/asia-east1-a/instances/gce-airflow].
+
+2024-10-22 01:59:07,865 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-22 01:59:08,006 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/tir103-kafka/zones/asia-east1-a/instances/gce-airflow?alt=json HTTP/1.1" 200 None
+2024-10-22 01:59:08,011 DEBUG    root            Chosen display Format:none
+2024-10-22 01:59:08,012 INFO     root            Display format: "none"
+2024-10-22 01:59:08,032 DEBUG    root            SDK update checks are disabled.

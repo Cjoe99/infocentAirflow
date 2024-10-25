@@ -1,0 +1,5 @@
+2024-10-24 08:44:03.341 [info] [主要] 記錄層級：Info
+2024-10-24 08:44:03.341 [info] [主要] 正在驗證在下列位置找到的 Git："git"
+2024-10-24 08:44:03.341 [info] [主要] 正在使用來自 "git" 的 Git "2.25.1"
+2024-10-24 08:44:03.341 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-24 08:44:03.341 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)

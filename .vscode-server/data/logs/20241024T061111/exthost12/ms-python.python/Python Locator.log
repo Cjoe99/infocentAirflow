@@ -1,0 +1,17 @@
+2024-10-24 08:49:28.748 [info] Starting Python Locator /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python-env-tools/bin/pet server
+2024-10-24 08:49:28.749 [info] Discovered env: /usr/bin/python3
+2024-10-24 08:49:28.750 [info] Discovered env: /bin/python3
+2024-10-24 08:49:28.751 [info] Locator Conda took 77.594082ms
+2024-10-24 08:49:28.751 [info] Locator Homebrew took 765.917µs
+2024-10-24 08:49:28.751 [info] Locator LinuxGlobal took 76.005116ms
+2024-10-24 08:49:28.751 [info] Locator PipEnv took 310.532µs
+2024-10-24 08:49:28.751 [info] Locator Poetry took 950.669µs
+2024-10-24 08:49:28.751 [info] Locator PyEnv took 416.846µs
+2024-10-24 08:49:28.751 [info] Locator Venv took 44.406µs
+2024-10-24 08:49:28.751 [info] Locator VirtualEnv took 196.409µs
+2024-10-24 08:49:28.751 [info] Locator VirtualEnvWrapper took 259.72µs
+2024-10-24 08:49:28.752 [info] Locator GlobalVirtualEnvs took 324.498µs
+2024-10-24 08:49:28.752 [info] Locator Locators took 81.66322ms
+2024-10-24 08:49:28.752 [info] Locator Path took 147.06641ms
+2024-10-24 08:49:28.752 [info] Locator Workspaces took 2.771µs
+2024-10-24 08:49:28.752 [info] Refresh completed in 147ms

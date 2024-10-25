@@ -1,0 +1,168 @@
+[2024-10-23T07:39:05.499+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-23T07:39:05.518+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dcard_dag.run_crawl_task manual__2024-10-23T07:36:27.523918+00:00 [queued]>
+[2024-10-23T07:39:05.530+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dcard_dag.run_crawl_task manual__2024-10-23T07:36:27.523918+00:00 [queued]>
+[2024-10-23T07:39:05.530+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-23T07:39:05.558+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): run_crawl_task> on 2024-10-23 07:36:27.523918+00:00
+[2024-10-23T07:39:05.565+0000] {standard_task_runner.py:72} INFO - Started process 22010 to run task
+[2024-10-23T07:39:05.572+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dcard_dag', 'run_crawl_task', 'manual__2024-10-23T07:36:27.523918+00:00', '--job-id', '855', '--raw', '--subdir', 'DAGS_FOLDER/dcard_dag.py', '--cfg-path', '/tmp/tmplkq9t3nu']
+[2024-10-23T07:39:05.575+0000] {standard_task_runner.py:105} INFO - Job 855: Subtask run_crawl_task
+[2024-10-23T07:39:05.740+0000] {task_command.py:467} INFO - Running <TaskInstance: dcard_dag.run_crawl_task manual__2024-10-23T07:36:27.523918+00:00 [running]> on host 60bbe790d101
+[2024-10-23T07:39:05.850+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='dcard_dag' AIRFLOW_CTX_TASK_ID='run_crawl_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-23T07:36:27.523918+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-23T07:36:27.523918+00:00'
+[2024-10-23T07:39:05.851+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-23T07:39:06.089+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2024-10-23T07:39:06.729+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2024-10-23T07:39:06.892+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2024-10-23T07:39:07.031+0000] {logger.py:11} INFO - Driver [/home/airflow/.wdm/drivers/chromedriver/linux64/130.0.6723.69/chromedriver-linux64/chromedriver] found in cache
+[2024-10-23T07:39:29.632+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/airflow/dags/dcard_dag.py", line 66, in crawl_dcard
+    element_by_data_key = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, f"//div[@data-key='{i}']")))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55e5408d310a <unknown>
+#1 0x55e5403ee460 <unknown>
+#2 0x55e54043af96 <unknown>
+#3 0x55e54043b221 <unknown>
+#4 0x55e5404805d4 <unknown>
+#5 0x55e54045f03d <unknown>
+#6 0x55e54047daf6 <unknown>
+#7 0x55e54045edb3 <unknown>
+#8 0x55e54042dc10 <unknown>
+#9 0x55e54042ebee <unknown>
+#10 0x55e54089f39b <unknown>
+#11 0x55e5408a3338 <unknown>
+#12 0x55e54088cebc <unknown>
+#13 0x55e5408a3eb7 <unknown>
+#14 0x55e54087210f <unknown>
+#15 0x55e5408c1828 <unknown>
+#16 0x55e5408c19f0 <unknown>
+#17 0x55e5408d1f86 <unknown>
+#18 0x7f418a5b5144 <unknown>
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dcard_dag.py", line 227, in crawl_dcard
+    driver1.quit()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'driver1' where it is not associated with a value
+[2024-10-23T07:39:29.665+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=dcard_dag, task_id=run_crawl_task, run_id=manual__2024-10-23T07:36:27.523918+00:00, execution_date=20241023T073627, start_date=20241023T073905, end_date=20241023T073929
+[2024-10-23T07:39:29.712+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-23T07:39:29.713+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 855 for task run_crawl_task (cannot access local variable 'driver1' where it is not associated with a value; 22010)
+Traceback (most recent call last):
+  File "/opt/airflow/dags/dcard_dag.py", line 66, in crawl_dcard
+    element_by_data_key = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, f"//div[@data-key='{i}']")))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/support/wait.py", line 105, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+#0 0x55e5408d310a <unknown>
+#1 0x55e5403ee460 <unknown>
+#2 0x55e54043af96 <unknown>
+#3 0x55e54043b221 <unknown>
+#4 0x55e5404805d4 <unknown>
+#5 0x55e54045f03d <unknown>
+#6 0x55e54047daf6 <unknown>
+#7 0x55e54045edb3 <unknown>
+#8 0x55e54042dc10 <unknown>
+#9 0x55e54042ebee <unknown>
+#10 0x55e54089f39b <unknown>
+#11 0x55e5408a3338 <unknown>
+#12 0x55e54088cebc <unknown>
+#13 0x55e5408a3eb7 <unknown>
+#14 0x55e54087210f <unknown>
+#15 0x55e5408c1828 <unknown>
+#16 0x55e5408c19f0 <unknown>
+#17 0x55e5408d1f86 <unknown>
+#18 0x7f418a5b5144 <unknown>
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dcard_dag.py", line 227, in crawl_dcard
+    driver1.quit()
+    ^^^^^^^
+UnboundLocalError: cannot access local variable 'driver1' where it is not associated with a value
+[2024-10-23T07:39:29.766+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-10-23T07:39:29.785+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-23T07:39:29.786+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

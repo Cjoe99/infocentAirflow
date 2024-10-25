@@ -1,0 +1,73 @@
+2024-10-22 07:46:34.462 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-22 07:46:34.462 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-22 07:46:34.462 [info] Experiment 'pythonTestAdapter' is active
+2024-10-22 07:46:34.462 [warning] Dir "/home/jojoforjob/.pixi/envs" is not watchable (directory does not exist)
+2024-10-22 07:46:34.462 [info] Default formatter is set to null for workspace /home/jojoforjob
+2024-10-22 07:46:34.462 [info] Starting Environment refresh
+2024-10-22 07:46:34.462 [info] > pixi --version
+2024-10-22 07:46:34.462 [info] > hatch env show --json
+2024-10-22 07:46:34.462 [info] cwd: .
+2024-10-22 07:46:34.476 [info] Environments refresh finished (event): 752 milliseconds
+2024-10-22 07:46:34.477 [info] Environments refresh paths discovered: 753 milliseconds
+2024-10-22 07:46:34.479 [info] Environment refresh took 755 milliseconds
+2024-10-22 07:46:34.485 [info] Starting Environment refresh
+2024-10-22 07:46:34.523 [info] Environments refresh finished (event): 39 milliseconds
+2024-10-22 07:46:34.523 [info] Environments refresh paths discovered: 39 milliseconds
+2024-10-22 07:46:34.524 [info] Environment refresh took 40 milliseconds
+2024-10-22 07:46:34.530 [info] > pyenv which python
+2024-10-22 07:46:34.531 [info] cwd: .
+2024-10-22 07:46:34.589 [info] > python -c "import sys;print(sys.executable)"
+2024-10-22 07:46:34.593 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2024-10-22 07:46:34.602 [info] > pyenv which python
+2024-10-22 07:46:34.602 [info] cwd: .
+2024-10-22 07:46:35.563 [info] Starting Pylance language server.
+2024-10-22 07:49:27.465 [info] Starting Environment refresh
+2024-10-22 07:49:27.471 [info] Searching for interpreters in posix paths locator
+2024-10-22 07:49:27.622 [info] Searching for pyenv environments
+2024-10-22 07:49:27.623 [info] Searching for conda environments
+2024-10-22 07:49:27.624 [info] Searching for global virtual environments
+2024-10-22 07:49:27.624 [info] Searching for custom virtual environments
+2024-10-22 07:49:27.707 [info] > conda info --json
+2024-10-22 07:49:27.932 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-22 07:49:27.955 [info] pyenv is not installed
+2024-10-22 07:49:27.957 [info] Finished searching for pyenv environments: 483 milliseconds
+2024-10-22 07:49:27.960 [info] Finished searching for custom virtual envs: 338 milliseconds
+2024-10-22 07:49:28.113 [info] Finished searching for global virtual envs: 639 milliseconds
+2024-10-22 07:49:28.186 [info] Found: /bin/python3 --> /bin/python3.8
+2024-10-22 07:49:28.219 [info] Found: /bin/python3.8 --> /bin/python3.8
+2024-10-22 07:49:28.400 [info] Found: /usr/bin/python3 --> /usr/bin/python3.8
+2024-10-22 07:49:28.401 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2024-10-22 07:49:28.705 [info] Finished searching for interpreters in posix paths locator: 1257 milliseconds
+2024-10-22 07:49:28.705 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-22 07:49:28.922 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-22 07:49:28.922 [info] Environments refresh paths discovered (event): 1507 milliseconds
+2024-10-22 07:49:28.923 [info] Environments refresh paths discovered: 1508 milliseconds
+2024-10-22 07:49:31.201 [info] Environments refresh finished (event): 3786 milliseconds
+2024-10-22 07:49:32.424 [info] Environment refresh took 5009 milliseconds
+2024-10-22 07:51:36.567 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/utils/ptt_up_to_kafka.py
+2024-10-22 07:52:03.445 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-22 07:52:08.829 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob
+2024-10-22 07:52:08.830 [info] Python interpreter path: /bin/python3
+2024-10-22 07:59:57.328 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-22 08:00:47.661 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-22 08:01:08.167 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob
+2024-10-22 08:01:12.894 [info] Send text to terminal: /bin/python3 /home/jojoforjob/dags/frank_dag.py
+2024-10-22 08:02:01.734 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-22 08:08:58.492 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-22 08:36:05.697 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-22 08:43:41.131 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py

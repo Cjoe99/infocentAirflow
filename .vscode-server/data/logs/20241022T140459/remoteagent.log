@@ -1,0 +1,59 @@
+2024-10-22 14:04:59.330 [info] 
+
+
+
+
+2024-10-22 14:04:59.351 [info] Extension host agent started.
+2024-10-22 14:04:59.432 [info] [<unknown>][686420fe][ManagementConnection] New connection established.
+2024-10-22 14:04:59.461 [info] [<unknown>][72a30b92][ExtensionHostConnection] New connection established.
+2024-10-22 14:04:59.660 [info] [<unknown>][72a30b92][ExtensionHostConnection] <39843> Launched Extension Host Process.
+2024-10-22 14:09:59.352 [info] New EH opened, aborting shutdown
+2024-10-22 14:24:42.302 [info] [<unknown>][686420fe][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-22 14:24:42.380 [info] [<unknown>][72a30b92][ExtensionHostConnection] <39843> Extension Host Process exited with code: 0, signal: null.
+2024-10-22 14:24:42.380 [info] Last EH closed, waiting before shutting down
+2024-10-22 14:26:08.950 [info] [<unknown>][ce01b3ad][ExtensionHostConnection] New connection established.
+2024-10-22 14:26:08.959 [info] [<unknown>][ce01b3ad][ExtensionHostConnection] <40966> Launched Extension Host Process.
+2024-10-22 14:26:08.973 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/server/node/server.main.js:189:5899)
+    at process.emit (node:events:531:35)
+2024-10-22 14:26:08.975 [info] [<unknown>][9c2c8363][ManagementConnection] New connection established.
+2024-10-22 14:26:16.316 [info] [<unknown>][9c2c8363][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-22 14:26:16.371 [info] [<unknown>][ce01b3ad][ExtensionHostConnection] <40966> Extension Host Process exited with code: 0, signal: null.
+2024-10-22 14:26:16.372 [info] Cancelling previous shutdown timeout
+2024-10-22 14:26:16.372 [info] Last EH closed, waiting before shutting down
+2024-10-22 14:26:17.052 [info] [<unknown>][8765b5f2][ManagementConnection] New connection established.
+2024-10-22 14:26:17.061 [info] [<unknown>][93886afe][ExtensionHostConnection] New connection established.
+2024-10-22 14:26:17.067 [info] [<unknown>][93886afe][ExtensionHostConnection] <41027> Launched Extension Host Process.
+2024-10-22 14:26:20.613 [error] CodeExpectedError: Could not find pty 14 on pty host
+    at M.U (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:48:11102)
+    at M.updateTitle (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:48:6412)
+    at s.<computed> (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:48:1843)
+    at Object.call (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4127)
+    at Fc.s (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78860)
+    at Fc.q (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78383)
+    at os.value (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77785)
+    at y.B (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:29:732)
+    at y.fire (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:29:950)
+    at process.v (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29096)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-10-22 14:26:20.637 [error] CodeExpectedError: Could not find pty 14 on pty host
+    at M.U (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:48:11102)
+    at M.updateIcon (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:48:6462)
+    at s.<computed> (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:48:1843)
+    at Object.call (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4127)
+    at Fc.s (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78860)
+    at Fc.q (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78383)
+    at os.value (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77785)
+    at y.B (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:29:732)
+    at y.fire (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:29:950)
+    at process.v (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29096)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-10-22 14:29:09.414 [info] [<unknown>][8765b5f2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-22 14:29:09.571 [info] [<unknown>][93886afe][ExtensionHostConnection] <41027> Extension Host Process exited with code: 0, signal: null.
+2024-10-22 14:29:09.572 [info] Cancelling previous shutdown timeout
+2024-10-22 14:29:09.572 [info] Last EH closed, waiting before shutting down
+2024-10-22 14:34:09.574 [info] Last EH closed, shutting down

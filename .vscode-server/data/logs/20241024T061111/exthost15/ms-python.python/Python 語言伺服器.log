@@ -1,0 +1,28 @@
+2024-10-24 12:15:50.823 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-24 12:15:50.878 [info] [Info  - 12:15:50 PM] (41914) Server root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-24 12:15:50.878 [info] [Info  - 12:15:50 PM] (41914) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-24 12:15:50.878 [info] [Info  - 12:15:50 PM] (41914) Starting service instance "jojoforjob"
+2024-10-24 12:15:50.960 [info] [Info  - 12:15:50 PM] (41914) Setting environmentName for service "jojoforjob": "/Applications/miniconda3/bin/python"
+2024-10-24 12:15:50.961 [info] [Info  - 12:15:50 PM] (41914) No include entries specified; assuming /home/jojoforjob
+2024-10-24 12:15:50.962 [info] [Info  - 12:15:50 PM] (41914) Auto-excluding **/node_modules
+2024-10-24 12:15:50.963 [info] [Info  - 12:15:50 PM] (41914) Auto-excluding **/__pycache__
+2024-10-24 12:15:50.963 [info] [Info  - 12:15:50 PM] (41914) Auto-excluding **/.*
+2024-10-24 12:15:51.445 [info] [Info  - 12:15:51 PM] (41914) Found 8 source files
+2024-10-24 12:15:52.140 [info] [Info  - 12:15:52 PM] (41914) Background analysis(1) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-24 12:15:52.143 [info] [Info  - 12:15:52 PM] (41914) Background analysis(1) started
+2024-10-24 12:15:52.865 [info] [Info  - 12:15:52 PM] (41914) Indexer background runner(2) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-24 12:15:52.866 [info] [Info  - 12:15:52 PM] (41914) Indexing(2) started
+2024-10-24 12:15:53.895 [info] [Info  - 12:15:53 PM] (41914) scanned(2) 76 files over 1 exec env
+2024-10-24 12:15:54.248 [info] [Info  - 12:15:54 PM] (41914) indexed(2) 76 files over 1 exec env
+2024-10-24 12:15:54.296 [info] [Info  - 12:15:54 PM] (41914) Indexing finished(2).
+2024-10-24 12:21:49.458 [info] [Info  - 12:21:49 PM] (41914) [BG(1)] Long operation: SemanticTokens full at file:///home/jojoforjob/dags/%E5%B0%88%E9%A1%8C_%E7%95%B6%E6%97%A5%E5%BF%83%E6%83%85.py (3688ms)
+2024-10-24 12:30:24.299 [info] [Info  - 12:30:24 PM] (41914) Starting service instance "<default>"
+2024-10-24 12:30:24.367 [info] [Info  - 12:30:24 PM] (41914) Setting environmentName for service "<default>": "/Applications/miniconda3/bin/python"
+2024-10-24 12:30:24.370 [info] [Info  - 12:30:24 PM] (41914) No include entries specified; assuming /<default workspace root>
+2024-10-24 12:30:24.371 [info] [Info  - 12:30:24 PM] (41914) Auto-excluding **/node_modules
+2024-10-24 12:30:24.372 [info] [Info  - 12:30:24 PM] (41914) Auto-excluding **/__pycache__
+2024-10-24 12:30:24.372 [info] [Info  - 12:30:24 PM] (41914) Auto-excluding **/.*
+2024-10-24 12:30:24.501 [info] [Error - 12:30:24 PM] (41914) File or directory "/<default workspace root>" does not exist.
+2024-10-24 12:30:24.503 [info] [Info  - 12:30:24 PM] (41914) No source files found.
+2024-10-24 12:30:25.421 [info] [Info  - 12:30:25 PM] (41914) Background analysis(3) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-24 12:30:25.425 [info] [Info  - 12:30:25 PM] (41914) Background analysis(3) started

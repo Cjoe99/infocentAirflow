@@ -1,0 +1,70 @@
+2024-10-22 12:37:57.465 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-22 12:37:58.220 [info] [Info  - 12:37:58 PM] (36354) Server root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 12:37:58.229 [info] [Info  - 12:37:58 PM] (36354) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-22 12:37:58.229 [info] [Info  - 12:37:58 PM] (36354) Starting service instance "jojoforjob"
+2024-10-22 12:37:58.324 [info] [Info  - 12:37:58 PM] (36354) Setting environmentName for service "jojoforjob": "3.8.10 (global)"
+2024-10-22 12:37:58.325 [info] [Info  - 12:37:58 PM] (36354) Setting pythonPath for service "jojoforjob": "/bin/python3"
+2024-10-22 12:37:58.326 [info] [Info  - 12:37:58 PM] (36354) No include entries specified; assuming /home/jojoforjob
+2024-10-22 12:37:58.327 [info] [Info  - 12:37:58 PM] (36354) Auto-excluding **/node_modules
+2024-10-22 12:37:58.328 [info] [Info  - 12:37:58 PM] (36354) Auto-excluding **/__pycache__
+2024-10-22 12:37:58.329 [info] [Info  - 12:37:58 PM] (36354) Auto-excluding **/.*
+2024-10-22 12:37:58.561 [info] [Info  - 12:37:58 PM] (36354) Assuming Python version 3.8.10.final.0
+2024-10-22 12:37:59.538 [info] [Info  - 12:37:59 PM] (36354) Found 8 source files
+2024-10-22 12:40:27.898 [info] [Error - 12:40:27 PM] Request textDocument/semanticTokens/range failed.
+2024-10-22 12:40:27.900 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async NS.provideDocumentRangeSemanticTokens (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:135888)
+2024-10-22 12:40:27.901 [info] [Error - 12:40:27 PM] Request textDocument/inlayHint failed.
+2024-10-22 12:40:27.901 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-22 12:40:27.902 [info] [Error - 12:40:27 PM] Request textDocument/semanticTokens/range failed.
+2024-10-22 12:40:27.902 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async NS.provideDocumentRangeSemanticTokens (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:135888)
+2024-10-22 12:40:27.903 [info] [Error - 12:40:27 PM] Request textDocument/inlayHint failed.
+2024-10-22 12:40:27.903 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-22 12:40:27.904 [info] [Error - 12:40:27 PM] Request textDocument/semanticTokens/range failed.
+2024-10-22 12:40:27.905 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async NS.provideDocumentRangeSemanticTokens (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:135888)
+2024-10-22 12:40:28.040 [info] [Error - 12:40:27 PM] Request textDocument/semanticTokens/range failed.
+2024-10-22 12:40:28.041 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async NS.provideDocumentRangeSemanticTokens (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:135888)
+2024-10-22 12:40:28.050 [info] [Error - 12:40:27 PM] Request textDocument/inlayHint failed.
+2024-10-22 12:40:28.051 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-22 12:40:28.101 [info] [Error - 12:40:28 PM] Sending document notification textDocument/didClose failed.
+2024-10-22 12:40:28.104 [info] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendNotification (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2104222)
+	at async t (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2191087)
+	at async _0xfcdd18.didClose (/home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist/extension.bundle.js:1:144029)
+	at async d.callback (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2291533)
+2024-10-22 12:40:28.107 [info] [Info  - 12:40:28 PM] (36354) [FG] Long operation: parsing: file:///home/jojoforjob/dags/slacktest.py (9800ms)
+2024-10-22 12:40:28.332 [info] [Info  - 12:40:28 PM] (36354) [FG] Long operation: parsing: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist/typeshed-fallback/stdlib/builtins.pyi (5278ms)
+2024-10-22 12:40:28.897 [info] [Info  - 12:40:28 PM] (36354) Background analysis(1) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 12:40:28.898 [info] [Info  - 12:40:28 PM] (36354) Background analysis(1) started
+2024-10-22 12:40:31.123 [info] [Error - 12:40:31 PM] Stopping server timed out

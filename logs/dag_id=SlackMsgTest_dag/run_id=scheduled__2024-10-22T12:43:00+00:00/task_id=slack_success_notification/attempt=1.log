@@ -1,0 +1,17 @@
+[2024-10-22T12:44:44.414+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-22T12:44:44.430+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: SlackMsgTest_dag.slack_success_notification scheduled__2024-10-22T12:43:00+00:00 [queued]>
+[2024-10-22T12:44:44.564+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: SlackMsgTest_dag.slack_success_notification scheduled__2024-10-22T12:43:00+00:00 [queued]>
+[2024-10-22T12:44:44.565+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-22T12:44:44.591+0000] {taskinstance.py:2888} INFO - Executing <Task(SlackWebhookOperator): slack_success_notification> on 2024-10-22 12:43:00+00:00
+[2024-10-22T12:44:44.597+0000] {standard_task_runner.py:72} INFO - Started process 10197 to run task
+[2024-10-22T12:44:44.605+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'SlackMsgTest_dag', 'slack_success_notification', 'scheduled__2024-10-22T12:43:00+00:00', '--job-id', '578', '--raw', '--subdir', 'DAGS_FOLDER/slacktest.py', '--cfg-path', '/tmp/tmp56m26lcf']
+[2024-10-22T12:44:44.608+0000] {standard_task_runner.py:105} INFO - Job 578: Subtask slack_success_notification
+[2024-10-22T12:44:44.667+0000] {task_command.py:467} INFO - Running <TaskInstance: SlackMsgTest_dag.slack_success_notification scheduled__2024-10-22T12:43:00+00:00 [running]> on host 60bbe790d101
+[2024-10-22T12:44:44.891+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='your_email@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='SlackMsgTest_dag' AIRFLOW_CTX_TASK_ID='slack_success_notification' AIRFLOW_CTX_EXECUTION_DATE='2024-10-22T12:43:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-22T12:43:00+00:00'
+[2024-10-22T12:44:44.892+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-22T12:44:44.921+0000] {base.py:84} INFO - Retrieving connection 'slack_webhook'
+[2024-10-22T12:44:45.413+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-22T12:44:45.414+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=SlackMsgTest_dag, task_id=slack_success_notification, run_id=scheduled__2024-10-22T12:43:00+00:00, execution_date=20241022T124300, start_date=20241022T124444, end_date=20241022T124445
+[2024-10-22T12:44:45.460+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-22T12:44:45.480+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-22T12:44:45.482+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

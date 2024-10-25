@@ -1,0 +1,91 @@
+2024-10-21 13:44:34,570 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2024-10-21 13:44:34,720 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'ssh']
+2024-10-21 13:44:34,735 DEBUG    root            Running [gcloud.compute.ssh] with arguments: [--ssh-key-file: "id_ed25519.pub", --zone: "asia-east1-a", [USER@]INSTANCE: "gce-airflow"]
+2024-10-21 13:44:34,868 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1087720728285-compute@developer.gserviceaccount.com/?recursive=true
+2024-10-21 13:44:34,873 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2024-10-21 13:44:34,874 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1087720728285-compute@developer.gserviceaccount.com/?recursive=true HTTP/1.1" 200 142
+2024-10-21 13:44:34,895 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/1087720728285-compute@developer.gserviceaccount.com/token
+2024-10-21 13:44:34,911 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/1087720728285-compute@developer.gserviceaccount.com/token HTTP/1.1" 200 870
+2024-10-21 13:44:35,168 WARNING  root            The private SSH key file for gcloud does not exist.
+2024-10-21 13:44:35,168 WARNING  root            The public SSH key file for gcloud does not exist.
+2024-10-21 13:44:35,169 WARNING  root            You do not have an SSH key for gcloud.
+2024-10-21 13:44:35,169 WARNING  root            SSH keygen will be executed to generate a key.
+2024-10-21 13:44:35,169 DEBUG    root            Running command [/usr/bin/ssh-keygen -t rsa -f /home/jojoforjob/id_ed25519.pub].
+2024-10-21 13:44:35,169 DEBUG    root            Executing command: ['/usr/bin/ssh-keygen', '-t', 'rsa', '-f', '/home/jojoforjob/id_ed25519.pub']
+2024-10-21 13:46:21,451 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-21 13:46:21,628 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/tir103-kafka/zones/asia-east1-a/instances/gce-airflow?alt=json HTTP/1.1" 200 None
+2024-10-21 13:46:21,638 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-21 13:46:22,017 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/tir103-kafka?alt=json HTTP/1.1" 200 None
+2024-10-21 13:46:22,024 DEBUG    root            OS Login Enabled: False
+2FA Enabled: False
+Security Keys Enabled: False
+Username: jojoforjob
+Third Party User: False
+SSH Security Key Support: None
+Environment: None
+Security Keys:
+
+Signed SSH Key: False
+Require Certificates: False
+
+2024-10-21 13:46:22,025 DEBUG    root            SSH Known Hosts File [/home/jojoforjob/.ssh/google_compute_known_hosts] could not be opened: Unable to read file [/home/jojoforjob/.ssh/google_compute_known_hosts]: [Errno 2] No such file or directory: '/home/jojoforjob/.ssh/google_compute_known_hosts'
+2024-10-21 13:46:22,025 DEBUG    root            Current SSH keys in project: []
+2024-10-21 13:46:22,026 INFO     ___FILE_ONLY___ Updating project ssh metadata...
+2024-10-21 13:46:22,031 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-21 13:46:22,980 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /compute/v1/projects/tir103-kafka/setCommonInstanceMetadata?alt=json HTTP/1.1" 200 None
+2024-10-21 13:46:22,983 DEBUG    root            Operations to inspect: [(<Operation
+ id: 2793522787715376577
+ insertTime: '2024-10-21T06:46:22.630-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1729518382148-624fce0ccea06-404182a3-ba7be98a'
+ operationType: 'compute.projects.setCommonInstanceMetadata'
+ progress: 0
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/tir103-kafka/global/operations/operation-1729518382148-624fce0ccea06-404182a3-ba7be98a'
+ setCommonInstanceMetadataOperationMetadata: <SetCommonInstanceMetadataOperationMetadata
+ clientOperationId: 'operation-1729518382148-624fce0ccea06-404182a3-ba7be98a'>
+ startTime: '2024-10-21T06:46:22.634-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 1087720728285
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/tir103-kafka'
+ user: '1087720728285-compute@developer.gserviceaccount.com'
+ warnings: []>, 3)]
+2024-10-21 13:46:22,986 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-21 13:46:40,678 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /compute/v1/projects/tir103-kafka/global/operations/operation-1729518382148-624fce0ccea06-404182a3-ba7be98a/wait?alt=json HTTP/1.1" 200 None
+2024-10-21 13:46:40,683 DEBUG    root            Operations to inspect: [(<Operation
+ endTime: '2024-10-21T06:46:40.425-07:00'
+ id: 2793522787715376577
+ insertTime: '2024-10-21T06:46:22.630-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1729518382148-624fce0ccea06-404182a3-ba7be98a'
+ operationType: 'compute.projects.setCommonInstanceMetadata'
+ progress: 100
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/tir103-kafka/global/operations/operation-1729518382148-624fce0ccea06-404182a3-ba7be98a'
+ setCommonInstanceMetadataOperationMetadata: <SetCommonInstanceMetadataOperationMetadata
+ clientOperationId: 'operation-1729518382148-624fce0ccea06-404182a3-ba7be98a'
+ perLocationOperations: <PerLocationOperationsValue
+ additionalProperties: [<AdditionalProperty
+ key: 'asia-east1-a'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'asia-east1-b'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'asia-east1-c'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>]>>
+ startTime: '2024-10-21T06:46:22.634-07:00'
+ status: StatusValueValuesEnum(DONE, 0)
+ targetId: 1087720728285
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/tir103-kafka'
+ user: '1087720728285-compute@developer.gserviceaccount.com'
+ warnings: []>, 3)]
+2024-10-21 13:46:40,683 INFO     ___FILE_ONLY___ Updated [https://www.googleapis.com/compute/v1/projects/tir103-kafka].
+
+2024-10-21 13:46:40,686 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-21 13:46:41,066 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/tir103-kafka?alt=json HTTP/1.1" 200 None
+2024-10-21 13:46:41,264 INFO     ___FILE_ONLY___ Waiting for SSH key to propagate.
+
+2024-10-21 13:46:41,264 DEBUG    root            Running command [/usr/bin/ssh -T -i /home/jojoforjob/id_ed25519.pub -o CheckHostIP=no -o HashKnownHosts=no -o HostKeyAlias=compute.7932669857114089035 -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/home/jojoforjob/.ssh/google_compute_known_hosts jojoforjob@35.229.189.182 -- :].
+2024-10-21 13:46:41,265 DEBUG    root            Executing command: ['/usr/bin/ssh', '-T', '-i', '/home/jojoforjob/id_ed25519.pub', '-o', 'CheckHostIP=no', '-o', 'HashKnownHosts=no', '-o', 'HostKeyAlias=compute.7932669857114089035', '-o', 'IdentitiesOnly=yes', '-o', 'StrictHostKeyChecking=no', '-o', 'UserKnownHostsFile=/home/jojoforjob/.ssh/google_compute_known_hosts', 'jojoforjob@35.229.189.182', '--', ':']
+2024-10-21 13:46:41,911 DEBUG    root            Running command [/usr/bin/ssh -t -i /home/jojoforjob/id_ed25519.pub -o CheckHostIP=no -o HashKnownHosts=no -o HostKeyAlias=compute.7932669857114089035 -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/home/jojoforjob/.ssh/google_compute_known_hosts jojoforjob@35.229.189.182].
+2024-10-21 13:46:41,913 DEBUG    root            Executing command: ['/usr/bin/ssh', '-t', '-i', '/home/jojoforjob/id_ed25519.pub', '-o', 'CheckHostIP=no', '-o', 'HashKnownHosts=no', '-o', 'HostKeyAlias=compute.7932669857114089035', '-o', 'IdentitiesOnly=yes', '-o', 'StrictHostKeyChecking=no', '-o', 'UserKnownHostsFile=/home/jojoforjob/.ssh/google_compute_known_hosts', 'jojoforjob@35.229.189.182']

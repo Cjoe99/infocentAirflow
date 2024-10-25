@@ -1,0 +1,39 @@
+2024-10-24 08:49:28.748 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-24 08:49:28.748 [info] Experiment 'pythonSurveyNotification' is active
+2024-10-24 08:49:28.748 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-24 08:49:28.748 [info] Experiment 'pythonTestAdapter' is active
+2024-10-24 08:49:28.748 [warning] Dir "/home/jojoforjob/.pixi/envs" is not watchable (directory does not exist)
+2024-10-24 08:49:28.748 [info] Default formatter is set to null for workspace /home/jojoforjob
+2024-10-24 08:49:28.748 [info] Starting Environment refresh
+2024-10-24 08:49:28.748 [info] > pixi --version
+2024-10-24 08:49:28.748 [info] > hatch env show --json
+2024-10-24 08:49:28.748 [info] cwd: .
+2024-10-24 08:49:28.756 [info] Environments refresh finished (event): 554 milliseconds
+2024-10-24 08:49:28.756 [info] Environments refresh paths discovered: 554 milliseconds
+2024-10-24 08:49:28.757 [info] Environment refresh took 556 milliseconds
+2024-10-24 08:49:28.845 [info] Starting Environment refresh
+2024-10-24 08:49:28.852 [info] Environments refresh finished (event): 7 milliseconds
+2024-10-24 08:49:28.852 [info] Environments refresh paths discovered: 7 milliseconds
+2024-10-24 08:49:28.853 [info] Environment refresh took 8 milliseconds
+2024-10-24 08:49:28.857 [info] > pyenv which python
+2024-10-24 08:49:28.857 [info] cwd: .
+2024-10-24 08:49:28.886 [info] > python -c "import sys;print(sys.executable)"
+2024-10-24 08:49:28.887 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2024-10-24 08:49:28.894 [info] > pyenv which python
+2024-10-24 08:49:28.894 [info] cwd: .
+2024-10-24 08:49:29.617 [info] Starting Pylance language server.

@@ -1,0 +1,686 @@
+2024-10-24 12:15:47.131 [info] 實驗 'pythonRecommendTensorboardExt' 為使用中
+2024-10-24 12:15:47.132 [info] 實驗 'pythonSurveyNotification' 為使用中
+2024-10-24 12:15:47.132 [info] 實驗 'pythonTerminalEnvVarActivation' 為使用中
+2024-10-24 12:15:47.132 [info] 實驗 'pythonTestAdapter' 為使用中
+2024-10-24 12:15:47.133 [warning] Dir "/home/jojoforjob/.pixi/envs" is not watchable (directory does not exist)
+2024-10-24 12:15:47.234 [info] Default formatter is set to null for workspace /home/jojoforjob
+2024-10-24 12:15:47.264 [info] Starting Environment refresh
+2024-10-24 12:15:47.265 [info] Starting Environment refresh
+2024-10-24 12:15:47.801 [info] > pixi --version
+2024-10-24 12:15:47.807 [info] > hatch env show --json
+2024-10-24 12:15:47.807 [info] cwd: .
+2024-10-24 12:15:47.811 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:15:47.867 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:15:47.867 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:15:47.904 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:15:47.944 [info] > /Applications/miniconda3/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-24 12:15:47.953 [error] [Error: Command failed: /Applications/miniconda3/bin/python -I /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+/bin/sh: 1: /Applications/miniconda3/bin/python: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/Applications/miniconda3/bin/python -I /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py'
+}
+2024-10-24 12:15:47.954 [info] Environments refresh paths discovered: 697 milliseconds
+2024-10-24 12:15:47.954 [info] Environments refresh paths discovered: 689 milliseconds
+2024-10-24 12:15:49.957 [info] > /Applications/miniconda3/bin/python -I ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-24 12:15:49.961 [error] [Error: Command failed: /Applications/miniconda3/bin/python -I /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+/bin/sh: 1: /Applications/miniconda3/bin/python: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/Applications/miniconda3/bin/python -I /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py'
+}
+2024-10-24 12:15:49.962 [info] Environments refresh finished (event): 2705 milliseconds
+2024-10-24 12:15:49.962 [info] Environments refresh finished (event): 2697 milliseconds
+2024-10-24 12:15:49.965 [info] Environment refresh took 2709 milliseconds
+2024-10-24 12:15:49.966 [info] Environment refresh took 2701 milliseconds
+2024-10-24 12:15:49.967 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:15:49.971 [info] > pyenv which python
+2024-10-24 12:15:49.972 [info] cwd: .
+2024-10-24 12:15:49.984 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:15:50.136 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:15:50.137 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:15:50.254 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:15:50.257 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:15:50.272 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:15:50.273 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:15:50.280 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:15:50.281 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:15:50.899 [info] 正在啟動 Pylance 語言伺服器。
+2024-10-24 12:15:50.909 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:15:50.915 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:15:50.921 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:15:50.923 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:15:50.930 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:15:50.931 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:15:53.251 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:15:53.254 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:21:43.256 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:21:43.281 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:21:46.328 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:21:46.389 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:22:16.132 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:22:16.138 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:22:22.491 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:22:22.499 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:23:15.834 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:23:15.843 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:23:18.093 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:23:18.095 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:23:29.329 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:23:31.756 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:23:33.630 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:23:33.633 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:23:39.345 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:23:40.902 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:23:44.727 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:23:44.731 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:24:12.009 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:24:12.013 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:24:22.225 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:24:25.251 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:24:46.568 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:24:46.572 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:24:48.240 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:24:48.242 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:24:49.860 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:24:49.865 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:24:58.401 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:24:58.429 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:24:58.641 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:24:59.301 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:24:59.308 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:25:13.447 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:25:13.450 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:25:21.821 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:25:23.692 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:25:41.339 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:25:42.944 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:25:45.513 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:25:48.355 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:25:48.360 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:25:56.224 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:25:59.177 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:26:02.010 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:26:02.165 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:26:02.172 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:26:19.170 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:27:11.093 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:27:19.484 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:27:59.249 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:28:52.492 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:28:56.985 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:29:01.291 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:29:06.732 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:29:13.994 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:29:16.471 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:29:50.755 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:30:14.788 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:30:23.635 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:30:24.305 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:30:24.309 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:30:24.315 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:30:24.318 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:30:25.753 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:30:26.904 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:30:31.485 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:30:33.044 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:30:34.311 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:31:35.694 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:32:16.527 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:32:38.251 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:32:38.258 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:32:42.655 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:32:42.657 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:32:44.606 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:32:44.610 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:32:50.129 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:32:50.135 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:32:52.714 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:32:54.646 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:32:57.274 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:33:00.965 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:33:00.971 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:33:06.441 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:33:06.445 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:33:12.254 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:33:13.651 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:33:15.220 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:33:27.976 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:33:44.201 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:33:50.038 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:33:51.442 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:33:59.955 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:34:06.137 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:34:17.189 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:34:21.754 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:34:34.802 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:34:34.809 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:34:37.473 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:34:37.477 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:34:42.514 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:34:45.951 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/emotion.py
+2024-10-24 12:34:56.103 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:34:56.107 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:35:02.765 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:35:03.884 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:35:21.374 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:35:22.526 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:35:22.533 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:35:30.527 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:35:30.531 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:35:37.615 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:35:37.619 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:35:40.820 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:35:40.823 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:36:21.115 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:36:21.117 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:36:52.312 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:36:53.696 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/keywords.py
+2024-10-24 12:47:42.473 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:47:42.477 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:47:45.808 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:47:45.811 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:48:13.308 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:48:13.312 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}
+2024-10-24 12:48:37.510 [warning] Failed to check if /Applications/miniconda3/bin/python is an executable [Error: ENOENT: no such file or directory, lstat '/Applications/miniconda3/bin/python'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/Applications/miniconda3/bin/python'
+}
+2024-10-24 12:48:37.522 [warning] Identifier for virt-virtualenv failed to identify /Applications/miniconda3/bin/python [Error: ENOENT: no such file or directory, scandir '/Applications/miniconda3/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/Applications/miniconda3/bin'
+}

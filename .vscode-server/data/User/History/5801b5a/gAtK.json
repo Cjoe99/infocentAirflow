@@ -1,0 +1,10 @@
+{
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.startupEditor": "none",
+    "jupyter.askForKernelRestart": false,
+    "remote.SSH.remotePlatform": {
+        "gce-airflow": "linux"
+    }
+}

@@ -1,0 +1,7 @@
+Listening on 127.0.0.1:35695
+[2024-10-24 16:47:14] info Disposed of connection to running server.
+looking for token cbfe9262-2f01-4a4d-a9e0-b7aa7a23cdd5, got Some("cbfe9262-2f01-4a4d-a9e0-b7aa7a23cdd5")
+[2024-10-24 16:47:14] info Checking /home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/log.txt and /home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/pid.txt for a running server...
+[2024-10-24 16:47:14] info Starting server...
+[2024-10-24 16:47:14] info Server started
+[2024-10-24 16:58:14] info Disposed of connection to running server.

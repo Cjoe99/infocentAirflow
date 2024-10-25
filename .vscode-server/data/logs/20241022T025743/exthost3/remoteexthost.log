@@ -1,0 +1,42 @@
+2024-10-22 04:39:04.649 [info] Extension host with pid 4501 started
+2024-10-22 04:39:04.747 [info] Eager extensions activated
+2024-10-22 04:39:04.778 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/ce349fe8f8e4bfdda9d6766be83d18a5/vscode.lock': Lock acquired.
+2024-10-22 04:40:14.065 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 04:40:14.066 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-22 04:40:14.066 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-10-22 04:40:14.067 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 04:40:14.067 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-10-22 04:40:14.743 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-10-22 04:40:14.743 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-10-22 04:40:15.334 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-10-22 04:40:15.335 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-10-22 04:40:19.352 [error] TypeError: Cannot read properties of undefined (reading 'id')
+	at /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:597134
+	at Array.forEach (<anonymous>)
+	at u.validateCache (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:597032)
+	at async x.addEnvsToCacheForQuery (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:603623)
+2024-10-22 04:40:19.353 [error] TypeError: Cannot read properties of undefined (reading 'id')
+	at /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:597134
+	at Array.forEach (<anonymous>)
+	at u.validateCache (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:597032)
+	at async x.addEnvsToCacheForQuery (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:603623)
+2024-10-22 04:40:19.354 [error] TypeError: Cannot read properties of undefined (reading 'id')
+	at /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:597134
+	at Array.forEach (<anonymous>)
+	at u.validateCache (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:597032)
+	at async x.addEnvsToCacheForQuery (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:603623)
+2024-10-22 04:40:19.354 [error] TypeError: Cannot read properties of undefined (reading 'id')
+	at /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:597134
+	at Array.forEach (<anonymous>)
+	at u.validateCache (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:597032)
+	at async x.addEnvsToCacheForQuery (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:603623)
+	at async _.autoselectInterpreterWithLocators (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:457090)
+	at async _.autoSelectInterpreter (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:454336)
+	at async v.activateWorkspace (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2204)
+2024-10-22 04:40:20.767 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-10-22 04:40:26.443 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-22 04:40:26.443 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-22 04:40:26.444 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-22 04:43:01.702 [info] Extension host terminating: received terminate message from renderer
+2024-10-22 04:43:01.703 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/ce349fe8f8e4bfdda9d6766be83d18a5/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-10-22 04:43:01.790 [info] Extension host with pid 4501 exiting with code 0

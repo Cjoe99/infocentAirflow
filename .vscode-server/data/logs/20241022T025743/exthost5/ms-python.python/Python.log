@@ -1,0 +1,38 @@
+2024-10-22 04:46:20.008 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-22 04:46:20.008 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-22 04:46:20.008 [info] Experiment 'pythonTestAdapter' is active
+2024-10-22 04:46:20.009 [warning] Dir "/home/jojoforjob/.pixi/envs" is not watchable (directory does not exist)
+2024-10-22 04:46:20.009 [info] Default formatter is set to null for workspace /home/jojoforjob
+2024-10-22 04:46:20.009 [info] Starting Environment refresh
+2024-10-22 04:46:20.009 [info] > pixi --version
+2024-10-22 04:46:20.009 [info] > hatch env show --json
+2024-10-22 04:46:20.010 [info] cwd: .
+2024-10-22 04:46:20.116 [info] Environments refresh finished (event): 748 milliseconds
+2024-10-22 04:46:20.116 [info] Environments refresh paths discovered: 748 milliseconds
+2024-10-22 04:46:20.118 [info] Environment refresh took 751 milliseconds
+2024-10-22 04:46:20.131 [info] Starting Environment refresh
+2024-10-22 04:46:20.138 [info] Environments refresh finished (event): 8 milliseconds
+2024-10-22 04:46:20.138 [info] Environments refresh paths discovered: 8 milliseconds
+2024-10-22 04:46:20.139 [info] Environment refresh took 9 milliseconds
+2024-10-22 04:46:20.147 [info] > pyenv which python
+2024-10-22 04:46:20.147 [info] cwd: .
+2024-10-22 04:46:20.246 [info] > python -c "import sys;print(sys.executable)"
+2024-10-22 04:46:20.248 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2024-10-22 04:46:20.368 [info] > pyenv which python
+2024-10-22 04:46:20.368 [info] cwd: .
+2024-10-22 04:46:21.104 [info] Starting Pylance language server.

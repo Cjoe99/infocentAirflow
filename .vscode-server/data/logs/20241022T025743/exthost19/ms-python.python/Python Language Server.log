@@ -1,0 +1,21 @@
+2024-10-22 11:21:32.709 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-22 11:21:32.894 [info] [Info  - 11:21:32 AM] (31674) Server root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 11:21:32.896 [info] [Info  - 11:21:32 AM] (31674) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-22 11:21:32.897 [info] [Info  - 11:21:32 AM] (31674) Starting service instance "jojoforjob"
+2024-10-22 11:21:33.078 [info] [Info  - 11:21:33 AM] (31674) Setting environmentName for service "jojoforjob": "3.8.10 (global)"
+2024-10-22 11:21:33.079 [info] [Info  - 11:21:33 AM] (31674) Setting pythonPath for service "jojoforjob": "/usr/bin/python3"
+2024-10-22 11:21:33.080 [info] [Info  - 11:21:33 AM] (31674) No include entries specified; assuming /home/jojoforjob
+2024-10-22 11:21:33.082 [info] [Info  - 11:21:33 AM] (31674) Auto-excluding **/node_modules
+2024-10-22 11:21:33.082 [info] [Info  - 11:21:33 AM] (31674) Auto-excluding **/__pycache__
+2024-10-22 11:21:33.083 [info] [Info  - 11:21:33 AM] (31674) Auto-excluding **/.*
+2024-10-22 11:21:33.132 [info] [Info  - 11:21:33 AM] (31674) Assuming Python version 3.8.10.final.0
+2024-10-22 11:21:33.738 [info] [Info  - 11:21:33 AM] (31674) Found 7 source files
+2024-10-22 11:21:35.427 [info] [Info  - 11:21:35 AM] (31674) Background analysis(1) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 11:21:35.427 [info] [Info  - 11:21:35 AM] (31674) Background analysis(1) started
+2024-10-22 11:21:36.537 [info] [Info  - 11:21:36 AM] (31674) Indexer background runner(2) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-22 11:21:36.537 [info] [Info  - 11:21:36 AM] (31674) Indexing(2) started
+2024-10-22 11:21:38.565 [info] [Info  - 11:21:38 AM] (31674) scanned(2) 76 files over 1 exec env
+2024-10-22 11:21:39.151 [info] [Info  - 11:21:39 AM] (31674) indexed(2) 76 files over 1 exec env
+2024-10-22 11:21:39.215 [info] [Info  - 11:21:39 AM] (31674) Indexing finished(2).
+2024-10-22 11:28:20.836 [info] [Info  - 11:28:20 AM] (31674) Found 8 source files
+2024-10-22 11:51:54.300 [info] [Info  - 11:51:54 AM] (31674) [BG(1)] Long operation: SemanticTokens delta previousResultId:1729597651970 at file:///home/jojoforjob/dags/slacktest.py (2411ms)

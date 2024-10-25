@@ -1,0 +1,18 @@
+2024-10-22 04:46:20.879 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-22 04:46:21.083 [info] [Info  - 4:46:21 AM] (5717) Server root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 04:46:21.084 [info] [Info  - 4:46:21 AM] (5717) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-22 04:46:21.084 [info] [Info  - 4:46:21 AM] (5717) Starting service instance "jojoforjob"
+2024-10-22 04:46:21.154 [info] [Info  - 4:46:21 AM] (5717) Setting environmentName for service "jojoforjob": "python"
+2024-10-22 04:46:21.155 [info] [Info  - 4:46:21 AM] (5717) No include entries specified; assuming /home/jojoforjob
+2024-10-22 04:46:21.156 [info] [Info  - 4:46:21 AM] (5717) Auto-excluding **/node_modules
+2024-10-22 04:46:21.157 [info] [Info  - 4:46:21 AM] (5717) Auto-excluding **/__pycache__
+2024-10-22 04:46:21.157 [info] [Info  - 4:46:21 AM] (5717) Auto-excluding **/.*
+2024-10-22 04:46:21.370 [info] [Info  - 4:46:21 AM] (5717) Found 3 source files
+2024-10-22 04:46:23.328 [info] [Info  - 4:46:23 AM] (5717) Background analysis(1) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 04:46:23.334 [info] [Info  - 4:46:23 AM] (5717) Background analysis(1) started
+2024-10-22 04:46:23.650 [info] [Info  - 4:46:23 AM] (5717) Indexer background runner(2) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-22 04:46:23.651 [info] [Info  - 4:46:23 AM] (5717) Indexing(2) started
+2024-10-22 04:46:25.599 [info] [Info  - 4:46:25 AM] (5717) [BG(1)] Long operation: SemanticTokens full at file:///home/jojoforjob/dags/1.py (2074ms)
+2024-10-22 04:46:25.761 [info] [Info  - 4:46:25 AM] (5717) scanned(2) 76 files over 1 exec env
+2024-10-22 04:46:26.156 [info] [Info  - 4:46:26 AM] (5717) indexed(2) 76 files over 1 exec env
+2024-10-22 04:46:26.222 [info] [Info  - 4:46:26 AM] (5717) Indexing finished(2).

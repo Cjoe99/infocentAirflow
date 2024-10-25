@@ -1,0 +1,17 @@
+2024-10-24 05:16:41.046 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-24 05:16:41.046 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-24 05:16:41.046 [info] Experiment 'pythonTestAdapter' is active
+2024-10-24 05:16:41.046 [warning] Dir "/home/jojoforjob/.pixi/envs" is not watchable (directory does not exist)
+2024-10-24 05:16:41.046 [info] Default formatter is set to null for workspace /home/jojoforjob
+2024-10-24 05:16:41.046 [info] Starting Environment refresh
+2024-10-24 05:16:41.046 [info] > pixi --version
+2024-10-24 05:16:41.046 [info] > hatch env show --json
+2024-10-24 05:16:41.046 [info] cwd: .
+2024-10-24 05:16:41.170 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-24 05:16:41.180 [info] Environments refresh finished (event): 1553 milliseconds
+2024-10-24 05:16:41.180 [info] Environments refresh paths discovered: 1553 milliseconds
+2024-10-24 05:16:41.182 [info] Environment refresh took 1556 milliseconds
+2024-10-24 05:16:41.195 [info] > pyenv which python
+2024-10-24 05:16:41.195 [info] cwd: .
+2024-10-24 05:16:41.397 [info] Python interpreter path: /bin/python3
+2024-10-24 05:16:42.907 [info] Starting Pylance language server.

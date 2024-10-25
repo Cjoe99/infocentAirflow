@@ -1,0 +1,37 @@
+2024-10-24 09:39:20.927 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-24 09:39:21.108 [info] [Info  - 9:39:21 AM] (21737) Server root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-24 09:39:21.109 [info] [Info  - 9:39:21 AM] (21737) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-24 09:39:21.109 [info] [Info  - 9:39:21 AM] (21737) Starting service instance "jojoforjob"
+2024-10-24 09:39:21.181 [info] [Info  - 9:39:21 AM] (21737) Setting environmentName for service "jojoforjob": "3.8.10 (global)"
+2024-10-24 09:39:21.182 [info] [Info  - 9:39:21 AM] (21737) Setting pythonPath for service "jojoforjob": "/bin/python3"
+2024-10-24 09:39:21.182 [info] [Info  - 9:39:21 AM] (21737) No include entries specified; assuming /home/jojoforjob
+2024-10-24 09:39:21.187 [info] [Info  - 9:39:21 AM] (21737) Auto-excluding **/node_modules
+2024-10-24 09:39:21.188 [info] [Info  - 9:39:21 AM] (21737) Auto-excluding **/__pycache__
+2024-10-24 09:39:21.188 [info] [Info  - 9:39:21 AM] (21737) Auto-excluding **/.*
+2024-10-24 09:39:21.220 [info] [Info  - 9:39:21 AM] (21737) Assuming Python version 3.8.10.final.0
+2024-10-24 09:39:21.593 [info] [Info  - 9:39:21 AM] (21737) Found 8 source files
+2024-10-24 09:39:22.477 [info] [Info  - 9:39:22 AM] (21737) Background analysis(1) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-24 09:39:22.478 [info] [Info  - 9:39:22 AM] (21737) Background analysis(1) started
+2024-10-24 09:39:22.805 [info] [Info  - 9:39:22 AM] (21737) Indexer background runner(2) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-24 09:39:22.806 [info] [Info  - 9:39:22 AM] (21737) Indexing(2) started
+2024-10-24 09:39:23.737 [info] [Info  - 9:39:23 AM] (21737) scanned(2) 76 files over 1 exec env
+2024-10-24 09:39:24.219 [info] [Info  - 9:39:24 AM] (21737) indexed(2) 76 files over 1 exec env
+2024-10-24 09:39:24.263 [info] [Info  - 9:39:24 AM] (21737) Indexing finished(2).
+2024-10-24 12:21:45.719 [info] [Info  - 12:21:45 PM] (21737) Found 9 source files
+2024-10-24 12:21:47.190 [info] [Info  - 12:21:47 PM] (21737) Found 10 source files
+2024-10-24 12:22:16.846 [info] [Info  - 12:22:16 PM] (21737) Found 9 source files
+2024-10-24 12:22:23.309 [info] [Info  - 12:22:23 PM] (21737) Found 8 source files
+2024-10-24 12:23:16.565 [info] [Info  - 12:23:16 PM] (21737) Found 9 source files
+2024-10-24 12:23:18.373 [info] [Info  - 12:23:18 PM] (21737) Found 10 source files
+2024-10-24 13:05:19.228 [info] [Info  - 1:05:19 PM] (21737) Starting service instance "<default>"
+2024-10-24 13:05:19.272 [info] [Info  - 1:05:19 PM] (21737) Setting environmentName for service "<default>": "3.8.10 (global)"
+2024-10-24 13:05:19.273 [info] [Info  - 1:05:19 PM] (21737) Setting pythonPath for service "<default>": "/bin/python3"
+2024-10-24 13:05:19.275 [info] [Info  - 1:05:19 PM] (21737) No include entries specified; assuming /<default workspace root>
+2024-10-24 13:05:19.276 [info] [Info  - 1:05:19 PM] (21737) Auto-excluding **/node_modules
+2024-10-24 13:05:19.276 [info] [Info  - 1:05:19 PM] (21737) Auto-excluding **/__pycache__
+2024-10-24 13:05:19.276 [info] [Info  - 1:05:19 PM] (21737) Auto-excluding **/.*
+2024-10-24 13:05:19.315 [info] [Info  - 1:05:19 PM] (21737) Assuming Python version 3.8.10.final.0
+2024-10-24 13:05:19.416 [info] [Error - 1:05:19 PM] (21737) File or directory "/<default workspace root>" does not exist.
+2024-10-24 13:05:19.418 [info] [Info  - 1:05:19 PM] (21737) No source files found.
+2024-10-24 13:05:20.191 [info] [Info  - 1:05:20 PM] (21737) Background analysis(3) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-24 13:05:20.196 [info] [Info  - 1:05:20 PM] (21737) Background analysis(3) started

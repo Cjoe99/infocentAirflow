@@ -1,0 +1,27 @@
+2024-10-22 12:28:52.882 [info] Extension host with pid 34425 started
+2024-10-22 12:28:52.923 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb/vscode.lock': Lock acquired.
+2024-10-22 12:28:53.032 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-22 12:28:53.035 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-10-22 12:28:53.035 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-10-22 12:28:54.537 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-10-22 12:28:54.538 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-10-22 12:28:55.310 [info] Eager extensions activated
+2024-10-22 12:28:55.311 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 12:28:55.313 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 12:28:55.545 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-10-22 12:28:55.550 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-10-22 12:40:44.658 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-10-22 12:40:44.661 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-10-22 12:40:44.691 [error] Canceled: Canceled
+	at Ac (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:31:152630
+	at Array.forEach (<anonymous>)
+	at Zb.dispose (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:31:152570)
+	at hB.terminate (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:118:10085)
+	at M3.terminate (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at H4.a (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:174:11968)
+	at H4.h (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:30:75706)
+	at listOnTimeout (node:internal/timers:581:17)
+	at process.processTimers (node:internal/timers:519:7) setContext undefined
+2024-10-22 12:40:44.788 [info] Extension host with pid 34425 exiting with code 0

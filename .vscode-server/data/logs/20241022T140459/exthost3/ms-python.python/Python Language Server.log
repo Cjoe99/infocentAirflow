@@ -1,0 +1,20 @@
+2024-10-22 14:26:26.128 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-22 14:26:26.733 [info] [Info  - 2:26:26 PM] (41246) Server root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 14:26:26.734 [info] [Info  - 2:26:26 PM] (41246) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-22 14:26:26.734 [info] [Info  - 2:26:26 PM] (41246) Starting service instance "jojoforjob"
+2024-10-22 14:26:26.855 [info] [Info  - 2:26:26 PM] (41246) Setting environmentName for service "jojoforjob": "3.8.10 (global)"
+2024-10-22 14:26:26.856 [info] [Info  - 2:26:26 PM] (41246) Setting pythonPath for service "jojoforjob": "/usr/bin/python3"
+2024-10-22 14:26:26.856 [info] [Info  - 2:26:26 PM] (41246) No include entries specified; assuming /home/jojoforjob
+2024-10-22 14:26:26.856 [info] [Info  - 2:26:26 PM] (41246) Auto-excluding **/node_modules
+2024-10-22 14:26:26.856 [info] [Info  - 2:26:26 PM] (41246) Auto-excluding **/__pycache__
+2024-10-22 14:26:26.856 [info] [Info  - 2:26:26 PM] (41246) Auto-excluding **/.*
+2024-10-22 14:26:26.881 [info] [Info  - 2:26:26 PM] (41246) Assuming Python version 3.8.10.final.0
+2024-10-22 14:26:27.972 [info] [Info  - 2:26:27 PM] (41246) Found 8 source files
+2024-10-22 14:26:29.281 [info] [Info  - 2:26:29 PM] (41246) Background analysis(1) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 14:26:29.282 [info] [Info  - 2:26:29 PM] (41246) Background analysis(1) started
+2024-10-22 14:26:30.775 [info] [Info  - 2:26:30 PM] (41246) Indexer background runner(2) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-22 14:26:30.775 [info] [Info  - 2:26:30 PM] (41246) Indexing(2) started
+2024-10-22 14:26:31.665 [info] [Info  - 2:26:31 PM] (41246) [BG(1)] Long operation: SemanticTokens full at file:///home/jojoforjob/dags/slacktest.py (2177ms)
+2024-10-22 14:26:32.557 [info] [Info  - 2:26:32 PM] (41246) scanned(2) 76 files over 1 exec env
+2024-10-22 14:26:32.975 [info] [Info  - 2:26:32 PM] (41246) indexed(2) 76 files over 1 exec env
+2024-10-22 14:26:33.041 [info] [Info  - 2:26:33 PM] (41246) Indexing finished(2).

@@ -1,0 +1,16 @@
+2024-10-22 02:31:05,335 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2024-10-22 02:31:05,340 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'os_login']
+2024-10-22 02:31:05,349 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'os-login', 'describe_profile']
+2024-10-22 02:31:05,351 DEBUG    root            Running [gcloud.compute.os-login.describe-profile] with arguments: [--project: "tir103-kafka"]
+2024-10-22 02:31:05,394 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oslogin.googleapis.com:443
+2024-10-22 02:31:05,493 DEBUG    urllib3.connectionpool https://oslogin.googleapis.com:443 "GET /v1/users/1087720728285-compute@developer.gserviceaccount.com/loginProfile?alt=json HTTP/1.1" 200 None
+2024-10-22 02:31:05,495 DEBUG    root            Chosen display Format:default
+2024-10-22 02:31:05,496 INFO     root            Display format: "default"
+2024-10-22 02:31:05,514 INFO     ___FILE_ONLY___ name
+2024-10-22 02:31:05,514 INFO     ___FILE_ONLY___ :
+2024-10-22 02:31:05,514 INFO     ___FILE_ONLY___  '
+2024-10-22 02:31:05,514 INFO     ___FILE_ONLY___ 114438844260153227402
+2024-10-22 02:31:05,514 INFO     ___FILE_ONLY___ '
+2024-10-22 02:31:05,514 INFO     ___FILE_ONLY___ 
+
+2024-10-22 02:31:05,515 DEBUG    root            SDK update checks are disabled.

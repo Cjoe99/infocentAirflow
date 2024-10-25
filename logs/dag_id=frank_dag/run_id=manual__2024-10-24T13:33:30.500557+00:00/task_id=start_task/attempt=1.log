@@ -1,0 +1,22 @@
+[2024-10-24T13:33:36.740+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-24T13:33:36.753+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: frank_dag.start_task manual__2024-10-24T13:33:30.500557+00:00 [queued]>
+[2024-10-24T13:33:36.762+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: frank_dag.start_task manual__2024-10-24T13:33:30.500557+00:00 [queued]>
+[2024-10-24T13:33:36.762+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-24T13:33:36.782+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): start_task> on 2024-10-24 13:33:30.500557+00:00
+[2024-10-24T13:33:36.790+0000] {standard_task_runner.py:72} INFO - Started process 19750 to run task
+[2024-10-24T13:33:36.795+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'frank_dag', 'start_task', 'manual__2024-10-24T13:33:30.500557+00:00', '--job-id', '948', '--raw', '--subdir', 'DAGS_FOLDER/frank_dag.py', '--cfg-path', '/tmp/tmph0xgfd77']
+[2024-10-24T13:33:36.798+0000] {standard_task_runner.py:105} INFO - Job 948: Subtask start_task
+[2024-10-24T13:33:36.848+0000] {task_command.py:467} INFO - Running <TaskInstance: frank_dag.start_task manual__2024-10-24T13:33:30.500557+00:00 [running]> on host 60bbe790d101
+[2024-10-24T13:33:36.946+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='frank_dag' AIRFLOW_CTX_TASK_ID='start_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-24T13:33:30.500557+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-24T13:33:30.500557+00:00'
+[2024-10-24T13:33:36.947+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-24T13:33:36.976+0000] {baseoperator.py:405} WARNING - SlackWebhookOperator.execute cannot be called outside TaskInstance!
+[2024-10-24T13:33:36.982+0000] {base.py:84} INFO - Retrieving connection 'slack_webhook'
+[2024-10-24T13:33:37.332+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-10-24T13:33:37.340+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-24T13:33:37.341+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=frank_dag, task_id=start_task, run_id=manual__2024-10-24T13:33:30.500557+00:00, execution_date=20241024T133330, start_date=20241024T133336, end_date=20241024T133337
+[2024-10-24T13:33:37.341+0000] {taskinstance.py:1563} INFO - Executing callback at index 0: slack_success_callback
+[2024-10-24T13:33:37.343+0000] {baseoperator.py:405} WARNING - SlackWebhookOperator.execute cannot be called outside TaskInstance!
+[2024-10-24T13:33:37.345+0000] {base.py:84} INFO - Retrieving connection 'slack_webhook'
+[2024-10-24T13:33:37.693+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-24T13:33:37.716+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-24T13:33:37.720+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

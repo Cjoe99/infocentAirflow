@@ -1,0 +1,108 @@
+2024-10-22 12:37:52.292 [info] Extension host with pid 36176 started
+2024-10-22 12:37:52.296 [error] Error: EEXIST: file already exists, open '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb/vscode.lock'
+2024-10-22 12:37:52.695 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-22 12:37:52.811 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-22 12:37:52.821 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-10-22 12:37:52.825 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-10-22 12:37:53.752 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb/vscode.lock': The lock does not look stale, elapsed: 496 ms, giving up.
+2024-10-22 12:37:53.809 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb-1/vscode.lock': Lock acquired.
+2024-10-22 12:37:54.306 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-10-22 12:37:54.307 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-10-22 12:37:54.866 [info] Eager extensions activated
+2024-10-22 12:37:54.867 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 12:37:54.869 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-22 12:37:55.234 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-10-22 12:37:55.235 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-10-22 12:40:25.406 [info] Extension host terminating: received terminate message from renderer
+2024-10-22 12:40:25.558 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-10-22 12:40:27.898 [error] Canceled: Canceled
+	at Ac (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:7:1122)
+	at file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:31:152630
+	at Array.forEach (<anonymous>)
+	at Zb.dispose (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:31:152570)
+	at hB.terminate (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:118:10085)
+	at M3.terminate (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at ps (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:174:15058)
+	at gh.value (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:174:13218)
+	at T.B (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at no.fire (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:31:9399)
+	at Im.A (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:31:12515)
+	at gh.value (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:31:10935)
+	at T.B (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:29:732)
+	at T.fire (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:29:950)
+	at m5.acceptChunk (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7880)
+	at file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7166
+	at Socket.t (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:31:15393)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2024-10-22 12:40:28.051 [error] [ms-python.python] provider FAILED
+2024-10-22 12:40:28.054 [error] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async NS.provideDocumentRangeSemanticTokens (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:135888)
+2024-10-22 12:40:28.077 [error] [ms-python.python] provider FAILED
+2024-10-22 12:40:28.077 [error] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-22 12:40:28.078 [error] [ms-python.python] provider FAILED
+2024-10-22 12:40:28.079 [error] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async NS.provideDocumentRangeSemanticTokens (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:135888)
+2024-10-22 12:40:28.079 [error] [ms-python.python] provider FAILED
+2024-10-22 12:40:28.080 [error] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-22 12:40:28.081 [error] [ms-python.python] provider FAILED
+2024-10-22 12:40:28.082 [error] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async NS.provideDocumentRangeSemanticTokens (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:135888)
+2024-10-22 12:40:28.085 [error] [ms-python.python] provider FAILED
+2024-10-22 12:40:28.098 [error] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async NS.provideDocumentRangeSemanticTokens (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:135888)
+2024-10-22 12:40:28.099 [error] [ms-python.python] provider FAILED
+2024-10-22 12:40:28.100 [error] Error: Starting server failed
+	at P.$start (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2118973)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async P.sendRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2102459)
+	at async o (/home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2214685)
+	at async ag.provideInlayHints (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:137:143180)
+2024-10-22 12:40:28.373 [error] SyntaxError: Unexpected end of JSON input
+	at JSON.parse (<anonymous>)
+	at Gb (file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:174:6162)
+	at async file:///home/jojoforjob/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/out/vs/workbench/api/node/extensionHostProcess.js:174:5091
+2024-10-22 12:40:28.373 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb-1/vscode.lock': The lock was lost unexpectedly.
+2024-10-22 12:40:31.119 [error] TypeError: Cannot set properties of undefined (setting 'name')
+	at /home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist/extension.bundle.js:1:176000
+2024-10-22 12:40:31.146 [error] Error: Stopping the server timed out
+	at /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2115368
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processTimers (node:internal/timers:516:9)
+	at async Object.stop (/home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist/extension.bundle.js:1:132718)
+	at async _0x444225._stopClient (/home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist/extension.bundle.js:1:77227)
+	at async _0x444225._createNewRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist/extension.bundle.js:1:76814)
+2024-10-22 12:40:31.148 [error] Error: Stopping the server timed out
+	at /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/out/client/extension.js:2:2115368
+	at runNextTicks (node:internal/process/task_queues:60:5)
+	at process.processTimers (node:internal/timers:516:9)
+	at async Object.stop (/home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist/extension.bundle.js:1:132718)
+	at async _0x444225._stopClient (/home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist/extension.bundle.js:1:77227)
+	at async _0x444225._createNewRequest (/home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist/extension.bundle.js:1:76814)
+2024-10-22 12:40:31.148 [info] Extension host with pid 36176 exiting with code 0

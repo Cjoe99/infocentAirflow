@@ -1,0 +1,26 @@
+2024-10-22 12:43:26.142 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-22 12:43:30.420 [info] [Info  - 12:43:30 PM] (37477) Server root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 12:43:30.426 [info] [Info  - 12:43:30 PM] (37477) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-22 12:43:30.429 [info] [Info  - 12:43:30 PM] (37477) Starting service instance "jojoforjob"
+2024-10-22 12:43:30.875 [info] [Info  - 12:43:30 PM] (37477) Setting environmentName for service "jojoforjob": "3.8.10 (global)"
+2024-10-22 12:43:30.894 [info] [Info  - 12:43:30 PM] (37477) Setting pythonPath for service "jojoforjob": "/bin/python3"
+2024-10-22 12:43:30.895 [info] [Info  - 12:43:30 PM] (37477) No include entries specified; assuming /home/jojoforjob
+2024-10-22 12:43:30.895 [info] [Info  - 12:43:30 PM] (37477) Auto-excluding **/node_modules
+2024-10-22 12:43:30.896 [info] [Info  - 12:43:30 PM] (37477) Auto-excluding **/__pycache__
+2024-10-22 12:43:30.900 [info] [Info  - 12:43:30 PM] (37477) Auto-excluding **/.*
+2024-10-22 12:43:31.078 [info] [Info  - 12:43:31 PM] (37477) Assuming Python version 3.8.10.final.0
+2024-10-22 12:43:33.595 [info] [Info  - 12:43:33 PM] (37477) Found 8 source files
+2024-10-22 12:43:38.834 [info] [Info  - 12:43:38 PM] (37477) [FG] Long operation: parsing: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist/typeshed-fallback/stdlib/builtins.pyi (2678ms)
+2024-10-22 12:43:42.117 [info] [Info  - 12:43:42 PM] (37477) Background analysis(1) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 12:43:42.118 [info] [Info  - 12:43:42 PM] (37477) Background analysis(1) started
+2024-10-22 12:43:45.064 [info] [Info  - 12:43:45 PM] (37477) [BG(1)] Long operation: parsing: file:///home/jojoforjob/utils/test.py (2385ms)
+2024-10-22 12:43:46.333 [info] [Info  - 12:43:46 PM] (37477) Indexer background runner(2) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-22 12:43:46.336 [info] [Info  - 12:43:46 PM] (37477) Indexing(2) started
+2024-10-22 12:43:47.326 [info] [Info  - 12:43:47 PM] (37477) [BG(1)] Long operation: parsing: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist/typeshed-fallback/stdlib/builtins.pyi (2256ms)
+2024-10-22 12:43:54.313 [info] [Info  - 12:43:54 PM] (37477) [IDX(2)] Long operation: scan packages file:///home/jojoforjob (6492ms)
+2024-10-22 12:43:54.314 [info] [Info  - 12:43:54 PM] (37477) scanned(2) 76 files over 1 exec env
+2024-10-22 12:43:55.104 [info] [Info  - 12:43:55 PM] (37477) [BG(1)] Long operation: SemanticTokens full at file:///home/jojoforjob/utils/test.py (12411ms)
+2024-10-22 12:43:59.673 [info] [Info  - 12:43:59 PM] (37477) indexed(2) 76 files over 1 exec env
+2024-10-22 12:44:00.109 [info] [Info  - 12:44:00 PM] (37477) Indexing finished(2).
+2024-10-22 12:44:01.662 [info] [Info  - 12:44:01 PM] (37477) [BG(1)] Long operation: checking: file:///home/jojoforjob/dags/frank_dag.py (4582ms)
+2024-10-22 12:44:01.666 [info] [Info  - 12:44:01 PM] (37477) [BG(1)] Long operation: analyzing: file:///home/jojoforjob/dags/frank_dag.py (4996ms)

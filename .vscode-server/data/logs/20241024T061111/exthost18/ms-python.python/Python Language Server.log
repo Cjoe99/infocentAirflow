@@ -1,0 +1,21 @@
+2024-10-24 12:59:26.391 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-24 12:59:26.543 [info] [Info  - 12:59:26 PM] (46963) Server root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-24 12:59:26.544 [info] [Info  - 12:59:26 PM] (46963) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-24 12:59:26.544 [info] [Info  - 12:59:26 PM] (46963) Starting service instance "jojoforjob"
+2024-10-24 12:59:26.646 [info] [Info  - 12:59:26 PM] (46963) Setting environmentName for service "jojoforjob": "3.9.6 (global)"
+2024-10-24 12:59:26.647 [info] [Info  - 12:59:26 PM] (46963) Setting pythonPath for service "jojoforjob": "/usr/bin/python3"
+2024-10-24 12:59:26.648 [info] [Info  - 12:59:26 PM] (46963) No include entries specified; assuming /home/jojoforjob
+2024-10-24 12:59:26.648 [info] [Info  - 12:59:26 PM] (46963) Auto-excluding **/node_modules
+2024-10-24 12:59:26.649 [info] [Info  - 12:59:26 PM] (46963) Auto-excluding **/__pycache__
+2024-10-24 12:59:26.650 [info] [Info  - 12:59:26 PM] (46963) Auto-excluding **/.*
+2024-10-24 12:59:26.699 [info] [Info  - 12:59:26 PM] (46963) Assuming Python version 3.8.10.final.0
+2024-10-24 12:59:27.174 [info] [Info  - 12:59:27 PM] (46963) Found 10 source files
+2024-10-24 12:59:28.245 [info] [Info  - 12:59:28 PM] (46963) Background analysis(1) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-24 12:59:28.247 [info] [Info  - 12:59:28 PM] (46963) Background analysis(1) started
+2024-10-24 12:59:28.910 [info] [Info  - 12:59:28 PM] (46963) Indexer background runner(2) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-24 12:59:28.910 [info] [Info  - 12:59:28 PM] (46963) Indexing(2) started
+2024-10-24 12:59:30.062 [info] [Info  - 12:59:30 PM] (46963) scanned(2) 76 files over 1 exec env
+2024-10-24 12:59:30.580 [info] [Info  - 12:59:30 PM] (46963) indexed(2) 76 files over 1 exec env
+2024-10-24 12:59:30.659 [info] [Info  - 12:59:30 PM] (46963) Indexing finished(2).
+2024-10-24 12:59:30.928 [info] [Info  - 12:59:30 PM] (46963) [BG(1)] Long operation: SemanticTokens full at file:///home/jojoforjob/dags/keywords.py (2555ms)
+2024-10-24 13:47:05.219 [info] [Info  - 1:47:05 PM] (46963) Found 11 source files

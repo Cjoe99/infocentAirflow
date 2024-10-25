@@ -1,0 +1,22 @@
+2024-10-22 12:28:58.260 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-22 12:28:58.823 [info] [Info  - 12:28:58 PM] (34630) Server root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 12:28:58.824 [info] [Info  - 12:28:58 PM] (34630) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-22 12:28:58.825 [info] [Info  - 12:28:58 PM] (34630) Starting service instance "jojoforjob"
+2024-10-22 12:28:58.953 [info] [Info  - 12:28:58 PM] (34630) Setting environmentName for service "jojoforjob": "3.8.10 (global)"
+2024-10-22 12:28:58.955 [info] [Info  - 12:28:58 PM] (34630) Setting pythonPath for service "jojoforjob": "/bin/python3"
+2024-10-22 12:28:58.956 [info] [Info  - 12:28:58 PM] (34630) No include entries specified; assuming /home/jojoforjob
+2024-10-22 12:28:58.958 [info] [Info  - 12:28:58 PM] (34630) Auto-excluding **/node_modules
+2024-10-22 12:28:58.958 [info] [Info  - 12:28:58 PM] (34630) Auto-excluding **/__pycache__
+2024-10-22 12:28:58.960 [info] [Info  - 12:28:58 PM] (34630) Auto-excluding **/.*
+2024-10-22 12:28:59.036 [info] [Info  - 12:28:59 PM] (34630) Assuming Python version 3.8.10.final.0
+2024-10-22 12:28:59.945 [info] [Info  - 12:28:59 PM] (34630) Found 8 source files
+2024-10-22 12:29:02.247 [info] [Info  - 12:29:02 PM] (34630) Background analysis(1) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 12:29:02.281 [info] [Info  - 12:29:02 PM] (34630) Background analysis(1) started
+2024-10-22 12:29:03.325 [info] [Info  - 12:29:03 PM] (34630) Indexer background runner(2) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-22 12:29:03.329 [info] [Info  - 12:29:03 PM] (34630) Indexing(2) started
+2024-10-22 12:29:06.714 [info] [Info  - 12:29:06 PM] (34630) [BG(1)] Long operation: SemanticTokens full at file:///home/jojoforjob/dags/slacktest.py (3804ms)
+2024-10-22 12:29:08.770 [info] [Info  - 12:29:08 PM] (34630) [IDX(2)] Long operation: scan packages file:///home/jojoforjob (4806ms)
+2024-10-22 12:29:08.770 [info] [Info  - 12:29:08 PM] (34630) scanned(2) 76 files over 1 exec env
+2024-10-22 12:33:27.905 [info] [Info  - 12:33:27 PM] (34630) [IDX(2)] Long operation: index packages file:///home/jojoforjob (2508ms)
+2024-10-22 12:33:28.077 [info] [Info  - 12:33:28 PM] (34630) indexed(2) 76 files over 1 exec env
+2024-10-22 12:33:30.896 [info] [Info  - 12:33:30 PM] (34630) Indexing finished(2).

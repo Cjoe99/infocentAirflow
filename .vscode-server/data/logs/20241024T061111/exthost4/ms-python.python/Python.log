@@ -1,0 +1,21 @@
+2024-10-24 06:25:44.418 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-24 06:25:44.418 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-24 06:25:44.418 [info] Experiment 'pythonTestAdapter' is active
+2024-10-24 06:25:44.418 [warning] Dir "/home/jojoforjob/.pixi/envs" is not watchable (directory does not exist)
+2024-10-24 06:25:44.462 [info] Default formatter is set to null for workspace /home/jojoforjob
+2024-10-24 06:25:45.290 [info] > pyenv which python
+2024-10-24 06:25:45.290 [info] cwd: .
+2024-10-24 06:25:45.380 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-24 06:25:45.455 [info] Python interpreter path: /bin/python3
+2024-10-24 06:25:45.551 [info] > pixi --version
+2024-10-24 06:25:46.290 [info] Starting Pylance language server.
+2024-10-24 06:29:56.462 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-24 06:31:11.460 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-24 06:32:07.932 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-24 06:41:17.234 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-24 06:41:35.193 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-24 06:42:07.976 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-24 06:43:06.332 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-24 06:44:44.434 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag2.py
+2024-10-24 06:46:03.305 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag2.py
+2024-10-24 06:49:21.482 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/test2.py

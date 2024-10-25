@@ -1,0 +1,28 @@
+2024-10-24 12:59:22.900 [info] Extension host with pid 46753 started
+2024-10-24 12:59:22.901 [error] Error: EEXIST: file already exists, open '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb/vscode.lock'
+2024-10-24 12:59:22.914 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-24 12:59:22.996 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-24 12:59:23.011 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-10-24 12:59:23.012 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-10-24 12:59:23.688 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb/vscode.lock': The lock does not look stale, elapsed: 1203 ms, giving up.
+2024-10-24 12:59:23.695 [error] Error: EEXIST: file already exists, open '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb-1/vscode.lock'
+2024-10-24 12:59:23.697 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-24 12:59:23.698 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb-1/vscode.lock': The lock does not look stale, elapsed: 265 ms, giving up.
+2024-10-24 12:59:23.699 [error] Error: EEXIST: file already exists, open '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb-2/vscode.lock'
+2024-10-24 12:59:23.700 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb-2/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-10-24 12:59:23.701 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb-2/vscode.lock': The lock does not look stale, elapsed: 270 ms, giving up.
+2024-10-24 12:59:23.713 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb-3/vscode.lock': Lock acquired.
+2024-10-24 12:59:24.039 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-10-24 12:59:24.040 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-10-24 12:59:24.524 [info] Eager extensions activated
+2024-10-24 12:59:24.525 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-24 12:59:24.525 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-24 12:59:24.650 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-10-24 12:59:24.651 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-10-24 13:50:40.862 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-10-24 13:50:46.130 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-24 13:50:46.131 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-24 13:50:46.131 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-24 16:34:53.189 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-10-24 16:34:53.200 [info] Lock '/home/jojoforjob/.vscode-server/data/User/workspaceStorage/888e44ecd94f153848f9a8e0382318fb-3/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-10-24 16:34:53.350 [info] Extension host with pid 46753 exiting with code 0

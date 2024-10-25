@@ -1,0 +1,28 @@
+2024-10-24 09:39:19.341 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-24 09:39:19.341 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-24 09:39:19.341 [info] Experiment 'pythonTestAdapter' is active
+2024-10-24 09:39:19.341 [warning] Dir "/home/jojoforjob/.pixi/envs" is not watchable (directory does not exist)
+2024-10-24 09:39:19.450 [info] Default formatter is set to null for workspace /home/jojoforjob
+2024-10-24 09:39:19.975 [info] Python interpreter path: /bin/python3
+2024-10-24 09:39:20.148 [info] > pyenv which python
+2024-10-24 09:39:20.148 [info] cwd: .
+2024-10-24 09:39:20.274 [info] > pixi --version
+2024-10-24 09:39:21.131 [info] Starting Pylance language server.
+2024-10-24 09:45:16.594 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 10:22:56.947 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 12:06:03.996 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 12:06:19.177 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 12:11:55.437 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 12:13:27.243 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 12:37:23.667 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 12:40:01.481 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 12:43:52.129 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 12:49:05.316 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 13:10:12.313 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 13:13:12.117 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 13:17:58.964 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 13:23:08.187 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 13:23:19.805 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 13:28:12.487 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 13:31:22.785 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py
+2024-10-24 13:33:00.288 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/frank_dag.py

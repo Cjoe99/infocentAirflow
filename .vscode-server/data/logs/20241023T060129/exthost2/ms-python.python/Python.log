@@ -1,0 +1,48 @@
+2024-10-23 06:01:41.216 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-23 06:01:41.216 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-23 06:01:41.216 [info] Experiment 'pythonTestAdapter' is active
+2024-10-23 06:01:41.216 [warning] Dir "/home/jojoforjob/.pixi/envs" is not watchable (directory does not exist)
+2024-10-23 06:01:41.216 [info] Default formatter is set to null for workspace /home/jojoforjob
+2024-10-23 06:01:41.235 [info] > pyenv which python
+2024-10-23 06:01:41.235 [info] cwd: .
+2024-10-23 06:01:41.407 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-23 06:01:41.645 [info] > pixi --version
+2024-10-23 06:01:41.684 [info] Python interpreter path: /bin/python3
+2024-10-23 06:01:43.040 [info] Starting Pylance language server.
+2024-10-23 06:06:51.405 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 06:08:17.398 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 06:08:19.989 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 06:11:49.891 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 06:18:58.691 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 06:20:42.827 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 06:30:00.567 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 06:48:42.611 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 06:50:22.643 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:03:36.944 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:09:55.320 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:13:09.993 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:15:05.660 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:21:26.854 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:25:02.357 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:30:14.073 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:35:56.635 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:36:19.862 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:43:16.168 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:48:46.726 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:51:42.910 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:53:16.999 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:55:40.584 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:59:22.821 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 07:59:36.114 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 08:00:27.506 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 08:00:48.052 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 08:07:14.315 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 08:14:06.442 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 08:23:19.192 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 08:23:36.572 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 08:24:49.155 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 08:25:17.371 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 08:37:08.274 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 08:41:29.120 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 11:39:16.949 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py
+2024-10-23 11:43:48.935 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/dcard_dag.py

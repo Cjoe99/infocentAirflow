@@ -1,0 +1,22 @@
+2024-10-24 06:25:46.118 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-24 06:25:46.270 [info] [Info  - 6:25:46 AM] (6200) Server root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-24 06:25:46.271 [info] [Info  - 6:25:46 AM] (6200) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-24 06:25:46.271 [info] [Info  - 6:25:46 AM] (6200) Starting service instance "jojoforjob"
+2024-10-24 06:25:46.345 [info] [Info  - 6:25:46 AM] (6200) Setting environmentName for service "jojoforjob": "3.8.10 (global)"
+2024-10-24 06:25:46.346 [info] [Info  - 6:25:46 AM] (6200) Setting pythonPath for service "jojoforjob": "/bin/python3"
+2024-10-24 06:25:46.346 [info] [Info  - 6:25:46 AM] (6200) No include entries specified; assuming /home/jojoforjob
+2024-10-24 06:25:46.347 [info] [Info  - 6:25:46 AM] (6200) Auto-excluding **/node_modules
+2024-10-24 06:25:46.348 [info] [Info  - 6:25:46 AM] (6200) Auto-excluding **/__pycache__
+2024-10-24 06:25:46.348 [info] [Info  - 6:25:46 AM] (6200) Auto-excluding **/.*
+2024-10-24 06:25:46.380 [info] [Info  - 6:25:46 AM] (6200) Assuming Python version 3.8.10.final.0
+2024-10-24 06:25:46.881 [info] [Info  - 6:25:46 AM] (6200) Found 8 source files
+2024-10-24 06:25:47.528 [info] [Info  - 6:25:47 AM] (6200) Background analysis(1) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-24 06:25:47.528 [info] [Info  - 6:25:47 AM] (6200) Background analysis(1) started
+2024-10-24 06:25:48.308 [info] [Info  - 6:25:48 AM] (6200) Indexer background runner(2) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-24 06:25:48.308 [info] [Info  - 6:25:48 AM] (6200) Indexing(2) started
+2024-10-24 06:25:49.289 [info] [Info  - 6:25:49 AM] (6200) scanned(2) 76 files over 1 exec env
+2024-10-24 06:25:49.644 [info] [Info  - 6:25:49 AM] (6200) indexed(2) 76 files over 1 exec env
+2024-10-24 06:25:49.713 [info] [Info  - 6:25:49 AM] (6200) Indexing finished(2).
+2024-10-24 06:44:35.293 [info] [Info  - 6:44:35 AM] (6200) Found 9 source files
+2024-10-24 06:45:23.478 [info] [Info  - 6:45:23 AM] (6200) Found 8 source files
+2024-10-24 06:49:05.860 [info] [Info  - 6:49:05 AM] (6200) Found 9 source files

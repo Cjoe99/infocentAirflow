@@ -1,0 +1,17 @@
+2024-10-22 05:10:32.379 [info] (Client) Pylance async client (2024.10.1) started with python extension (2024.16.1)
+2024-10-22 05:10:32.602 [info] [Info  - 5:10:32 AM] (8819) Server root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 05:10:32.603 [info] [Info  - 5:10:32 AM] (8819) Pylance language server 2024.10.1 (pyright version 1.1.382, commit e46efc6b) starting
+2024-10-22 05:10:32.603 [info] [Info  - 5:10:32 AM] (8819) Starting service instance "jojoforjob"
+2024-10-22 05:10:32.709 [info] [Info  - 5:10:32 AM] (8819) Setting environmentName for service "jojoforjob": "python"
+2024-10-22 05:10:32.711 [info] [Info  - 5:10:32 AM] (8819) No include entries specified; assuming /home/jojoforjob
+2024-10-22 05:10:32.712 [info] [Info  - 5:10:32 AM] (8819) Auto-excluding **/node_modules
+2024-10-22 05:10:32.712 [info] [Info  - 5:10:32 AM] (8819) Auto-excluding **/__pycache__
+2024-10-22 05:10:32.713 [info] [Info  - 5:10:32 AM] (8819) Auto-excluding **/.*
+2024-10-22 05:10:32.926 [info] [Info  - 5:10:32 AM] (8819) Found 3 source files
+2024-10-22 05:10:34.799 [info] [Info  - 5:10:34 AM] (8819) Background analysis(1) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist
+2024-10-22 05:10:34.806 [info] [Info  - 5:10:34 AM] (8819) Background analysis(1) started
+2024-10-22 05:10:34.979 [info] [Info  - 5:10:34 AM] (8819) Indexer background runner(2) root directory: file:///home/jojoforjob/.vscode-server/extensions/ms-python.vscode-pylance-2024.10.1/dist (index)
+2024-10-22 05:10:34.980 [info] [Info  - 5:10:34 AM] (8819) Indexing(2) started
+2024-10-22 05:10:37.242 [info] [Info  - 5:10:37 AM] (8819) scanned(2) 76 files over 1 exec env
+2024-10-22 05:10:37.692 [info] [Info  - 5:10:37 AM] (8819) indexed(2) 76 files over 1 exec env
+2024-10-22 05:10:37.754 [info] [Info  - 5:10:37 AM] (8819) Indexing finished(2).

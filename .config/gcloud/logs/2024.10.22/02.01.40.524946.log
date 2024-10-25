@@ -1,0 +1,11 @@
+2024-10-22 02:01:40,657 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2024-10-22 02:01:40,670 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances']
+2024-10-22 02:01:40,698 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances', 'describe']
+2024-10-22 02:01:40,709 DEBUG    root            Running [gcloud.compute.instances.describe] with arguments: [--format: "get(tags.items)", --zone: "asia-east1-a", INSTANCE_NAME: "gce-airflow"]
+2024-10-22 02:01:41,056 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-22 02:01:41,233 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/tir103-kafka/zones/asia-east1-a/instances/gce-airflow?alt=json HTTP/1.1" 200 None
+2024-10-22 02:01:41,259 DEBUG    root            Chosen display Format:default get(tags.items)
+2024-10-22 02:01:41,260 INFO     root            Display format: "default get(tags.items)"
+2024-10-22 02:01:41,294 INFO     ___FILE_ONLY___ gce-airflow
+
+2024-10-22 02:01:41,294 DEBUG    root            SDK update checks are disabled.

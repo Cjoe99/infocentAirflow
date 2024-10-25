@@ -1,0 +1,11 @@
+2024-10-22 02:32:10,276 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2024-10-22 02:32:10,279 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances']
+2024-10-22 02:32:10,290 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances', 'describe']
+2024-10-22 02:32:10,297 DEBUG    root            Running [gcloud.compute.instances.describe] with arguments: [--format: "get(metadata.items)", --zone: "asia-east1-a", INSTANCE_NAME: "gce-airflow"]
+2024-10-22 02:32:10,528 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2024-10-22 02:32:10,658 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/tir103-kafka/zones/asia-east1-a/instances/gce-airflow?alt=json HTTP/1.1" 200 None
+2024-10-22 02:32:10,663 DEBUG    root            Chosen display Format:default get(metadata.items)
+2024-10-22 02:32:10,664 INFO     root            Display format: "default get(metadata.items)"
+2024-10-22 02:32:10,683 INFO     ___FILE_ONLY___ {'key': 'ssh-keys', 'value': 'jojoforjob:ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDkK4RoBaK6QKUdkUXZIrWE3UU3wrK/+bamzOWkK7Ughpai9a4rTBjGhW+EKjnuTGqpsJzk1BVfaXWPeoezt/C8= google-ssh {"userName":"jojoforjob@gmail.com","expireOn":"2024-10-22T02:21:23+0000"}\njojoforjob:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAGPo2aGj9akNL0/z3QTC019Om01rG7Mb9bxmjbML+uGnLcn+1VblUJtVKCKN9oVgDF8gSuN7AYKynV3AEk1OCIhl6CEq1EalL6si2Nndp8wYXF2mWkFHmVpeyG2ILUDQ11x5zqzsw2zo5qgr5CB/AaUjVt6a2XB+Fg+yI6fk4W9z5sdfaHuC+mmS6WSFcnYYB8AJgDwAstE3t8BC+nNxPaLs2wCfHgf5I9V52ho75Z5emZMS4D1eGh8cZ2f3NaQLtrlpX6b3DtL/dH1QTHeyXAl4ZO5+nJsCi7u/Ymxq6c/FFKwT8qdN9NY7WpxvyiBs07IQMOtACcQv77OuoxPUcYk= google-ssh {"userName":"jojoforjob@gmail.com","expireOn":"2024-10-22T02:21:27+0000"}'}
+
+2024-10-22 02:32:10,683 DEBUG    root            SDK update checks are disabled.

@@ -1,0 +1,85 @@
+2024-10-22 04:55:07.169 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-22 04:55:07.169 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-22 04:55:07.170 [info] Experiment 'pythonTestAdapter' is active
+2024-10-22 04:55:07.170 [warning] Dir "/home/jojoforjob/.pixi/envs" is not watchable (directory does not exist)
+2024-10-22 04:55:07.170 [info] Default formatter is set to null for workspace /home/jojoforjob
+2024-10-22 04:55:07.170 [warning] Failed to check if /usr/local/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/local/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/local/bin/python3'
+}
+2024-10-22 04:55:07.863 [info] Starting Environment refresh
+2024-10-22 04:55:07.887 [info] > pixi --version
+2024-10-22 04:55:07.903 [info] > hatch env show --json
+2024-10-22 04:55:07.903 [info] cwd: .
+2024-10-22 04:55:07.947 [info] > /usr/local/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-22 04:55:08.021 [error] [Error: Command failed: /usr/local/bin/python3 -I /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+/bin/sh: 1: /usr/local/bin/python3: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:339:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/usr/local/bin/python3 -I /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py'
+}
+2024-10-22 04:55:08.074 [info] Environments refresh paths discovered: 213 milliseconds
+2024-10-22 04:55:10.027 [info] > /usr/local/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-22 04:55:10.031 [error] [Error: Command failed: /usr/local/bin/python3 -I /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+/bin/sh: 1: /usr/local/bin/python3: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:305:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/usr/local/bin/python3 -I /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py /home/jojoforjob/.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py'
+}
+2024-10-22 04:55:10.032 [info] Environments refresh finished (event): 2171 milliseconds
+2024-10-22 04:55:10.038 [info] Environment refresh took 2178 milliseconds
+2024-10-22 04:55:10.040 [warning] Failed to check if /usr/local/bin/python3 is an executable [Error: ENOENT: no such file or directory, lstat '/usr/local/bin/python3'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/usr/local/bin/python3'
+}
+2024-10-22 04:55:10.045 [info] > pyenv which python
+2024-10-22 04:55:10.045 [info] cwd: .
+2024-10-22 04:55:11.499 [info] Starting Pylance language server.
+2024-10-22 05:44:38.282 [info] Python interpreter path: /usr/bin/python3
+2024-10-22 05:44:52.070 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/test/selenium_test.py
+2024-10-22 05:45:21.761 [info] Starting Environment refresh
+2024-10-22 05:45:21.761 [info] Searching for interpreters in posix paths locator
+2024-10-22 05:45:21.763 [info] Searching for pyenv environments
+2024-10-22 05:45:21.763 [info] Searching for conda environments
+2024-10-22 05:45:21.763 [info] Searching for global virtual environments
+2024-10-22 05:45:21.763 [info] Searching for custom virtual environments
+2024-10-22 05:45:21.770 [info] > conda info --json
+2024-10-22 05:45:21.776 [info] pyenv is not installed
+2024-10-22 05:45:21.776 [info] Finished searching for pyenv environments: 15 milliseconds
+2024-10-22 05:45:21.776 [info] Finished searching for custom virtual envs: 13 milliseconds
+2024-10-22 05:45:21.779 [info] Finished searching for global virtual envs: 17 milliseconds
+2024-10-22 05:45:21.792 [info] Found: /bin/python3 --> /bin/python3.8
+2024-10-22 05:45:21.793 [info] Found: /bin/python3.8 --> /bin/python3.8
+2024-10-22 05:45:21.809 [info] Found: /usr/bin/python3 --> /usr/bin/python3.8
+2024-10-22 05:45:21.810 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2024-10-22 05:45:21.817 [info] > /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-22 05:45:21.851 [info] Finished searching for interpreters in posix paths locator: 83 milliseconds
+2024-10-22 05:45:21.851 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.16.1-linux-x64/python_files/interpreterInfo.py
+2024-10-22 05:45:21.854 [info] Environments refresh paths discovered (event): 95 milliseconds
+2024-10-22 05:45:21.854 [info] Environments refresh paths discovered: 96 milliseconds
+2024-10-22 05:45:21.903 [info] Environments refresh finished (event): 145 milliseconds
+2024-10-22 05:45:21.908 [info] Environment refresh took 151 milliseconds
+2024-10-22 06:14:23.502 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/selenium_test.py
+2024-10-22 06:50:39.376 [info] Discover tests for workspace name: jojoforjob - uri: /home/jojoforjob/dags/selenium_test.py

@@ -1,0 +1,1123 @@
+[2024-10-22T08:48:20.804+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-22T08:48:20.819+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: frank_dag.run_selenium_task manual__2024-10-22T08:48:03.885639+00:00 [queued]>
+[2024-10-22T08:48:20.828+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: frank_dag.run_selenium_task manual__2024-10-22T08:48:03.885639+00:00 [queued]>
+[2024-10-22T08:48:20.829+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-22T08:48:20.849+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): run_selenium_task> on 2024-10-22 08:48:03.885639+00:00
+[2024-10-22T08:48:20.856+0000] {standard_task_runner.py:72} INFO - Started process 6240 to run task
+[2024-10-22T08:48:20.862+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'frank_dag', 'run_selenium_task', 'manual__2024-10-22T08:48:03.885639+00:00', '--job-id', '120', '--raw', '--subdir', 'DAGS_FOLDER/frank_dag.py', '--cfg-path', '/tmp/tmp4gwjjqm5']
+[2024-10-22T08:48:20.865+0000] {standard_task_runner.py:105} INFO - Job 120: Subtask run_selenium_task
+[2024-10-22T08:48:20.919+0000] {task_command.py:467} INFO - Running <TaskInstance: frank_dag.run_selenium_task manual__2024-10-22T08:48:03.885639+00:00 [running]> on host 60bbe790d101
+[2024-10-22T08:48:21.035+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='frank_dag' AIRFLOW_CTX_TASK_ID='run_selenium_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-22T08:48:03.885639+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-22T08:48:03.885639+00:00'
+[2024-10-22T08:48:21.037+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-22T08:48:22.110+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:22.110+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 辦不完！北檢聲請沈慶京、應曉薇延押 吳
+[2024-10-22T08:48:22.150+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:22.151+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 大逆轉！招待18人遊東莞涉賄選　法官打臉
+[2024-10-22T08:48:22.189+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:22.189+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 40年老藥「百憂解」不只退出台灣市場！藥廠證實：今年底
+[2024-10-22T08:48:22.224+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:22.225+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 認真說美鳳姐你真的可以？
+[2024-10-22T08:48:22.263+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:22.264+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 公司遲發薪水有正常嗎？！
+[2024-10-22T08:48:22.302+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:48:22.302+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 女護理師忘鎖車門！　下班回家車後座驚見
+[2024-10-22T08:48:22.345+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:22.346+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 全台最安全的地方是哪個縣市
+[2024-10-22T08:48:22.390+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:22.390+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 台鹽綠能虧損上億爆弊案 南檢指揮調查局
+[2024-10-22T08:48:22.427+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:48:22.428+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 快新聞／柯文哲USB遭檢調破解　游淑慧好
+[2024-10-22T08:48:22.464+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:22.464+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 電腦裝三個螢幕會更舒服嗎?但我不玩賽車
+[2024-10-22T08:48:22.500+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:22.501+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 將「橘子」轉被告為延押柯？
+[2024-10-22T08:48:22.547+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:22.547+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 為葉元之髮際線抱不平　徐巧芯轟許智傑：
+[2024-10-22T08:48:22.585+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:22.586+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 公司提早發薪水有正常嗎
+[2024-10-22T08:48:32.763+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:32.764+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 台鹽綠能虧損上億爆弊案 南檢指揮調查局
+[2024-10-22T08:48:32.800+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:32.801+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 獵人不過就卡片而已有什麼好玩的？
+[2024-10-22T08:48:32.841+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:48:32.842+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 有小孩的社底家庭有什麼特徵？
+[2024-10-22T08:48:32.880+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:32.881+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 前科男尾隨26歲女CEO！闖入家中性侵
+[2024-10-22T08:48:32.919+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:48:32.920+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 自己開業薪水高嗎?
+[2024-10-22T08:48:32.962+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:32.962+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] UNI girl大冞冞賽前實況 想看嗎? (發錢)
+[2024-10-22T08:48:33.002+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:33.003+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 國軍的功能484監視器就能取代了？
+[2024-10-22T08:48:33.039+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:33.039+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 這次大選 川普484穩了？
+[2024-10-22T08:48:33.076+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:48:33.076+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 三星電子陷空前危機 中共蠶食是原因之一
+[2024-10-22T08:48:33.115+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:33.115+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 國高中時班上乖乖牌現在如何？
+[2024-10-22T08:48:33.155+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:48:33.155+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 周杰倫演唱會真的這麼難搶嗎
+[2024-10-22T08:48:33.196+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:48:33.196+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 近3月最甜！日圓重回「0.215」
+[2024-10-22T08:48:33.234+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:33.234+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 大傑衝麥當勞！「點獵人套餐」畫面曝  店
+[2024-10-22T08:48:33.280+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:33.280+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 沒人發現拯救結婚率才有可能救少子化嗎！
+[2024-10-22T08:48:33.320+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:33.321+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 沒人發現一堆鄉民把養小孩費用吹很高嗎！
+[2024-10-22T08:48:33.361+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:33.362+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] ROC PRC是不是該用吟詩作對決定誰是祖國
+[2024-10-22T08:48:33.404+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:33.404+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 文在寅女兒多慧疑似非法民宿被調查
+[2024-10-22T08:48:33.444+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:33.444+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 講話不踩雷難度多高啊
+[2024-10-22T08:48:33.484+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:48:33.484+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 周杰倫 張惠妹為何不去高雄世運辦？
+[2024-10-22T08:48:43.589+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:43.590+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台女不想打仗怎辦?
+[2024-10-22T08:48:43.632+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:43.633+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 高鐵這兩天哪天比較多人？
+[2024-10-22T08:48:43.673+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:48:43.673+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 驚! 郭哲榮投資長又再加碼美債1000萬元?
+[2024-10-22T08:48:43.715+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:48:43.716+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 真的有人專門找阿姨約會喔==
+[2024-10-22T08:48:43.755+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:43.755+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 道奇若奪冠 亞洲人會加入加州零元購嗎？
+[2024-10-22T08:48:43.792+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:43.792+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 雙子殺手 為啥不找威爾史密斯兒子一起演
+[2024-10-22T08:48:43.830+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:43.830+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 月底錢包也快見底？網曝速食店「窮鬼攻
+[2024-10-22T08:48:43.873+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:48:43.873+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 40年老藥「百憂解」不只退出台灣市場！藥廠證實：今年底全球
+[2024-10-22T08:48:43.914+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:48:43.914+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 雞鴨飯是不是已經訂好了？
+[2024-10-22T08:48:43.951+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:48:43.951+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 辦不完！北檢聲請沈慶京、應曉薇延押 吳
+[2024-10-22T08:48:43.990+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:43.990+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 哈瑪斯跟其他的組織頭領是增殖型顏良嗎?
+[2024-10-22T08:48:44.025+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:48:44.025+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 57%民眾挺賴「祖國論」 卓榮泰：反對的人
+[2024-10-22T08:48:44.062+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:44.063+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 替代役那麼爽 怎麼不去申請
+[2024-10-22T08:48:44.105+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:44.106+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 沒人發現拯救結婚率才有可能救少子化嗎！
+[2024-10-22T08:48:44.145+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:44.145+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 被羈押的情況下能選總統嗎？
+[2024-10-22T08:48:44.186+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:44.187+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 周杰倫是不是台灣音樂最後的輝煌
+[2024-10-22T08:48:44.229+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:44.230+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 麥當勞怎麼不跟諸葛四郎合作?
+[2024-10-22T08:48:44.267+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:44.267+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 投資新手該不該買股票？
+[2024-10-22T08:48:44.305+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:44.305+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 鳳山果汁阿嬤的手藝是天竺取經來的嗎？
+[2024-10-22T08:48:44.343+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:44.343+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 我是不是生病了
+[2024-10-22T08:48:54.461+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:54.462+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 彭博：兩岸局勢緊張 凸顯出台灣淘汰核能計畫的風險
+[2024-10-22T08:48:54.498+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:54.498+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 高雄交通違規開單5年增2成 被轟科技執法
+[2024-10-22T08:48:54.551+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:54.551+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有沒有怎麼面對與性別不匹配奶子的八卦?
+[2024-10-22T08:48:54.590+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:48:54.591+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 快訊／高雄30日大範圍停水降壓！7區11hrs
+[2024-10-22T08:48:54.627+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:54.627+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 經濟學人預測川普將勝美國總統大選　重要
+[2024-10-22T08:48:54.664+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:54.665+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 民眾黨缺席同志遊行 四叉貓：今年「又又
+[2024-10-22T08:48:54.701+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:54.701+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 川普又提林郁婷!受訪瞎扯「變性」奪金牌
+[2024-10-22T08:48:54.739+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:54.740+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 台灣藍鵲除了老鷹還有自然的天敵嗎？
+[2024-10-22T08:48:54.781+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:48:54.781+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 國外都找得到樂透得主，台灣人太會藏了
+[2024-10-22T08:48:54.817+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:54.818+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台積電市值全球第八 股神巴菲特在想什麼
+[2024-10-22T08:48:54.857+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:48:54.857+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞]領導人一直被殺！哈瑪斯擬不選出繼任者 改
+[2024-10-22T08:48:54.894+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:48:54.895+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 鄉下有蛋黃區嗎? 還是全台只有一個蛋黃?
+[2024-10-22T08:48:54.932+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:54.932+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 民眾黨缺席同志遊行 四叉貓：今年「又又
+[2024-10-22T08:48:54.969+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:54.969+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 麥當勞七龍珠紙袋  現在值多少?
+[2024-10-22T08:48:55.009+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:48:55.009+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 剛剛打掃房間發現的，有價值?
+[2024-10-22T08:48:55.046+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:55.046+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 替代役那麼爽 怎麼不去申請
+[2024-10-22T08:48:55.082+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:55.083+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 前科男尾隨26歲女CEO！闖入家中性侵 用磚
+[2024-10-22T08:48:55.124+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:55.124+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 月底錢包也快見底？網曝速食店「窮鬼攻
+[2024-10-22T08:48:55.163+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:48:55.164+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 其實我們離戰爭已經很近了吧
+[2024-10-22T08:48:55.204+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:48:55.205+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 美債套1000萬會對人生心灰意冷嗎
+[2024-10-22T08:49:05.309+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:05.310+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 各位肥宅都用啥牌洗衣精阿0.0
+[2024-10-22T08:49:05.347+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:05.347+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為啥蟻王不是金卡？
+[2024-10-22T08:49:05.387+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:05.387+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 綠鬣蜥這麼好養怎沒上餐桌？
+[2024-10-22T08:49:05.423+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:05.423+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣人用路水準不高的原因是？
+[2024-10-22T08:49:05.459+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:05.459+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 國防部出包一天就沒新聞了喔？
+[2024-10-22T08:49:05.499+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:05.499+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有小孩的社底家庭有什麼特徵？
+[2024-10-22T08:49:05.539+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:05.540+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 這周六遊行要怎麼穿才能驚豔全場？
+[2024-10-22T08:49:05.579+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:05.580+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 民眾黨團爆中油為趕工不要命 三接保冷管成不定時炸彈
+[2024-10-22T08:49:05.624+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:05.624+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 外國朋友說感覺台灣人不怕戰爭
+[2024-10-22T08:49:05.663+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:05.663+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 誰最值得擁有獵人卡片套組？
+[2024-10-22T08:49:05.707+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:05.707+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 訕笑《獵人》角色還反嗆！網紅許悅遭炎上「道歉了」
+[2024-10-22T08:49:05.746+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:05.746+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 〓.〓 美債根本狗屎投資那個白癡說送分
+[2024-10-22T08:49:05.787+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:05.787+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 明天會有獵人之亂嗎?
+[2024-10-22T08:49:05.826+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:05.826+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 15歲少年偷開家裡BMW拒檢自撞　黃瓊慧曝
+[2024-10-22T08:49:05.865+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:05.865+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 辦不完！北檢聲請沈慶京、應曉薇延押 吳
+[2024-10-22T08:49:05.907+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:05.907+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣最頂的Buff是什麼？
+[2024-10-22T08:49:05.945+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:05.945+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 請問什麼職業沒出過社會??
+[2024-10-22T08:49:05.985+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:05.985+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 六扇門在台北有辦法賺錢嗎？
+[2024-10-22T08:49:06.021+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:06.022+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 武藤遊戲抽獵人卡包最有可能抽到誰?
+[2024-10-22T08:49:06.062+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:06.063+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 林威助長這麼帥怎麼不走演藝圈
+[2024-10-22T08:49:16.190+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:16.190+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 封面殺手VS背影殺手
+[2024-10-22T08:49:16.227+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:16.227+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 周杰倫演唱會算是給黃牛的年終了嗎？
+[2024-10-22T08:49:16.269+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:16.270+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 驚! 郭哲榮投資長又再加碼美債1000萬元?
+[2024-10-22T08:49:16.308+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:16.309+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 投資長開始要吹航運股了 讓我們歡迎他
+[2024-10-22T08:49:16.345+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:16.345+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 以後國中小會不會有一半學生都是8+9？
+[2024-10-22T08:49:16.390+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:16.391+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 辦不完！北檢聲請沈慶京、應曉薇延押 吳
+[2024-10-22T08:49:16.432+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:16.433+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 周杰倫演唱會算是給黃牛的年終了嗎？
+[2024-10-22T08:49:16.470+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:16.471+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 萬老師郭昱晴質詢　這個字「賸」念錯！她
+[2024-10-22T08:49:16.509+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:16.510+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 東京「極樂酒吧」17越南妹坐檯被逮！神
+[2024-10-22T08:49:16.546+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:16.546+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 黑人湯瑪士
+[2024-10-22T08:49:16.586+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:16.587+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 獵人和夜勤病棟，要先追哪個
+[2024-10-22T08:49:16.622+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:16.623+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 機票預算2萬台幣 年底飛哪裡CP值最高阿？
+[2024-10-22T08:49:16.658+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:16.659+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 肥宅用『飛龍探雲手』可以偷到異性的心
+[2024-10-22T08:49:16.699+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:16.699+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 東京「極樂酒吧」17越南妹坐檯被逮！神
+[2024-10-22T08:49:16.740+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:16.741+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 以後國中小會不會有一半學生都是8+9？
+[2024-10-22T08:49:16.778+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:16.779+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 民眾黨團爆中油為趕工不要命 三接保冷管成不定時炸彈
+[2024-10-22T08:49:16.817+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:16.817+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有沒有破獲重大詐騙集團也是詐騙的八卦?
+[2024-10-22T08:49:16.856+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:16.857+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 政治獻金被告是什麼啊？
+[2024-10-22T08:49:16.898+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:16.899+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 訕笑《獵人》角色還反嗆！網紅許悅遭炎上「道歉了」
+[2024-10-22T08:49:27.009+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:27.010+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] Avantgardey的團員484都長一樣
+[2024-10-22T08:49:27.047+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:27.048+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為啥周杰倫、張惠妹不選免費的高雄巨蛋？
+[2024-10-22T08:49:27.087+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:27.088+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 東京「極樂酒吧」17越南妹坐檯被逮！神
+[2024-10-22T08:49:27.126+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:27.126+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: ［新聞］TVBS民調／賴清德支持度37%下滑3個百分1
+[2024-10-22T08:49:27.163+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:27.163+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦]教導小孩不要用暴力解決事情是不是很虛偽?
+[2024-10-22T08:49:27.198+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:27.198+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為什麼國外網紅都這樣？
+[2024-10-22T08:49:27.263+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:27.264+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台南何時超越台中了
+[2024-10-22T08:49:27.300+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:27.301+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 請問 周杰倫是要跟木村拓哉比啥?
+[2024-10-22T08:49:27.339+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:27.339+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 高鐵南延方案轉折過程答不出來 黃捷要陳
+[2024-10-22T08:49:27.392+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:27.393+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 先羈押禁見再找證據有什麼問題？
+[2024-10-22T08:49:27.435+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:27.436+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 白色是最容易髒的顏色？
+[2024-10-22T08:49:27.475+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:27.475+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 以後外國藥廠都不賣台灣藥怎麼辦？！
+[2024-10-22T08:49:27.512+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:27.512+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 上班睡覺是不是很爽
+[2024-10-22T08:49:27.558+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:27.558+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 台灣經濟好到北高客運都不屑搭了？
+[2024-10-22T08:49:27.595+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:27.596+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 沒人發現一堆鄉民把養小孩費用吹很高嗎！
+[2024-10-22T08:49:27.632+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:27.632+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 魯明哲批第三航廈爭議多「2027年能啟用
+[2024-10-22T08:49:27.669+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:27.669+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 活著的人永遠贏過死的嗎？
+[2024-10-22T08:49:27.768+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:27.769+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 四叉貓酸「又忘記」報名同志遊行　民眾
+[2024-10-22T08:49:27.806+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:27.806+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 快訊／類鼻疽增1死！高雄男住院不到1周亡
+[2024-10-22T08:49:37.964+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:37.965+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 「球棒卡海關」假大谷翔平詐騙簡訊有夠
+[2024-10-22T08:49:38.007+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:38.008+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 現在小孩知道怎麼用寶特瓶造龍捲風嗎
+[2024-10-22T08:49:38.063+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:38.064+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦]為什麼藝人那麼容易離婚？
+[2024-10-22T08:49:38.120+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:38.120+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 外國朋友說感覺台灣人不怕戰爭
+[2024-10-22T08:49:38.174+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:38.174+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 「26共識」暗示「阿陸」？羅文嘉：不是
+[2024-10-22T08:49:38.224+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:38.224+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有人能分享被羈押或監獄生活嗎？
+[2024-10-22T08:49:38.546+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:38.547+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 先羈押禁見再找證據有什麼問題？
+[2024-10-22T08:49:38.611+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:38.611+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦]教導小孩不要用暴力解決事情是不是很虛偽?
+[2024-10-22T08:49:38.669+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:38.670+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 百憂解不是只退出台灣！藥廠宣布「2024年
+[2024-10-22T08:49:38.753+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:38.754+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 替代役那麼爽 怎麼不去申請
+[2024-10-22T08:49:38.951+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:38.951+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 萬老師郭昱晴質詢　這個字「賸」念錯！她
+[2024-10-22T08:49:39.000+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:39.001+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 請問洋基是要怎麼輸？
+[2024-10-22T08:49:39.048+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:39.049+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦]教導小孩不要用暴力解決事情是不是很虛偽?
+[2024-10-22T08:49:39.099+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:39.099+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 百憂解不是只退出台灣！藥廠宣布「2024年
+[2024-10-22T08:49:39.154+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:39.155+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 潮州站怎麼都是副站長，有人知道站長嗎
+[2024-10-22T08:49:39.221+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:39.221+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 以色列：黎巴嫩醫院下有真主黨大秘寶
+[2024-10-22T08:49:39.263+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:39.264+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 百憂解不是只退出台灣！藥廠宣布「2024年
+[2024-10-22T08:49:39.329+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:39.329+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 以後外國藥廠都不賣台灣藥怎麼辦？！
+[2024-10-22T08:49:39.388+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:39.388+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 大家說的出周杰倫麾下四大天王嗎
+[2024-10-22T08:49:39.426+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:39.426+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 以後外國藥廠都不賣台灣藥怎麼辦？！
+[2024-10-22T08:49:49.546+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:49.546+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 大巨蛋天價場租！10%抽成無上限　周杰倫
+[2024-10-22T08:49:49.599+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:49.599+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 台灣怎麼沒有韓國街
+[2024-10-22T08:49:49.647+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:49.648+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 大巨蛋天價場租！10%抽成無上限　周杰倫
+[2024-10-22T08:49:49.748+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:49.748+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 白營女人戰爭引注目　江和樹怒喊：主席
+[2024-10-22T08:49:49.792+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:49.792+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為何麥當勞不送八卦版主獵人卡包？
+[2024-10-22T08:49:49.887+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:49.887+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 徐乃麟賤字風波完整播出　楊繡惠變臉
+[2024-10-22T08:49:49.928+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:49.929+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 有沒有不戰又可以統一的這條路？
+[2024-10-22T08:49:50.044+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:50.044+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 電腦處理器大家比較推哪一家？
+[2024-10-22T08:49:50.214+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:50.214+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 總預算案 吳思瑤：單方面要行政部門讓步
+[2024-10-22T08:49:50.265+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:50.265+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 幫廢死想到不要被反對的方法了
+[2024-10-22T08:49:50.321+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:50.321+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 你會不會可憐有些小孩子?
+[2024-10-22T08:49:50.387+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:50.388+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 悲！身障者遭性侵家長不報案 竟是怕須離
+[2024-10-22T08:49:50.445+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:50.446+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 快訊／遭女毒蟲拖行500m殉職！所長劉宗
+[2024-10-22T08:49:50.544+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:49:50.545+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 自行車前輪突脫離飄移 小六學童重摔
+[2024-10-22T08:49:50.600+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:50.601+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] FB什麼時候開始跌下神壇的啊？
+[2024-10-22T08:49:50.640+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:50.640+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 你會不會可憐有些小孩子?
+[2024-10-22T08:49:50.810+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:49:50.810+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 高雄為什麼霧濛濛一片？？？
+[2024-10-22T08:49:50.852+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:49:50.852+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 總預算案 吳思瑤：單方面要行政部門讓步
+[2024-10-22T08:49:50.898+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:49:50.898+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 各位第一次開車上路是幾歲？
+[2024-10-22T08:49:50.940+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:49:50.941+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] FB什麼時候開始跌下神壇的啊？
+[2024-10-22T08:50:01.070+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:01.070+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 明天麥當勞獵人要買幾包才可能中大傑？
+[2024-10-22T08:50:01.116+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:01.117+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 肥宅跟魯蛇跟處男是一種精神還是真實狀態
+[2024-10-22T08:50:01.290+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:01.290+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 又是未成年！桃園15歲男偷開自家BMW與警
+[2024-10-22T08:50:01.340+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:01.341+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 165反詐騙根本沒用？
+[2024-10-22T08:50:01.386+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:01.386+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣怎麼沒有韓國街
+[2024-10-22T08:50:01.432+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:01.432+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 大巨蛋天價場租！10%抽成無上限　周杰倫
+[2024-10-22T08:50:01.476+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:01.477+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為啥海鮮店取貨比超商取貨慢好幾天
+[2024-10-22T08:50:01.530+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:01.530+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為什麼高雄板跟台南板 人氣高
+[2024-10-22T08:50:01.584+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:01.585+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 現在小孩是太皮 還是汽車帶壞小孩？
+[2024-10-22T08:50:01.625+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:01.625+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 外國朋友說感覺台灣人不怕戰爭
+[2024-10-22T08:50:01.668+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:01.669+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為了女同事減肥有加分嗎?
+[2024-10-22T08:50:01.713+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:01.714+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有房價會漲 為何不早點行動的八卦?
+[2024-10-22T08:50:01.769+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:01.770+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 先羈押禁見再找證據有什麼問題？
+[2024-10-22T08:50:01.819+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:01.819+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有人能看書看到睡著嗎？
+[2024-10-22T08:50:01.887+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:01.888+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 女同事說她胸部有顆痣代表〓〓？
+[2024-10-22T08:50:01.961+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:01.961+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 獨／台積電F20廠52歲工人觸電亡 竹科管理
+[2024-10-22T08:50:02.011+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:02.011+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 滅國時，免役能罵役男們太爛嗎？
+[2024-10-22T08:50:02.058+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:02.058+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 國家地理頻道不見是不是很可惜
+[2024-10-22T08:50:02.194+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:02.195+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 「政治癡漢！」吳思瑤控偷拍　羅智強喊「
+[2024-10-22T08:50:02.245+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:02.245+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 板橋驚見碰瓷黨！手錶遭撞掉落索賠2萬5
+[2024-10-22T08:50:12.355+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:12.356+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 女的會喜歡8+9是動物本能吧
+[2024-10-22T08:50:12.406+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:12.406+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 台灣經濟好到北高客運都不屑搭了？
+[2024-10-22T08:50:12.445+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:12.446+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 誰說謊？黃國昌批偷竊案「沒告知當事人
+[2024-10-22T08:50:12.504+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:12.504+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 外國朋友說感覺台灣人不怕戰爭
+[2024-10-22T08:50:12.559+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:12.559+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 美債套1000萬會對人生心灰意冷嗎
+[2024-10-22T08:50:12.599+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:12.599+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 有沒有不投資只會嫌房價貴的八卦
+[2024-10-22T08:50:12.677+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:12.677+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 我國警察的密錄器為什麼不上網?
+[2024-10-22T08:50:12.765+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:12.765+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 胃鏡到底怎麼選
+[2024-10-22T08:50:12.816+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:12.817+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 男女躺地互蹭…台中爵士音樂節觀眾亂象
+[2024-10-22T08:50:12.893+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:12.893+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] faker 在戰場上能幹嗎？
+[2024-10-22T08:50:12.963+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:12.964+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 民調／給花蓮人一條安全回家的路！　64
+[2024-10-22T08:50:13.026+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:13.026+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 許智傑跳24蹲宣戰！　葉元之：遇瘋子會理
+[2024-10-22T08:50:13.069+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:13.070+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 美債套1000萬會對人生心灰意冷嗎
+[2024-10-22T08:50:13.113+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:13.114+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 男女躺地互蹭…台中爵士音樂節觀眾亂象
+[2024-10-22T08:50:13.261+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:13.261+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 周玉蔻烏龍爆料「滾床單」 張淑娟法庭嗆
+[2024-10-22T08:50:13.310+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:13.310+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 中醫：你陰虛上火喔，什麼意思
+[2024-10-22T08:50:13.473+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:13.474+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 快訊／遭女毒蟲拖行500m殉職！所長劉宗
+[2024-10-22T08:50:13.529+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:13.529+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 所以美債是不是根本沒漲的可能？
+[2024-10-22T08:50:13.566+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:13.566+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 人妻細心照顧臥床夫6年　他一康復「離婚
+[2024-10-22T08:50:13.610+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:13.611+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 大谷世界賽打洋基，會贏嗎？
+[2024-10-22T08:50:23.804+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:23.804+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 快訊／高雄驚悚命案！感情糾葛開車輾斃前
+[2024-10-22T08:50:23.844+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:23.845+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 假如大谷收到台麥獵人卡組
+[2024-10-22T08:50:23.888+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:23.889+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣藍鵲除了老鷹還有自然的天敵嗎？
+[2024-10-22T08:50:23.936+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:23.936+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 股版是不是一堆反串宅
+[2024-10-22T08:50:23.989+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:23.990+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 網咖被包了?
+[2024-10-22T08:50:24.035+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:24.035+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 台灣經濟好到北高客運都不屑搭了？
+[2024-10-22T08:50:24.262+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:24.262+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 柯文哲USB十大金主名單驚見科技大老！木
+[2024-10-22T08:50:24.342+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:24.343+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 約妹子看MLB世界大賽。作什麼會加分？
+[2024-10-22T08:50:24.386+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:24.386+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 獵人的粉絲是不是很多兇宅啊?
+[2024-10-22T08:50:24.435+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:24.436+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 常看綜藝節目的男生是不是很幼稚?
+[2024-10-22T08:50:24.485+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:24.486+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 美國怎麼不禁止中國賣美債
+[2024-10-22T08:50:24.536+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:24.536+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 女孩手如果比較粗扣多少分？
+[2024-10-22T08:50:24.586+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:24.586+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 現在防毒軟體剩卡巴斯基嗎
+[2024-10-22T08:50:24.630+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:24.630+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 不想被監督又做不好的掛
+[2024-10-22T08:50:24.672+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:24.673+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 去日本算北漂嗎？
+[2024-10-22T08:50:24.716+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:24.716+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有沒有不投資只會嫌房價貴的八卦
+[2024-10-22T08:50:24.800+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:24.800+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 90年代日劇主題曲
+[2024-10-22T08:50:24.855+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:24.856+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 竟然有人投資美債蠢到停損...@@
+[2024-10-22T08:50:24.911+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:24.912+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 想靠賭博賺錢人生是不是完蛋了？
+[2024-10-22T08:50:24.956+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:24.957+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 大巨蛋天價場租！10%抽成無上限　周杰倫
+[2024-10-22T08:50:35.099+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:35.101+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 做壞事見不到家人最後一面 你可以？
+[2024-10-22T08:50:35.146+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:35.147+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 正妹是在吃醋嗎?
+[2024-10-22T08:50:35.214+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:35.215+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 獨家／搭上迷航公車？司機對路線不熟
+[2024-10-22T08:50:35.270+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:35.271+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 不生小孩其實很棒？
+[2024-10-22T08:50:35.313+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:35.313+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 手搖杯要收了
+[2024-10-22T08:50:35.364+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:35.365+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 每天吃這些藥會影響腎功能或頭腦嗎？
+[2024-10-22T08:50:35.411+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:35.411+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] Pan Piano 會收到麥當勞的獵人卡組嗎？
+[2024-10-22T08:50:35.482+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:35.482+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 「橘子」許芷瑜滯日未歸 北檢證實已改
+[2024-10-22T08:50:35.524+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:35.525+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 大家演唱會價格能接受最貴到多少？
+[2024-10-22T08:50:35.584+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:35.584+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 獨／甜美油漆妹專心取物「黑衣男後面伸
+[2024-10-22T08:50:35.625+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:35.626+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 先羈押禁見再找證據有什麼問題？
+[2024-10-22T08:50:35.728+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:35.728+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 先羈押禁見再找證據有什麼問題？
+[2024-10-22T08:50:35.804+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:35.805+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 國外都找得到樂透得主，台灣人太會藏了
+[2024-10-22T08:50:35.878+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:35.879+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 全人類夢想！大谷、法官重量級對決  美媒
+[2024-10-22T08:50:35.932+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:35.932+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣人是不是很可憐？
+[2024-10-22T08:50:36.084+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:36.085+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 男女躺地互蹭…台中爵士音樂節觀眾亂象
+[2024-10-22T08:50:36.148+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:36.148+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 急 這個車燈是要自己關嗎
+[2024-10-22T08:50:36.226+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:36.226+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 女生講話發出嬌喘. 自己知道嗎?
+[2024-10-22T08:50:36.288+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:36.288+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 想買4萬LV球鞋！少年中輟當詐團取簿手 法
+[2024-10-22T08:50:36.342+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:36.342+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 美麥請川普，台麥請網紅？？
+[2024-10-22T08:50:46.463+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:46.463+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 北韓派兵援俄 南韓傳將派遣情報小組赴烏
+[2024-10-22T08:50:46.536+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:46.537+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣麥當勞 有哪些地方變了？
+[2024-10-22T08:50:46.674+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:46.675+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 百憂解不是只退出台灣！藥廠宣布「2024年
+[2024-10-22T08:50:46.811+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:46.811+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 對新核能「非常開放」 卓榮泰：如電動車
+[2024-10-22T08:50:46.867+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:46.867+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 保險妹子網約陌生爬山單車可以去嗎?
+[2024-10-22T08:50:46.908+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:46.908+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 這次大巨蛋周杰倫會有分身嗎
+[2024-10-22T08:50:46.949+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:46.949+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 一般替代役會被教召？
+[2024-10-22T08:50:46.999+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:47.000+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 肉燥飯便當，什麼配菜最頂？
+[2024-10-22T08:50:47.038+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:47.039+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 台灣經濟好到北高客運都不屑搭了？
+[2024-10-22T08:50:47.080+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:47.080+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 大家會在車上用餐嗎
+[2024-10-22T08:50:47.128+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:47.129+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 黑嘉嘉轉生東果陀，贏得了蟻王嗎？
+[2024-10-22T08:50:47.197+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:47.197+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 「橘子」許芷瑜滯日未歸 北檢證實已改
+[2024-10-22T08:50:47.256+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:47.256+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 去牛肉麵店會點小菜嗎?
+[2024-10-22T08:50:47.301+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:47.302+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 對新核能「非常開放」 卓榮泰：如電動車
+[2024-10-22T08:50:47.355+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:47.355+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 才加微信第一次見面就想硬上 猴急碼頭工
+[2024-10-22T08:50:47.404+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:47.405+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] threads上的徵友的八卦？
+[2024-10-22T08:50:47.450+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:47.450+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 大巨蛋天價場租！10%抽成無上限　周杰倫
+[2024-10-22T08:50:47.507+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:47.508+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 哪部動漫前面神作結尾拉了一坨？
+[2024-10-22T08:50:47.556+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:47.557+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 大陸電影現在的悲劇
+[2024-10-22T08:50:47.605+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:47.606+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 少子化辦公室今年KPI有達標嗎?
+[2024-10-22T08:50:57.719+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:57.719+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 雙性戀很多嗎 還是很稀少呢??
+[2024-10-22T08:50:57.763+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:57.764+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 去日本算北漂嗎？
+[2024-10-22T08:50:58.015+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:58.015+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 中式早餐/豆漿店最不能接受的餐是什麼?
+[2024-10-22T08:50:58.112+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:58.112+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [爆卦] 靠北police: 刑事局擺拍證物 一魚三吃？
+[2024-10-22T08:50:58.435+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:58.435+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 大巨蛋天價場租！10%抽成無上限　周杰倫
+[2024-10-22T08:50:58.485+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:58.486+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 以色列剿滅真主黨的進度到哪了？
+[2024-10-22T08:50:58.534+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:58.534+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 沒人發現宅男很容易激怒嗎？
+[2024-10-22T08:50:58.579+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:58.579+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 嗆蔡壁如閉嘴！柯美蘭轟「沒資格洩柯
+[2024-10-22T08:50:58.635+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:58.636+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 館長去參加黑白大廚會端出什麼料理？
+[2024-10-22T08:50:58.684+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:58.684+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 不生小孩其實很棒？
+[2024-10-22T08:50:58.724+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:58.725+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 台灣經濟好到北高客運都不屑搭了？
+[2024-10-22T08:50:58.774+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:58.774+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 會不會川普說要課200%税是連台灣一起課？
+[2024-10-22T08:50:58.811+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:58.812+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 立院拚「增加國定假」！每年有望多11
+[2024-10-22T08:50:58.856+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:58.857+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 肥宅刺青能增加魅力值嗎？
+[2024-10-22T08:50:58.910+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:58.911+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 玩脆可以找到女友或跑友？
+[2024-10-22T08:50:58.975+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:50:58.976+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 打算選二類！高中生「醫生是薪水只有工程
+[2024-10-22T08:50:59.029+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:50:59.030+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 美債套1000萬會對人生心灰意冷嗎
+[2024-10-22T08:50:59.076+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:50:59.076+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 內科網路是不是一場笑話
+[2024-10-22T08:50:59.124+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:50:59.124+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為什麼失眠要治療 睡太久不用
+[2024-10-22T08:50:59.161+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:50:59.162+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 張家兄弟有收到老麥的獵人卡組嗎
+[2024-10-22T08:51:09.293+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:09.293+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 麵店客人 手機開很大聲看影片 怎麼解決
+[2024-10-22T08:51:09.334+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:09.335+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 想增加國定假期會被釋憲嗎？
+[2024-10-22T08:51:09.382+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:09.382+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 人妻細心照顧臥床夫6年　他一康復「離婚
+[2024-10-22T08:51:09.442+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:09.443+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 嘆「點菜說」被劃錯重點 卓榮泰：我不是
+[2024-10-22T08:51:09.485+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:09.485+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 會為了獵人買台麥嗎？
+[2024-10-22T08:51:09.595+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:09.596+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 現在防毒軟體剩卡巴斯基嗎
+[2024-10-22T08:51:09.636+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:09.636+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 台灣經濟好到北高客運都不屑搭了？
+[2024-10-22T08:51:09.678+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:09.678+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 用烏龜的大便拿來刷嘴巴會怎樣嗎
+[2024-10-22T08:51:09.736+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:09.736+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 會參加同志大遊行的人都是什麼人？
+[2024-10-22T08:51:09.794+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:09.794+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 合理？鮭魚之亂改名登記可達40字 原住民
+[2024-10-22T08:51:09.845+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:09.845+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 潮州副站長為了修理女人不惜自己交通違規
+[2024-10-22T08:51:09.889+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:09.889+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 真的愛獵人的粉絲應該直接收整套吧？
+[2024-10-22T08:51:09.936+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:09.936+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 害教主被抓去關起來的信眾，自責嗎？
+[2024-10-22T08:51:09.994+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:09.994+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 共軍圍台軍演後美加軍艦穿越台海 東部戰
+[2024-10-22T08:51:10.146+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:10.146+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 先羈押禁見再找證據有什麼問題？
+[2024-10-22T08:51:10.197+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:10.197+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 立院拚「增加國定假」！每年有望多11
+[2024-10-22T08:51:10.250+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:10.250+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] FB 詐騙真的越來越多了！
+[2024-10-22T08:51:10.296+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:10.297+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 黑人不喜歡玩黑人主角的遊戲嗎？
+[2024-10-22T08:51:10.345+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:10.346+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 【內幕】USB內不只張高祥、王令麟　挺「
+[2024-10-22T08:51:10.397+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:10.398+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 中共在100公里外就打的到台北了!?
+[2024-10-22T08:51:20.509+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:20.510+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 許汶而環泳紐約曼哈頓 台灣首位征服3大開
+[2024-10-22T08:51:20.635+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:20.635+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 日本新幹線那麼猛 為啥長途客運還活著
+[2024-10-22T08:51:20.817+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:20.818+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 南非要我代表處遷出首都　非媒警告台灣
+[2024-10-22T08:51:20.865+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:20.865+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 青鳥同事交到熱舞社女友  要注意什麼？
+[2024-10-22T08:51:21.032+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:21.032+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 郭雪芙36歲長這樣算超頂吧？
+[2024-10-22T08:51:21.089+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:21.089+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 川普勝率大增！狂贏30個百分點 賀錦麗敗
+[2024-10-22T08:51:21.154+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:21.154+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 印度人口超車中國，研究：印度人現在也
+[2024-10-22T08:51:21.210+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:21.210+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 便利商店是爽缺還是屎缺啊？
+[2024-10-22T08:51:21.279+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:21.279+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 被小草指責 蔡壁如回：妳能不能叫記者不
+[2024-10-22T08:51:21.456+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:21.457+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 藍白頻頻封殺總預算！卓榮泰：倒閣是非常
+[2024-10-22T08:51:21.503+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:21.503+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 政確遊戲為什麼喜歡厚斗臉
+[2024-10-22T08:51:21.554+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:21.555+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 749局是爛片嗎
+[2024-10-22T08:51:21.598+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:21.599+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 美麥請川普，台麥請網紅？？
+[2024-10-22T08:51:21.669+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:21.670+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 若核能可沒核安顧慮、沒核廢料　卓榮泰：
+[2024-10-22T08:51:21.713+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:21.713+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 林克穎在印度種姓是什麼等級？
+[2024-10-22T08:51:21.764+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:21.764+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 湖南實習生父母：兒子舉報醫院活摘 蹊蹺墜
+[2024-10-22T08:51:21.819+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:21.819+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 摔角太甲了吧= =
+[2024-10-22T08:51:21.924+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:21.924+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 獨／聯合利劍B戰區北移標註基隆 關指部尖
+[2024-10-22T08:51:21.965+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:21.965+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 如果你是最高領導 會如何解決少子化問題?
+[2024-10-22T08:51:22.015+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:22.016+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 30萬mA容量的電池要充多久啊？
+[2024-10-22T08:51:32.136+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:32.136+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 老了以後被外傭虐待怎麼辦？
+[2024-10-22T08:51:32.203+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:32.203+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 以嚴刑峻罰出名！ 外媒開箱新加坡「樟宜
+[2024-10-22T08:51:32.248+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:32.249+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 他媽的廚房沒有醬油算啥中餐廚師？
+[2024-10-22T08:51:32.316+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:32.317+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 中二生偷開車的風氣如何遏止?
+[2024-10-22T08:51:32.376+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:32.377+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 正妹貝莉莓：獵人卡  我也拿到了
+[2024-10-22T08:51:32.417+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:32.417+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 肥宅的老婆越來越肥 肥宅會怎麼辦
+[2024-10-22T08:51:32.458+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:32.459+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 驚！！法國人也會體罰！！
+[2024-10-22T08:51:32.496+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:32.496+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 美國女籃創收視新高 仍虧4000萬美元
+[2024-10-22T08:51:32.542+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:32.542+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 中年女長年失眠吃鎮靜劑也沒用 針灸6周
+[2024-10-22T08:51:32.596+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:32.597+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台北101真的很醜？
+[2024-10-22T08:51:32.642+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:32.642+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 現在的小學生會攀比嗎
+[2024-10-22T08:51:32.700+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:32.700+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 綜所稅繳700萬是蛇摸等級？
+[2024-10-22T08:51:32.768+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:32.768+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 麥當勞是不是很雖洨
+[2024-10-22T08:51:33.023+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:33.023+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 44.5%民眾對韓國瑜好感 游盈隆：對韓好
+[2024-10-22T08:51:33.120+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:33.121+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 釋憲結果其實鹿是馬的一種 能接受嗎
+[2024-10-22T08:51:33.175+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:33.175+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 女生劈腿有加分？
+[2024-10-22T08:51:33.218+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:33.218+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 如果KOL嘲諷的是大甲鎮瀾宮會怎樣
+[2024-10-22T08:51:33.295+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:33.296+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 川普勝率大增！狂贏30個百分點 賀錦麗敗
+[2024-10-22T08:51:33.349+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:33.350+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 肌肉鬆弛劑會導致骨骼酥鬆？O_o
+[2024-10-22T08:51:33.390+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:33.390+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 如果你是最高領導 會如何解決少子化問題?
+[2024-10-22T08:51:43.614+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:43.615+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 以色列都有核武，為什麼台灣不能有？
+[2024-10-22T08:51:43.683+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:43.684+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 藍白不審總預算搶審財劃法 范雲痛批
+[2024-10-22T08:51:43.740+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:43.741+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 如果你是最高領導 會如何解決少子化問題?
+[2024-10-22T08:51:43.789+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:43.790+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 綜所稅繳700萬是蛇摸等級？
+[2024-10-22T08:51:43.837+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:43.838+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 外國朋友說感覺台灣人不怕戰爭
+[2024-10-22T08:51:43.880+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:43.881+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 麥當勞獵人事件換成聯名韓星會炎上嗎？
+[2024-10-22T08:51:44.038+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:44.038+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣經濟好到北高客運都不屑搭了？
+[2024-10-22T08:51:44.112+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:44.112+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台股是不是已經變成散戶在控盤??
+[2024-10-22T08:51:44.166+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:44.166+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 國軍信心危機！5成民眾不擔心中共封台
+[2024-10-22T08:51:44.222+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:44.223+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 蘋果出新MagSafe 網紅下標題後都在葉配??
+[2024-10-22T08:51:44.371+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:44.372+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 「橘子」許芷瑜滯日未歸 北檢證實已改
+[2024-10-22T08:51:44.417+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:44.417+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 安西教練為什麼會變成肥宅？
+[2024-10-22T08:51:44.480+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:44.481+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 一般替代役會被教召？
+[2024-10-22T08:51:44.533+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:44.533+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有沒有淺草寺廟口有很多美食的八卦？
+[2024-10-22T08:51:44.583+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:44.583+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 開進口車，午餐要吃啥才尊爵不凡?
+[2024-10-22T08:51:44.623+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:44.623+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] YouTube上的講故事影片到底誰做的
+[2024-10-22T08:51:44.700+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:44.700+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 台灣經濟好到北高客運都不屑搭了？
+[2024-10-22T08:51:44.746+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:44.746+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 肥宅娶印度有沒有搞頭？
+[2024-10-22T08:51:44.789+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:44.789+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 哈囉你好嗎衷心感謝珍重再見期待再相逢
+[2024-10-22T08:51:54.964+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:54.965+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 美國女籃創收視新高 仍虧4000萬美元
+[2024-10-22T08:51:55.021+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:55.021+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 大家的長輩都很愛玉石翡翠？
+[2024-10-22T08:51:55.079+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:55.079+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 騎士疑遭碰瓷稱手表受損索賠2萬5 新北警
+[2024-10-22T08:51:55.135+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:55.136+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 「萬物釋憲」 把憲法法庭當禁臠
+[2024-10-22T08:51:55.187+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:55.187+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有沒有日本女藝人-橘瑪麗的八卦
+[2024-10-22T08:51:55.238+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:55.238+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 娶習近平女兒大概少奮鬥多久
+[2024-10-22T08:51:55.299+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:51:55.300+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 淨灘/環保義賣是不是很假掰的活動
+[2024-10-22T08:51:55.353+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:55.354+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 現在去超市都會被價格嚇一跳？
+[2024-10-22T08:51:55.403+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:55.403+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 「我要吃飯」 廣東汕尾市百名醫護舉牌討薪
+[2024-10-22T08:51:55.454+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:55.455+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 老闆：勤奮的員工都去跑外送了？
+[2024-10-22T08:51:55.567+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:55.567+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 62萬網美許悅嘲笑《獵人》刪文道歉了！被
+[2024-10-22T08:51:55.612+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:55.612+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 青埔又被戰了 如果跟淡水比較呢？
+[2024-10-22T08:51:55.661+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:55.662+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 外國朋友說感覺台灣人不怕戰爭
+[2024-10-22T08:51:55.713+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:51:55.714+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 一樣服務業為何只有餐飲要收服務費
+[2024-10-22T08:51:55.757+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:51:55.757+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 娶蔡x文女兒可以少奮鬥多久？
+[2024-10-22T08:51:55.803+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:55.804+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有沒有護士鞋用途的八卦？
+[2024-10-22T08:51:55.845+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:51:55.845+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 迷之Orange事件是什麼？
+[2024-10-22T08:51:55.910+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:55.911+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 比斯吉大家可以嗎
+[2024-10-22T08:51:55.969+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:55.970+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 娶金正恩女兒，會少奮鬥幾年？
+[2024-10-22T08:51:56.012+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:51:56.012+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 女生能劈腿有加分？
+[2024-10-22T08:52:06.128+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:06.128+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 中國反日情緒依然高漲 飛鶴奶粉與日企合
+[2024-10-22T08:52:06.176+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:06.176+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] y1s1貝莉莓拿到獵人卡是不是實至名歸
+[2024-10-22T08:52:06.241+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:06.242+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 「萬物釋憲」 把憲法法庭當禁臠
+[2024-10-22T08:52:06.306+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:06.306+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 「台灣最強內容IP」你直覺會說誰?
+[2024-10-22T08:52:06.373+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:06.373+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 柯父病重進加護　蔡壁如證實：柯文哲18日
+[2024-10-22T08:52:06.494+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:06.494+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] Joeman靈異節目爆紅！　H級美女老師遭起
+[2024-10-22T08:52:06.541+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:06.542+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] HPV疫苗一定要打3劑嗎??
+[2024-10-22T08:52:06.588+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:52:06.588+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 麥當勞 x 獵人  怎麼不附盤子？
+[2024-10-22T08:52:06.670+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:06.670+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台女：綠鬣蜥好可憐喔
+[2024-10-22T08:52:06.715+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:06.715+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 為啥統神當初被罵那麼兇阿？
+[2024-10-22T08:52:06.773+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:06.774+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 終於買到麥當勞hello kitty娃娃了
+[2024-10-22T08:52:06.936+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:06.936+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] ｢邱佩琳給橘子好幾千萬都到哪裡去了？
+[2024-10-22T08:52:06.999+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:06.999+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 獵人只看到去屍魂界救露琪雅 還需要追嗎
+[2024-10-22T08:52:07.069+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:07.069+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有沒有好市多藏爛肉的八卦?
+[2024-10-22T08:52:07.113+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:07.114+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 藍白不審總預算搶審財劃法 范雲痛批
+[2024-10-22T08:52:07.178+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:07.178+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 王菲算是什麼等級的歌手？
+[2024-10-22T08:52:07.761+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:07.761+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 外國朋友說感覺台灣人不怕戰爭
+[2024-10-22T08:52:07.828+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:07.828+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 兩岸問題的最終解決方案是什麼？
+[2024-10-22T08:52:07.877+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:07.877+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 沒人發現一堆鄉民把養小孩費用吹很高嗎！
+[2024-10-22T08:52:07.950+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:07.950+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 沒人發現一堆鄉民把養小孩費用吹很高嗎！
+[2024-10-22T08:52:18.081+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:18.081+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 馬的幹遇到垃圾同事怎麼辦
+[2024-10-22T08:52:18.130+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:18.131+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 多久沒遇過開心的事了
+[2024-10-22T08:52:18.181+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:18.181+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 台中某高職學生疑「跑酷」從2樓重摔 意
+[2024-10-22T08:52:18.232+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:52:18.232+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 沒人覺得環河北南下禁白牌很莫名嗎？
+[2024-10-22T08:52:18.280+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:18.280+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 禁伐補償爭議升級釋憲戰？柯建銘：藍白
+[2024-10-22T08:52:18.318+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:18.318+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為何文藝才子高曉松不見了?
+[2024-10-22T08:52:18.367+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:18.368+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 2024薪水為何還是趕不上物價？
+[2024-10-22T08:52:18.449+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:18.449+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 客運業長期缺工　業者嘆：都去跑Uber
+[2024-10-22T08:52:18.494+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:52:18.494+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 有刺青會抽菸等於成年沒錯吧
+[2024-10-22T08:52:18.541+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:18.541+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為什麼有些人肛門會很黑?
+[2024-10-22T08:52:18.582+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:18.582+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 開娃娃車要注意什麼？
+[2024-10-22T08:52:18.633+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:18.633+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為什麼要解決少子化問題？
+[2024-10-22T08:52:18.699+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:18.700+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 中華民國最不在乎少子化的國家嗎？
+[2024-10-22T08:52:18.764+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:18.765+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] Albee求歡正癢「前戲都做滿」！男友突拋1
+[2024-10-22T08:52:18.809+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:18.809+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 全台唯一！台北漢來飯店攜手張惠妹旗下2
+[2024-10-22T08:52:18.854+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:18.855+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 帥過頭:中共打來排長投降我直接給他一槍
+[2024-10-22T08:52:18.946+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:18.947+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 娶習近平女兒大概少奮鬥多久
+[2024-10-22T08:52:19.026+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:19.027+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 「橘子」許芷瑜滯日未歸 北檢證實已改
+[2024-10-22T08:52:19.072+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:19.072+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 台灣跑Uber的人是不是很多？
+[2024-10-22T08:52:19.125+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:19.125+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 北韓也少子化？
+[2024-10-22T08:52:29.357+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:29.358+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 覺青：躲在日本不回國=認罪
+[2024-10-22T08:52:29.420+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:29.420+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 北韓送兵力援俄侵烏？各國力阻情勢升級
+[2024-10-22T08:52:29.461+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:29.461+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 沒人發現一堆鄉民把養小孩費用吹很高嗎！
+[2024-10-22T08:52:29.540+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:29.541+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 「為何公雞不會下蛋？」他妙回1答案 面試
+[2024-10-22T08:52:29.604+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:29.604+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 沒拿到《獵人》卡包！呱吉「收到也蠻困擾」
+[2024-10-22T08:52:29.653+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:29.653+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 美國不會變第二個冰島希臘吧？
+[2024-10-22T08:52:29.712+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:29.712+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 沒人發現一堆鄉民把養小孩費用吹很高嗎！
+[2024-10-22T08:52:29.758+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:29.759+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 餐酒館會不會很盤？
+[2024-10-22T08:52:29.842+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:29.843+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 吉林男失業求死 高樓拋磚砸死人被執行死刑
+[2024-10-22T08:52:29.896+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:52:29.896+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 通常簽完放棄急救後多久會死?
+[2024-10-22T08:52:30.105+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:30.106+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 「橘子」許芷瑜滯日未歸 北檢證實已改
+[2024-10-22T08:52:30.172+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:30.172+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 為什麼要解決少子化問題？
+[2024-10-22T08:52:30.218+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:30.218+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 債券跌這麼慘誰要負責?
+[2024-10-22T08:52:30.266+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:30.267+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 王建民有比柳賢振還強嗎?
+[2024-10-22T08:52:30.323+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:30.323+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 獵人這部動漫哪個篇章最值得回味
+[2024-10-22T08:52:30.380+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:30.380+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 覺青：躲在日本不回國=認罪
+[2024-10-22T08:52:30.439+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:30.439+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 沒人發現台北縣改名新北市其實是退步?
+[2024-10-22T08:52:30.543+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:30.543+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 又1週了 超思案+北檢洩密查到哪? 沒獨家?
+[2024-10-22T08:52:30.595+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:30.596+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 解決少子化問題 等於 解決台女不生問題？
+[2024-10-22T08:52:40.717+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [4]
+[2024-10-22T08:52:40.718+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 韓國政府怎捨得國寶邊荷律(25)出國打工？
+[2024-10-22T08:52:40.768+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:52:40.768+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 鄧佳華會控告Labubu抄襲嗎？
+[2024-10-22T08:52:40.815+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:40.816+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 國中學歷竟當僑光科大「系主任」　妻氣焰
+[2024-10-22T08:52:40.861+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:40.862+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 找1部男主角變蝦子的電影O_o
+[2024-10-22T08:52:40.903+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:40.903+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 房價哪時候會跟蛋價一樣崩
+[2024-10-22T08:52:40.953+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:40.954+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 女兒不讓出門怎辦？
+[2024-10-22T08:52:41.024+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:52:41.024+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 沒人發現一堆鄉民把養小孩費用吹很高嗎！
+[2024-10-22T08:52:41.063+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:52:41.063+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [問卦] 台灣是可以說真話的嗎？
+[2024-10-22T08:52:41.174+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:52:41.174+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 台中男大生閃違規車撞電桿亡！肇事BMW駕
+[2024-10-22T08:52:41.278+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:41.279+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 「無卡族」也能買！淘寶宣布街口支付上
+[2024-10-22T08:52:41.322+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:41.322+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 以眼還眼要怎麼執行
+[2024-10-22T08:52:41.437+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:52:41.437+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 馬的幹遇到垃圾同事怎麼辦
+[2024-10-22T08:52:41.481+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:52:41.482+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 2024還有流亡海外政治犯 怎麼了
+[2024-10-22T08:52:41.536+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:41.537+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 中國福建平潭發「航行警告」 22日於牛山
+[2024-10-22T08:52:41.615+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [3]
+[2024-10-22T08:52:41.616+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [問卦] 沒人發現獵人完全被屌打嗎
+[2024-10-22T08:52:41.659+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [0]
+[2024-10-22T08:52:41.660+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 蔡壁如惹怒柯美蘭　民眾黨籲謹言慎行
+[2024-10-22T08:52:41.794+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:41.795+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 歲計「賸」餘怎麼念？萬老師讀成這個字
+[2024-10-22T08:52:41.850+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [1]
+[2024-10-22T08:52:41.850+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: Re: [新聞] 台中男大生閃違規車撞電桿亡！肇事BMW駕
+[2024-10-22T08:52:41.933+0000] {logging_mixin.py:190} INFO - 訊息成功傳送到 test-topic 分區 [2]
+[2024-10-22T08:52:41.934+0000] {logging_mixin.py:190} INFO - 已傳送文章至 Kafka: [新聞] 藍白不審總預算搶審財劃法 范雲痛批
+[2024-10-22T08:52:43.407+0000] {local_task_job_runner.py:346} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2024-10-22T08:52:43.409+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-10-22T08:52:43.412+0000] {process_utils.py:132} INFO - Sending 15 to group 6240. PIDs of all processes in the group: [6240]
+[2024-10-22T08:52:43.413+0000] {process_utils.py:87} INFO - Sending the signal 15 to group 6240
+[2024-10-22T08:52:43.413+0000] {taskinstance.py:3092} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-10-22T08:52:43.423+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/frank_dag.py", line 158, in frank_ptt
+    time.sleep(10)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3094, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+[2024-10-22T08:52:43.447+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=frank_dag, task_id=run_selenium_task, run_id=manual__2024-10-22T08:48:03.885639+00:00, execution_date=20241022T084803, start_date=20241022T084820, end_date=20241022T085243
+[2024-10-22T08:52:43.471+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-22T08:52:43.472+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 120 for task run_selenium_task ((sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('run_selenium_task', 'frank_dag', 'manual__2024-10-22T08:48:03.885639+00:00', -1, '2024-10-22 08:48:20.820665', '2024-10-22 08:52:43.446477', 262)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 6240)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/frank_dag.py", line 158, in frank_ptt
+    time.sleep(10)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3094, in signal_handler
+    raise AirflowTaskTerminated("Task received SIGTERM signal")
+airflow.exceptions.AirflowTaskTerminated: Task received SIGTERM signal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.IntegrityError: FOREIGN KEY constraint failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 327, in _run_raw_task
+    ti.handle_failure(e, test_mode, context, session=session)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3427, in handle_failure
+    _handle_failure(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 139, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1243, in _handle_failure
+    TaskInstance.save_to_db(failure_context["ti"], session)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/api_internal/internal_api_call.py", line 139, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 94, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3399, in save_to_db
+    session.flush()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 3449, in flush
+    self._flush(objects)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 3588, in _flush
+    with util.safe_reraise():
+         ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 3549, in _flush
+    flush_context.execute()
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    _emit_insert_statements(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py", line 1238, in _emit_insert_statements
+    result = connection._execute_20(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+    self.dialect.do_execute(
+  File "/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) FOREIGN KEY constraint failed
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('run_selenium_task', 'frank_dag', 'manual__2024-10-22T08:48:03.885639+00:00', -1, '2024-10-22 08:48:20.820665', '2024-10-22 08:52:43.446477', 262)]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2024-10-22T08:52:43.556+0000] {process_utils.py:80} INFO - Process psutil.Process(pid=6240, status='terminated', exitcode=1, started='08:48:20') (6240) terminated with exit code 1

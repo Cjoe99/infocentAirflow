@@ -1,0 +1,28 @@
+2024-10-21 13:58:05,728 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2024-10-21 13:58:05,770 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'ssh']
+2024-10-21 13:58:05,781 DEBUG    root            Running [gcloud.compute.ssh] with arguments: [--ssh-key-file: "/home/jojoforjob/.ssh/id_ed25519.pub", --zone: "asia-east1-a", [USER@]INSTANCE: "gce-airflow"]
+2024-10-21 13:58:05,971 WARNING  root            The public SSH key file for gcloud does not exist.
+2024-10-21 13:58:05,971 WARNING  root            Your SSH key files are broken.
+private key (OK)        [/home/jojoforjob/.ssh/id_ed25519.pub]
+public key  (NOT FOUND) [/home/jojoforjob/.ssh/id_ed25519.pub.pub]
+We are going to overwrite all above files.
+2024-10-21 13:59:04,294 DEBUG    root            (gcloud.compute.ssh) Aborted by user.
+Traceback (most recent call last):
+  File "/snap/google-cloud-cli/279/lib/googlecloudsdk/calliope/cli.py", line 998, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/snap/google-cloud-cli/279/lib/googlecloudsdk/calliope/backend.py", line 842, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/snap/google-cloud-cli/279/lib/surface/compute/ssh.py", line 270, in Run
+    ssh_helper.Run(args)
+  File "/snap/google-cloud-cli/279/lib/googlecloudsdk/command_lib/compute/ssh_utils.py", line 962, in Run
+    self.keys.EnsureKeysExist(args.force_key_file_overwrite,
+  File "/snap/google-cloud-cli/279/lib/googlecloudsdk/command_lib/util/ssh/ssh.py", line 535, in EnsureKeysExist
+    self.RemoveKeyFilesIfPermittedOrFail(overwrite)
+  File "/snap/google-cloud-cli/279/lib/googlecloudsdk/command_lib/util/ssh/ssh.py", line 458, in RemoveKeyFilesIfPermittedOrFail
+    console_io.PromptContinue(default=False, cancel_on_no=True)
+  File "/snap/google-cloud-cli/279/lib/googlecloudsdk/core/console/console_io.py", line 305, in PromptContinue
+    raise OperationCancelledError(cancel_string)
+googlecloudsdk.core.console.console_io.OperationCancelledError: Aborted by user.
+2024-10-21 13:59:04,313 ERROR    root            (gcloud.compute.ssh) Aborted by user.

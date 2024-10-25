@@ -1,0 +1,192 @@
+[2024-10-24T12:06:47.056+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-24T12:06:47.076+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test3.run_selenium_task manual__2024-10-24T12:06:41.481632+00:00 [queued]>
+[2024-10-24T12:06:47.087+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test3.run_selenium_task manual__2024-10-24T12:06:41.481632+00:00 [queued]>
+[2024-10-24T12:06:47.088+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-24T12:06:47.114+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): run_selenium_task> on 2024-10-24 12:06:41.481632+00:00
+[2024-10-24T12:06:47.122+0000] {standard_task_runner.py:72} INFO - Started process 15463 to run task
+[2024-10-24T12:06:47.131+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'test3', 'run_selenium_task', 'manual__2024-10-24T12:06:41.481632+00:00', '--job-id', '918', '--raw', '--subdir', 'DAGS_FOLDER/dcard_dag.py', '--cfg-path', '/tmp/tmp4wmxb3ci']
+[2024-10-24T12:06:47.135+0000] {standard_task_runner.py:105} INFO - Job 918: Subtask run_selenium_task
+[2024-10-24T12:06:47.204+0000] {task_command.py:467} INFO - Running <TaskInstance: test3.run_selenium_task manual__2024-10-24T12:06:41.481632+00:00 [running]> on host 60bbe790d101
+[2024-10-24T12:06:47.295+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test3' AIRFLOW_CTX_TASK_ID='run_selenium_task' AIRFLOW_CTX_EXECUTION_DATE='2024-10-24T12:06:41.481632+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-24T12:06:41.481632+00:00'
+[2024-10-24T12:06:47.296+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-24T12:06:47.322+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2024-10-24T12:06:47.450+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2024-10-24T12:06:47.617+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2024-10-24T12:06:47.742+0000] {logger.py:11} INFO - Driver [/home/airflow/.wdm/drivers/chromedriver/linux64/130.0.6723.69/chromedriver] found in cache
+[2024-10-24T12:07:09.998+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2024-10-24T12:07:10.120+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2024-10-24T12:07:10.239+0000] {logger.py:11} INFO - Get LATEST chromedriver version for google-chrome
+[2024-10-24T12:07:10.356+0000] {logger.py:11} INFO - Driver [/home/airflow/.wdm/drivers/chromedriver/linux64/130.0.6723.69/chromedriver] found in cache
+[2024-10-24T12:07:32.639+0000] {logging_mixin.py:190} INFO - 國立清華大學
+[2024-10-24T12:07:34.856+0000] {logging_mixin.py:190} INFO - [{}]
+[2024-10-24T12:07:34.883+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dcard_dag.py", line 146, in selenium_scraper
+    mes_start = driver1.find_element(By.CLASS_NAME, 'd1vdw76m')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 748, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".d1vdw76m"}
+  (Session info: chrome=130.0.6723.58); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x56442640c10a <unknown>
+#1 0x564425f27460 <unknown>
+#2 0x564425f73f96 <unknown>
+#3 0x564425f74221 <unknown>
+#4 0x564425fb95d4 <unknown>
+#5 0x564425f9803d <unknown>
+#6 0x564425fb6af6 <unknown>
+#7 0x564425f97db3 <unknown>
+#8 0x564425f66c10 <unknown>
+#9 0x564425f67bee <unknown>
+#10 0x5644263d839b <unknown>
+#11 0x5644263dc338 <unknown>
+#12 0x5644263c5ebc <unknown>
+#13 0x5644263dceb7 <unknown>
+#14 0x5644263ab10f <unknown>
+#15 0x5644263fa828 <unknown>
+#16 0x5644263fa9f0 <unknown>
+#17 0x56442640af86 <unknown>
+#18 0x7f274267d144 <unknown>
+
+[2024-10-24T12:07:34.896+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=test3, task_id=run_selenium_task, run_id=manual__2024-10-24T12:06:41.481632+00:00, execution_date=20241024T120641, start_date=20241024T120647, end_date=20241024T120734
+[2024-10-24T12:07:35.017+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-24T12:07:35.017+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 918 for task run_selenium_task (Message: no such element: Unable to locate element: {"method":"css selector","selector":".d1vdw76m"}
+  (Session info: chrome=130.0.6723.58); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x56442640c10a <unknown>
+#1 0x564425f27460 <unknown>
+#2 0x564425f73f96 <unknown>
+#3 0x564425f74221 <unknown>
+#4 0x564425fb95d4 <unknown>
+#5 0x564425f9803d <unknown>
+#6 0x564425fb6af6 <unknown>
+#7 0x564425f97db3 <unknown>
+#8 0x564425f66c10 <unknown>
+#9 0x564425f67bee <unknown>
+#10 0x5644263d839b <unknown>
+#11 0x5644263dc338 <unknown>
+#12 0x5644263c5ebc <unknown>
+#13 0x5644263dceb7 <unknown>
+#14 0x5644263ab10f <unknown>
+#15 0x5644263fa828 <unknown>
+#16 0x5644263fa9f0 <unknown>
+#17 0x56442640af86 <unknown>
+#18 0x7f274267d144 <unknown>
+; 15463)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dcard_dag.py", line 146, in selenium_scraper
+    mes_start = driver1.find_element(By.CLASS_NAME, 'd1vdw76m')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 748, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "/home/airflow/.local/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".d1vdw76m"}
+  (Session info: chrome=130.0.6723.58); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x56442640c10a <unknown>
+#1 0x564425f27460 <unknown>
+#2 0x564425f73f96 <unknown>
+#3 0x564425f74221 <unknown>
+#4 0x564425fb95d4 <unknown>
+#5 0x564425f9803d <unknown>
+#6 0x564425fb6af6 <unknown>
+#7 0x564425f97db3 <unknown>
+#8 0x564425f66c10 <unknown>
+#9 0x564425f67bee <unknown>
+#10 0x5644263d839b <unknown>
+#11 0x5644263dc338 <unknown>
+#12 0x5644263c5ebc <unknown>
+#13 0x5644263dceb7 <unknown>
+#14 0x5644263ab10f <unknown>
+#15 0x5644263fa828 <unknown>
+#16 0x5644263fa9f0 <unknown>
+#17 0x56442640af86 <unknown>
+#18 0x7f274267d144 <unknown>
+
+[2024-10-24T12:07:35.063+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-10-24T12:07:35.076+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-24T12:07:35.077+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
